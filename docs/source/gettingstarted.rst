@@ -13,36 +13,20 @@ To use Tile Prefab Placer steps:
 ``604Spirit/MapEditor/Window/Map Creator Initialization``
 
 3. Click `Load Packages` to start downloading required packages for this tool
-[Image](/images/InitilizationWindow.png)
+.. image:: images/InitilizationWindow.png
 
-Required packages:
-- Editor coroutine ('com.unity.editorcoroutines')
-- Naughty Atrributes ('com.dbrizov.naughtyattributes') made by Denis Rizov extension for unity inspector, 
-you can manually download it from unity asset store `Naughty Atrributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`
+.. note::
+	Required packages:
+	- Editor coroutine (`com.unity.editorcoroutines`) - unity package allows developers to start constructs similar to Unity’s monobehaviour based coroutines within the editor using abitrary objects.
+	- Naughty Atrributes (`com.dbrizov.naughtyattributes`) - made by Denis Rizov extension for unity inspector, 
+	also you can manually download it from unity asset store `Naughty Atrributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`
 
-4.
+4. Customize 
 
-.. code-block:: console
+.. image:: images/TileInitilization.png
 
-   (.venv) $ pip install lumache
+- Move the 1 on 1 size of the tile into the field & press show info button
 
-Creating recipes
-----------------
+.. image:: images/TileInitilization2.png
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+- Press click set exist config to assign the tile size to the tool
