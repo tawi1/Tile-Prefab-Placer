@@ -1,22 +1,19 @@
-Welcome to Lumache's documentation!
+Welcome to Tile Prefab Placer's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Tile Prefab Placer** is a tool for easy placing tile objects on a grid, 
+and also has many tools for easy placing default game objects.
 
-Check out the :doc:`usage` section for further information, including
+You can buy it from unity asset store:
+[Tile Prefab Placer](https://assetstore.unity.com/)
+
+Check out the :doc:`gettingstarted` section for further information, including
 how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
+   gettingstarted
    api

@@ -1,4 +1,4 @@
-Usage
+Getting started
 =====
 
 .. _installation:
@@ -6,7 +6,12 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use Tile Prefab Placer steps:
+
+- Download & import from unity asset store
+- Initilization window will be open automatically first time or you can open it manually in toolbar '604Spirit/MapEditor/Window/Map Creator Initilizaiton'
+
+(/images/InitilizationWindow.png)
 
 .. code-block:: console
 
