@@ -86,6 +86,11 @@ Configs
 * Map Data Holder
 
 
+**Map Holder Settings**
+
+.. image:: images/MapHolderTab.png
+
+
 **Map Preference Config**
 
 .. image:: images/MapPreferenceWindow.png
