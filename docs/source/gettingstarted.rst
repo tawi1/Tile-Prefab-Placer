@@ -14,7 +14,7 @@ To use Tile Prefab Placer steps:
 
 #. Click `Load Packages` to start downloading required packages for this tool
 
-.. image:: images/InitilizationWindow.png
+	.. image:: images/InitilizationWindow.png
 
 	.. note::
 		**Required packages:**
@@ -26,11 +26,11 @@ To use Tile Prefab Placer steps:
 
 #. Select tile 1x1 size to customize tile size of the tool
 
-.. image:: images/TileInitilization.png
+	.. image:: images/TileInitilization.png
 
 	* Move the 1x1 size of the tile into the field & press show info button
 
-.. image:: images/TileInitilization2.png
+	.. image:: images/TileInitilization2.png
 
 	* Press click set exist config to assign the tile size to the tool
 
@@ -41,29 +41,29 @@ To use Tile Prefab Placer steps:
 Prefabs
 ------------
 
-**How to create categories**
+**How to create categories:**
 
-.. image:: images/AddCategory1.png
+	.. image:: images/AddCategory1.png
 
 * Click `+` button to start adding category
 * Enter category name
 * Click `add` button
 
-.. note::
-	To delete a category, select category and click the `-` button
+	.. note::
+		To delete a category, select category and click the `-` button
 
 **How to add prefabs:**
 
-.. image:: images/AddingPrefabs1.png
+	.. image:: images/AddingPrefabs1.png
 
 * Drag & drop desirable prefabs to drop tab
 
-.. image:: images/AddingPrefabs2.png
+	.. image:: images/AddingPrefabs2.png
 
 * Prefabs are ready to use
 
-.. note::
-	Map tile component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects
+	.. note::
+		Map tile component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects
 
 
 .. _configs:
@@ -73,7 +73,7 @@ Configs
 
 **Cached Values Settings**
 
-.. image:: images/CachedValuesTab.png
+	.. image:: images/CachedValuesTab.png
 
 * Root
 * Default Game Objects Root
@@ -88,15 +88,15 @@ Configs
 
 **Map Holder Settings**
 
-.. image:: images/MapHolderTab.png
+	.. image:: images/MapHolderTab.png
 
 
 **Map Preference Config**
 
-.. image:: images/MapPreferenceWindow.png
+	.. image:: images/MapPreferenceWindow.png
 
 * Common Settings
-	* Tool Size
+	* Tile Size
 	* World Tile Relative Offset
 	
 * Tool Settings
@@ -119,12 +119,12 @@ Configs
 
 **Hotkey config**
 
-.. image:: images/HotKeyConfig.png
+	.. image:: images/HotKeyConfig.png
 
 
 **Common Settings**
 
-.. image:: images/CommonSettingsTab.png
+	.. image:: images/CommonSettingsTab.png
 
 * Show Map Tile Bounds
 * Draw Grid
