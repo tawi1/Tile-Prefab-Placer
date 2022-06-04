@@ -35,4 +35,68 @@ To use Tile Prefab Placer steps:
 	* Press click set exist config to assign the tile size to the tool
 
 
-**The tool is now ready for use**
+.. _configs:
+
+Configs
+------------
+
+**Cached Values Settings**
+
+.. image:: images/CachedValuesTab.png
+
+* Root
+* Default Game Objects Root
+* Tile Path
+* Tileset Path	
+* Map Preference Config
+* Map Config
+* Hotkey Config
+* Map Creator Tab View
+* Map Data Holder
+
+
+**Map Preference Config**
+
+.. image:: images/MapPreferenceWindow.png
+
+* Common Settings
+	* Tool Size
+	* World Tile Relative Offset
+	
+* Tool Settings
+	* Show Scene Tool Panel
+	* Tool Bar Max Count
+	* Tile Button Size
+	* Has Remove Buttons
+	* Remove Button Size
+	* Buttons Row Count
+	* Prefab Scroll View Height
+	
+* Temp Mesh Settings
+	* Default Draw Mesh Type
+	* Apply Allow Color To Objects
+	* Allow Mesh Grid Color
+	* Allow Object Color
+	* Forbidden Mesh Grid Color
+	* Intersection Mesh Grid Color
+
+
+**Common Settings**
+
+.. image:: images/CommonSettingsTab.png
+
+* Show Map Tile Bounds
+* Draw Grid
+* Always Visible Grid
+* Grid Size
+* Grid Color
+* Async Creation
+* Create Objects Per Frame
+* Create Prefab Mode
+* Key Rotate Angle
+* Show Edit Category Buttons
+* Show Map Tile Selected Info Tab
+* Show Add New Prefab Tab
+
+
+
