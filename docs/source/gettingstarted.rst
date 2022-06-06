@@ -43,6 +43,8 @@ Installation
 Prefabs
 ------------
 
+**Category** - it's a prefab set, create categories according to your needs
+
 **How to create categories:**
 
 	.. image:: images/AddCategory1.png

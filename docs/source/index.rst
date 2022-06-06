@@ -1,8 +1,8 @@
 Welcome to Tile Prefab Placer's documentation!
 ===================================
 
-**Tile Prefab Placer** is a tool for easy placing tile objects on a grid, 
-and also has many tools for easy placing default game objects.
+**Tile Prefab Placer** is a tool for easily placing tile objects on a grid, 
+and also has many tools for easily placing default game objects.
 
 You can buy it from unity asset store: `Tile Prefab Placer <https://assetstore.unity.com/`_
 
