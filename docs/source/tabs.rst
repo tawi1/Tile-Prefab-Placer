@@ -24,7 +24,7 @@ Random TRS
 Random TRS tab is used for randomization position, rotation or scale of the object
 
 
-In this tab you can see what random is enabled
+**Main randomize tab displays which random is enabled**
 
 .. image:: images/tabs/RandomTab/RandomTab1.png
 
@@ -79,7 +79,8 @@ Objects are automatically attached to the surface depending on the parameters
 	
 	* **Attach same floor**
 	
-	Only works for area and line modes
+	.. note::
+		Only works for area and line modes
 	
 	.. image:: images/tabs/SnapTab/SnapTab3.png
 	
@@ -162,31 +163,31 @@ Merge is used to create object by a child to an existing one
 	.. image:: images/tabs/MergeTab/MergeTab2.png
 	
 	* Merge object prefab mode
-		* Linked prefab
+		* **Linked prefab**
 		The created object is a linked prefab
 		
-		* Prefab clone
+		* **Prefab clone**
 		The created object is a prefab clone
 		
 	.. image:: images/tabs/MergeTab/MergeTab3.png
 	
 	* Merge parent type
-		* Target object prefab root
+		* **Target object prefab root**
 		The created object is created by a child to the prefab root
 		
-		* Target object parent of hit
+		* **Target object parent of hit**
 		The created object is created by a child to the attached object
 			
-		* Custom parent		
+		* **Custom parent**	
 		User selected custom parent
 		
-		* Relative prefab root path
+		* **Relative prefab root path**
 		The created object is created by a child to the prefab root relative prefab root path
 		
 	* Delete components
 		Delete all unity-components of the object
-		* Delete only map tile 
-			or only MapTile component
+			* Delete only map tile 
+				or only MapTile component
 			
 	* Delete colliders	
 	Delete colliders of created object
@@ -237,11 +238,11 @@ For overlay MapTile objects and non-MapTile object overlay mapping enabled by de
 	* **Distance**
 	
 	.. image:: images/tabs/OverlayTab/ObstacleDistanceAnim.gif
-	Object intersections are checked by distance
+	Object intersections are checked by distance (works only for ovelay grid objects)
 		
 	* **Raycast**
 	.. image:: images/tabs/OverlayTab/ObstacleRaycastAnim.gif
-	Object intersections are checked by raycasts
+	Object intersections are checked by raycasts (works only for any gameobject)
 
 
 Randomizer
@@ -258,11 +259,13 @@ Enable randomize objects to randomize every object creation
 .. image:: images/tabs/RandomizerTab/RandomizeAnim.gif
 
 Or select custom objects to randomize
+
 	
 .. image:: images/tabs/RandomizerTab/RandomizerTab3.png
 
 Enter random pattern according to the indices of the selected objects
 
+
 .. image:: images/tabs/RandomizerTab/RandomizerTab4.png
 	
-And place the objects
+And place the objects according to the pattern
