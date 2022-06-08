@@ -24,21 +24,21 @@ Single mode is used to position single objects
 	**Single edit mode:**
 		* **Simple** : spawn objects without any additional adjustments.
 		
-		* **Custom handles** : create object by modifying it with position, rotation, scale handles
+		* **Custom handles** : create object by modifying it with position, rotation, scale handles.
 		
 			.. image:: images/modes/SingleMode/SingleModeTab2.png
 				
 			* **Show rotation handle** : show rotation handle of target object.
-			* Rotation handle type
-				* Sphere : edit object rotation with sphere handle.
-				* Arc : edit object rotation with arc handle.
-			* Show movement handle : show movement handle of target object.
-			* Clamp cell movement : clamp the object movement within grid cell
+			* **Rotation handle type**
+				* **Sphere** : edit object rotation with sphere handle.
+				* **Arc** : edit object rotation with arc handle.
+			* **Show movement handle** : show movement handle of target object.
+			* **Clamp cell movement** : clamp the object movement within grid cell
 
 		.. image:: images/modes/SingleMode/SelectEditAnim.gif
 	
 
-		* **Cursor point rotation** : rotates the object in the direction of the cursor
+		* **Cursor point rotation** : rotates the object in the direction of the cursor.
 		
 		.. image:: images/modes/SingleMode/SingleModeTab3.png
 		.. image:: images/modes/SingleMode/CursorPointAnim.gif
@@ -54,7 +54,7 @@ Single mode is used to position single objects
 		.. image:: images/modes/SingleMode/CustomPointRotationAnim.gif
 		
 		
-		* **Physics placing** : place objects using physics
+		* **Physics placing** : place objects using physics.
 		
 		.. image:: images/modes/SingleMode/SingleModeTab5.png
 		
@@ -74,8 +74,8 @@ Single mode is used to position single objects
 		
 		
 	**Attach mode:**
-		* **Default**
-		* **Brush** : create an object on any collider surface or meshes another object
+		* **Default** : default object placing.
+		* **Brush** : create an object on any collider surface or meshes another object.
 		
 		.. image:: images/modes/SingleMode/SingleModeTab6.png
 		.. image:: images/modes/SingleMode/SingleModeTab6-1.png
