@@ -45,13 +45,13 @@ Override settings
 
 In the override settings tab you can override parent object, MapTile layer for non-overlay objects, and override unity layer
 
-.. image:: images/tabs/RandomTab/OverrideTab1.png
+	.. image:: images/tabs/OverrideTab/OverrideTab1.png
 
 	* **Override object parent** - choose a custom parent for the override
 	* **Override MapTile layer** - choose a custom MapTile layer for MapTile objects
 	* **Override Unity layer** - choose a custom Unity layer for the objects (Default, TransparentFX, Ignore Raycast, Water, UI, etc...)
 
-.. image:: images/tabs/RandomTab/OverrideTab2.png
+	.. image:: images/tabs/OverrideTab/OverrideTab2.png
 
 	.. note::
 		For overlay MapTile objects or default game objects you can't override MapTile layer
@@ -61,7 +61,7 @@ Snap settings
 
 In snap settings you can adjust the y-axis snap settings
 
-.. image:: images/tabs/RandomTab/SnapTab1.png
+.. image:: images/tabs/SnapTab/SnapTab1.png
 
 Object snap type:
 	* Auto snap
@@ -69,7 +69,7 @@ Object snap type:
 	
 **Auto snap**
 
-.. image:: images/tabs/RandomTab/SnapTab2.png
+.. image:: images/tabs/SnapTab/SnapTab2.png
 
 Objects are automatically attached to the surface depending on the parameters
 
@@ -81,11 +81,11 @@ Objects are automatically attached to the surface depending on the parameters
 	
 	Only works for area and line modes
 	
-	.. image:: images/tabs/RandomTab/SnapTab3.png
+	.. image:: images/tabs/SnapTab/SnapTab3.png
 	
 	To auto-snap objects on the same height use the attach same floor
 	
-	.. image:: images/tabs/RandomTab/SnapTab4.png
+	.. image:: images/tabs/SnapTab/SnapTab4.png
 	
 	* **Snap layer mask**
 	
@@ -97,17 +97,17 @@ Objects are automatically attached to the surface depending on the parameters
 	
 	* **Add pivot offset**
 	
-	.. image:: images/tabs/RandomTab/SnapTab5.png
+	.. image:: images/tabs/SnapTab/SnapTab5.png
 	
 Some tile objects may have a pivot in the center of the object
 	
-	.. image:: images/tabs/RandomTab/SnapTab6.png
+	.. image:: images/tabs/SnapTab/SnapTab6.png
 	
 To fix this, turn on add pivot offset
 
 **Custom**
 
-.. image:: images/tabs/RandomTab/SnapTab7.png
+.. image:: images/tabs/SnapTab/SnapTab7.png
 
 Customization value of the position on the Y axis
 
@@ -121,31 +121,31 @@ Customization value of the position on the Y axis
 	
 	* **Custom position**
 	
-	.. image:: images/tabs/RandomTab/SnapTab8.png
+	.. image:: images/tabs/SnapTab/SnapTab8.png
 	
 	Set desired Y position of the object
 
 Replace
 ------------
 
-.. image:: images/tabs/RandomTab/ReplaceTab1.png
+.. image:: images/tabs/ReplaceTab/ReplaceTab1.png
 
 The object cannot be placed
 
-.. image:: images/tabs/RandomTab/ReplaceTab2.png
+.. image:: images/tabs/ReplaceTab/ReplaceTab2.png
 
 Enable replace to replace intersected objects
 
-.. image:: images/tabs/RandomTab/ReplaceTab3.png
+.. image:: images/tabs/ReplaceTab/ReplaceTab3.png
 
 	* Replace layer type
 	
-		.. image:: images/tabs/RandomTab/ReplaceTab4.png
+		.. image:: images/tabs/ReplaceTab/ReplaceTab4.png
 	
 		* **Object layer**
 		Replace objects only on the same object layer
 		
-		.. image:: images/tabs/RandomTab/ReplaceTab5.png
+		.. image:: images/tabs/ReplaceTab/ReplaceTab5.png
 		
 		* **Custom layers**
 			* **Replace map tile layer**
@@ -155,11 +155,11 @@ Enable replace to replace intersected objects
 Merge
 ------------
 
-	.. image:: images/tabs/RandomTab/MergeTab1.png
+	.. image:: images/tabs/MergeTab/MergeTab1.png
 
 Merge is used to create object by a child to an existing one
  
-	.. image:: images/tabs/RandomTab/MergeTab2.png
+	.. image:: images/tabs/MergeTab/MergeTab2.png
 	
 	* Merge object prefab mode
 		* Linked prefab
@@ -168,7 +168,7 @@ Merge is used to create object by a child to an existing one
 		* Prefab clone
 		The created object is a prefab clone
 		
-	.. image:: images/tabs/RandomTab/MergeTab3.png
+	.. image:: images/tabs/MergeTab/MergeTab3.png
 	
 	* Merge parent type
 		* Target object prefab root
@@ -191,11 +191,11 @@ Merge is used to create object by a child to an existing one
 	* Delete colliders	
 	Delete colliders of created object
 	
-.. image:: images/tabs/RandomTab/MergeTab4.png
+.. image:: images/tabs/MergeTab/MergeTab4.png
 
 For example, use the brush to attach the object to desired object
 
-.. image:: images/tabs/RandomTab/MergeTab5.png
+.. image:: images/tabs/MergeTab/MergeTab5.png
 
 And create it
 
@@ -204,15 +204,15 @@ Overlay mapping
  
  Overlay mapping is used for objects that do not need a grid
  
-.. image:: images/tabs/RandomTab/OverlayTab1.png
+.. image:: images/tabs/OverlayTab/OverlayTab1.png
 
 You can enable it for map tile layer 1-9
 
-.. image:: images/tabs/RandomTab/OverlayTab2.png
+.. image:: images/tabs/OverlayTab/OverlayTab2.png
 
 For overlay MapTile objects and non-MapTile object overlay mapping enabled by default
 
-.. image:: images/tabs/RandomTab/OverlayTab3.png
+.. image:: images/tabs/OverlayTab/OverlayTab3.png
 
 **Movement type:**
 	* **Free moving**
@@ -221,48 +221,48 @@ For overlay MapTile objects and non-MapTile object overlay mapping enabled by de
 	* **Default cell**
 	Object snapping to default cell size
 	
-	.. image:: images/tabs/RandomTab/OverlayTab4.png
+	.. image:: images/tabs/OverlayTab/OverlayTab4.png
 	* **Custom cell**
 	Object snapping to custom cell size
 	
-	.. image:: images/tabs/RandomTab/OverlayTab5.png
-	.. image:: images/tabs/RandomTab/OverlayTab6.png
+	.. image:: images/tabs/OverlayTab/OverlayTab5.png
+	.. image:: images/tabs/OverlayTab/OverlayTab6.png
 	* **Snap edge**
 	Object snapping to edges of default cell
 	
-	.. image:: images/tabs/RandomTab/OverlayTab7.png
+	.. image:: images/tabs/OverlayTab/OverlayTab7.png
 
 	
 **Obstacle check type:**
 	* **Distance**
 	
-	.. image:: images/tabs/RandomTab/ObstacleDistanceAnim.gif
+	.. image:: images/tabs/OverlayTab/ObstacleDistanceAnim.gif
 	Object intersections are checked by distance
 		
 	* **Raycast**
-	.. image:: images/tabs/RandomTab/ObstacleRaycastAnim.gif
+	.. image:: images/tabs/OverlayTab/ObstacleRaycastAnim.gif
 	Object intersections are checked by raycasts
 
 
 Randomizer
 ------------
 
-	.. image:: images/tabs/RandomTab/RandomizerTab1.png
+	.. image:: images/tabs/RandomizerTab/RandomizerTab1.png
 	
 Enable randomize objects to randomize every object creation
 	* **Randomize any category object**
 	Any object of selected category involved in randomization
 
-.. image:: images/tabs/RandomTab/RandomizerTab2.png
+.. image:: images/tabs/RandomizerTab/RandomizerTab2.png
 
-.. image:: images/tabs/RandomTab/RandomizeAnim.gif
+.. image:: images/tabs/RandomizerTab/RandomizeAnim.gif
 
 Or select custom objects to randomize
 	
-.. image:: images/tabs/RandomTab/RandomizerTab3.png
+.. image:: images/tabs/RandomizerTab/RandomizerTab3.png
 
 Enter random pattern according to the indices of the selected objects
 
-.. image:: images/tabs/RandomTab/RandomizerTab4.png
+.. image:: images/tabs/RandomizerTab/RandomizerTab4.png
 	
 And place the objects
