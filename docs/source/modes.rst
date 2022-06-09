@@ -8,12 +8,14 @@ Common info
 
 	.. note::
 		To start creating objects, select the object in the inspector, select the desired position to spawn and press the E button to create the object (you can change create hotkey to whatever you want).
+		
 		Each edit mode has its own features, which are detailed below.
 
 Single mode
 ------------
 
 Single mode is used to position single objects
+`YouTube tutorial <https://youtu.be/wHtF12qiRgI>`_
 
 	.. image:: images/modes/SingleMode/SingleModeTab1.png
 	
@@ -29,22 +31,21 @@ Single mode is used to position single objects
 			.. image:: images/modes/SingleMode/SingleModeTab2.png
 				
 			* **Show rotation handle** : show rotation handle of target object.
-			* **Rotation handle type**
+			* **Rotation handle type:**
 				* **Sphere** : edit object rotation with sphere handle.
 				* **Arc** : edit object rotation with arc handle.
 			* **Show movement handle** : show movement handle of target object.
-			* **Clamp cell movement** : clamp the object movement within grid cell
+			* **Clamp cell movement** : clamp the object movement within grid cell.
 
 		.. image:: images/modes/SingleMode/SelectEditAnim.gif
 	
 
 		* **Cursor point rotation** : rotates the object in the direction of the cursor.
 		
-		.. image:: images/modes/SingleMode/SingleModeTab3.png
 		.. image:: images/modes/SingleMode/CursorPointAnim.gif
 		
 
-		* **Custom point rotation** : rotates the object in the direction of the target object
+		* **Custom point rotation** : rotates the object in the direction of the target object.
 		
 		.. image:: images/modes/SingleMode/SingleModeTab4.png
 		
@@ -78,9 +79,24 @@ Single mode is used to position single objects
 		* **Brush** : create an object on any collider surface or meshes another object.
 		
 		.. image:: images/modes/SingleMode/SingleModeTab6.png
+		
 		.. image:: images/modes/SingleMode/SingleModeTab6-1.png
+
+		**Hit surface type:**
+			* **Mesh** : attach object to mesh.
+			* **Collider** : attach object to collider.
+		**Attach layer** : layer of hit object.
+		**Normal offset** : offset from normal hit.
+		**Additive euler rotation** : additional rotation euler offset of the object.
+		**Normal rotation:**
+			* **Disabled** : default object rotation.
+			* **Look normal** : look normal method for the attached object.
+			* **Along normal** : along normal method for the attached object.
+		**Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
+			* **Add surface pivot offset** : 
+			
 		.. image:: images/modes/SingleMode/SingleModeTab6-2.png
-		.. image:: images/modes/SingleMode/SingleModeTab6-3.png
+		Snap cube to cell example.
 		
 		
 	**Draw forward arrow** : show forward rotation of target object.
@@ -92,12 +108,12 @@ Single mode is used to position single objects
 	.. image:: images/modes/SingleMode/SingleModeTab7.png
 	
 		**Enable rotation snapping**
-			**Snap angle value**					
+			**Snap angle value** : value of rotation snapping.					
 		**Enable position snapping**
-			**Snap position value**
+			**Snap position value** : value of position snapping.
 		**Enable scale snapping**
-			**Snap scale value**
-			**Scale step**
+			**Snap scale value** : value of scale snapping.
+			**Scale step** : value of increasing scale by button.
 
 Brush mode
 ------------
