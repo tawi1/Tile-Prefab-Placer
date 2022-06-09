@@ -85,6 +85,7 @@ Single mode is used to position single objects.
 		.. image:: images/modes/SingleMode/SingleModeTab6.png
 		
 		.. image:: images/modes/SingleMode/SingleModeTab6-1.png
+			:width: 400
 
 		**Hit surface type:**
 			* **Mesh** : attach object to mesh.
@@ -128,7 +129,7 @@ Brush mode
 
 Brush mode is used to position multiple objects on any surface
 
-.. image:: images/modes/BrushMode/BrushModeTab1.png
+	.. image:: images/modes/BrushMode/BrushModeTab1.png
 
 	* **Attach settings:**
 		* **Attach mode:**
