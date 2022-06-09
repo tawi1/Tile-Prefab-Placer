@@ -14,7 +14,7 @@ Common info
 Single mode
 ------------
 
-Single mode is used to position single objects.
+``Single mode is used to position single objects.``
 
 `YouTube tutorial <https://youtu.be/wHtF12qiRgI>`_
 
@@ -85,7 +85,7 @@ Single mode is used to position single objects.
 		.. image:: images/modes/SingleMode/SingleModeTab6.png
 		
 		.. image:: images/modes/SingleMode/SingleModeTab6-1.png
-			:width: 400
+			:width: 500
 
 		**Hit surface type:**
 			* **Mesh** : attach object to mesh.
@@ -127,7 +127,7 @@ Single mode is used to position single objects.
 Brush mode
 ------------
 
-Brush mode is used to position multiple objects on any surface
+``Brush mode is used to position multiple objects on any surface``
 
 	.. image:: images/modes/BrushMode/BrushModeTab1.png
 
