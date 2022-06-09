@@ -14,7 +14,8 @@ Common info
 Single mode
 ------------
 
-Single mode is used to position single objects
+Single mode is used to position single objects.
+
 `YouTube tutorial <https://youtu.be/wHtF12qiRgI>`_
 
 	.. image:: images/modes/SingleMode/SingleModeTab1.png
@@ -40,10 +41,12 @@ Single mode is used to position single objects
 		.. image:: images/modes/SingleMode/SelectEditAnim.gif
 	
 
+
 		* **Cursor point rotation** : rotates the object in the direction of the cursor.
 		
 		.. image:: images/modes/SingleMode/CursorPointAnim.gif
 		
+
 
 		* **Custom point rotation** : rotates the object in the direction of the target object.
 		
@@ -53,6 +56,7 @@ Single mode is used to position single objects
 			* **Target point position** : position of target point.
 		
 		.. image:: images/modes/SingleMode/CustomPointRotationAnim.gif
+		
 		
 		
 		* **Physics placing** : place objects using physics.
@@ -103,7 +107,9 @@ Single mode is used to position single objects
 	
 	**Show edit info** : show rotation and local of position of target object.
 	
-	**Snapping settings**
+	
+	**Snapping settings:**
+	
 	
 	.. image:: images/modes/SingleMode/SingleModeTab7.png
 	
