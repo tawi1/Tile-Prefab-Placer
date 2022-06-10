@@ -182,33 +182,187 @@ Brush mode
 Line mode
 ------------
 
-Line mode is designed for placing objects along a line
+``Line mode is designed for placing objects along a line``
 
+	* **Line type:**
+	
+		.. image:: images/modes/LineMode/LineModeTab1.png
+		* **Free** : places objects on a grid in the direction of the cursor.
 
+		
+		.. image:: images/modes/LineMode/LineModeTab2.png
+		* **Fixed** : create straight lines on a grid.
+		
+		.. image:: images/modes/LineMode/LineModeTab3-0.png
+		* **Curved** : place objects along a curved line.
+	* **Show info** : show information about object count of the line.
+	* **Spacing cell** : spacing cell beetween objects.
+	* **Endless line** : the line automatically continues after the created previous one. 
+	* **Show snap neighbors**
+	* **Multifloor support:** : enable multi floor feature
+		* **Auto reset floor** : auto reset floor count to 1 after unselect.
+		* **Floor count** : count of object floors.
+		* **Floor offset mode:**
+			* **Custom** : user floor offset.		
+			* **Mesh bounds** : Y axis size mesh renderer floor offset.			
+			* **Collider bounds** : Y axis size collider floor offset.				
+		* **Floor offset** : additional floor offset.
+	* **Rotation along line** : rotation of each object is rotated along the line.
+
+	.. note::
+		`Snap same floor` feature for autosnap available
+		
 Area mode
 ------------
 
-Area mode is designed for positioning objects by area
+``Area mode is designed for positioning objects by area``
 
+	* **Show info** : show information about object count of the area.
+	* **Area mode type:**
+		* **Default**
+		* **Scale**	
+	* **Random spacing cell** : spacing cell beetween objects.
+	* **Spacing cell** : spacing cell beetween objects.
+	* **Multifloor support:** : enable multi floor feature
+		* **Auto reset floor** : auto reset floor count to 1 after unselect.
+		* **Floor count** : count of object floors.
+		* **Floor offset mode:**
+			* **Custom** : user floor offset.		
+			* **Mesh bounds** : Y axis size mesh renderer floor offset.			
+			* **Collider bounds** : Y axis size collider floor offset.				
+		* **Floor offset** : additional floor offset.
+		
+	.. note::
+		`Snap same floor` feature for autosnap available
 
 Destroy mode
 ------------
 
-Destroy mode is designed for convenient destruction of objects in the scene
+``Destroy mode is designed for convenient destruction of objects in the scene``
 
+	* **Delete mode:**
+		* **MapTile grid delete**	
+			* **Delete floor method:**
+				* **Disabled**
+				* **Selected**
+				* **Cell last amount**
+				* **Area max amount**
+		* **Box raycast**
+			* **Allow delete not prefab**
+			* **Object type:**
+				* **Any**
+				* **MapTile**
+				* **Default gameobject**
+			* **Target layer**
+			* **Draw debug**
+			* **Y box offset**
+			* **Max box raycast distance**
+		* **Brush raycast**
+			* **Allow delete not prefab**
+			* **Object type:**
+				* **Any**
+				* **MapTile**
+				* **Default gameobject**
+			* **Target layer**
+			* **Draw debug**
+			* **Debug color**
+			* **Brush radius**
+			* **Attach to surface:**
+				* **Attach layer**
+			* **Y brush raycast normal offset**
+			* **Max brush raycast distance**
+		* **Screen selection**
+			* **Allow delete not prefab**
+			* **Object type:**
+				* **Any**
+				* **MapTile**
+				* **Default gameobject**
+			* **Target layer**
+			* **Selection object method:**
+				* **Multiple**
+				* **Single**
+			* **Auto destroy on select**
+			* **Selection color**
 
 Tileset mode
 ------------
 
-Tileset area is created to create areas of linked tiles
+``Tileset area is created to create areas of linked tiles``
 
+	* **Selected MapTile prefab**
+	* **Selected tileset**
+	
+	**How to create tileset:**
+	* **Create new tileset settings**
+	* **Tileset name**
+	
 Translate mode
 ------------
 
-Translate mode is designed to move the set of object
+``Translate mode is designed to move the set of object``
 
+	* **Movement type:**
+		* **World cursor**
+		* **Scene handle**
+	* **Translate mode:**
+		* **Full translate**
+		* **Partial translate**
+		* **Can replace**
+	* **Selection method:**
+		* **Map**
+		* **Screen selection**
+	* **Hide source selected objects**
+	* **Show intersected objects**
+	* **Intersected objects color**
+	* **Report translate result**
+	* **Snap to grid**	
+		* Snap grid enabled:
+			* **Cell offset**
+			* **Custom Y Snap**
+		* Snap grid disabled:		
+			* **Translate snap type:**
+				* **Snap translate**
+				* **Snap position**
+			* **Snap value**
+	* **Lock Y Axis**
 
 Create template mode
 ------------
 
-Template mode is designed to create template prefabs from existing prefabs
+``Template mode is designed to create template prefabs from existing prefabs``
+
+	* **Selection method:**
+		* **Map**
+		* **Screen selection**
+			* **Object type:**
+				* **Any**
+				* **MapTile**
+				* **Default gameobject**
+			* **Target layer**
+			* **Selection object method:**
+				* **Multiple**
+				* **Single**
+			* **Auto destroy on select**
+			* **Selection color**
+	* **Template prefab name**
+	* **Template create path**
+	* **Template object type**
+		* **MapTile**
+		* **Defalt gameobject**
+	* **Child prefab type:**
+		* **Linked prefab**
+		* **Prefab clone**
+	* **Category type**
+		* **Template**
+		* **Custom**
+			* **Category**
+	* **Delete child components**
+		* **Delete only MapTile**
+	* **Delete child colliders**
+	* **Selected object count**
+	* **Template pivot**
+	* **Current template tile size**
+	* **Draw bounds**
+	* **Y bounds size**
+	* **Bounds color**
+
