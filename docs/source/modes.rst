@@ -219,8 +219,8 @@ Area mode
 
 	* **Show info** : show information about object count of the area.
 	* **Area mode type:**
-		* **Default**
-		* **Scale**	
+		* **Default** : placing the object set on the area.
+		* **Scale**	: scaling a single object on an area.
 	* **Random spacing cell** : spacing cell beetween objects.
 	* **Spacing cell** : spacing cell beetween objects.
 	* **Multifloor support:** : enable multi floor feature
@@ -244,45 +244,35 @@ Destroy mode
 		* **MapTile grid delete**	
 			* **Delete floor method:**
 				* **Disabled**
-				* **Selected**
-				* **Cell last amount**
-				* **Area max amount**
-		* **Box raycast**
-			* **Allow delete not prefab**
-			* **Object type:**
-				* **Any**
-				* **MapTile**
-				* **Default gameobject**
-			* **Target layer**
-			* **Draw debug**
-			* **Y box offset**
-			* **Max box raycast distance**
-		* **Brush raycast**
-			* **Allow delete not prefab**
-			* **Object type:**
-				* **Any**
-				* **MapTile**
-				* **Default gameobject**
-			* **Target layer**
-			* **Draw debug**
-			* **Debug color**
-			* **Brush radius**
-			* **Attach to surface:**
-				* **Attach layer**
-			* **Y brush raycast normal offset**
-			* **Max brush raycast distance**
-		* **Screen selection**
-			* **Allow delete not prefab**
-			* **Object type:**
-				* **Any**
-				* **MapTile**
-				* **Default gameobject**
-			* **Target layer**
-			* **Selection object method:**
-				* **Multiple**
-				* **Single**
-			* **Auto destroy on select**
-			* **Selection color**
+				* **Selected** : selected floors are deleted.
+				* **Cell last amount** : selected top floors are deleted.
+				* **Area max amount** : maximal level floors are removed.
+		* **Raycast deletion:**	
+			* **Common delete settings:**
+				* **Allow delete not prefab** : not prefabs can be deleted.
+				* **Object type:**
+					* **Any** : any object can be deleted.
+					* **MapTile** : only `MapTile` objects can be deleted.
+					* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be deleted.
+				* **Target layer** : layers that will be deleted.
+				* **Draw debug** : show bounds of deletion.
+				* **Debug color** : color of debug.
+			* **Unique delete settings:**
+				* **Box raycast**			
+					* **Y box offset** : offset from surface.
+					* **Max box raycast distance** : raycast distance from offset point.
+				* **Brush raycast**
+					* **Brush radius** : radius of the delete brush.
+					* **Attach to surface:**
+						* **Attach layer** : layer to which the brush is attached.
+					* **Y brush raycast normal offset** : offset from brush hit surface.
+					* **Max brush raycast distance** : raycast distance from offset point.
+				* **Screen selection**
+					* **Selection object method:**
+						* **Multiple** : all objects under selection box will be selected.
+						* **Single** : only 1 object under the cursor will be selected.
+					* **Auto destroy on select** : object will automatically be deleted after selection.
+					* **Selection color** : color of the selection box.
 
 Tileset mode
 ------------
