@@ -251,7 +251,7 @@ Destroy mode
 		.. note::
 			**How to use:**
 								
-			Click `E` button to start the destroy area, after the area is set, press the E button again.
+			Click `E` button to start the destroy area, after the area is set, press the `E` button again to destroy the selected area.
 			
 		* **Raycast deletion:**	
 			* **Common delete settings:**
@@ -289,7 +289,7 @@ Destroy mode
 				.. note::
 					**How to use:**
 							
-					Click `E` button to start the selection box, after the objects are selected, press the space button to destroy them.
+					Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
 					
 
 Tileset mode
@@ -297,12 +297,30 @@ Tileset mode
 
 ``Tileset area is created to create areas of linked tiles``
 
-	* **Selected MapTile prefab**
-	* **Selected tileset**
+	* **Selected MapTile prefab** : what MapTile prefab is selected.
+	* **Selected tileset** : what tileset prefab is selected.
 	
-	**How to create tileset:**
-	* **Create new tileset settings**
-	* **Tileset name**
+	**How to create tileset:**	
+		* Toggle `create new tileset settings`.
+		* Enter tileset name.
+		* Press create button.
+		.. image:: images/modes/TilesetArea/TilesetAreaTab1.png
+		
+		* Drag and drop the desired prefabs into the box (the default prefab should drop first).
+		
+		.. image:: images/modes/TilesetArea/TilesetAnim1.gif
+		* Press open tile edit mode prefab to configure the tile set.
+		* Select the cells where the connection of the tiles will be.
+		
+			.. image:: images/modes/TilesetArea/TilesetAnim2.gif
+			.. image:: images/modes/TilesetArea/TilesetAnim3.gif
+		
+	.. note::
+		**How to use:**
+							
+		Click `E` button to start the tileset area, after the area is set, press the `E` button again to spawn tileset area.
+
+
 	
 Translate mode
 ------------
