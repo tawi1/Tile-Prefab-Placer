@@ -244,16 +244,19 @@ Destroy mode
 
 	* **Delete mode:**
 		* **MapTile grid delete**	
+		
+		.. note::
+			**How to use:**
+						
+			Click `E` button to start the destroy area, after the area is set, press the E button again
+			
 			* **Delete floor method:**
 				* **Disabled**
 				* **Selected** : selected floors are deleted.
 				* **Cell last amount** : selected top floors are deleted.
 				* **Area max amount** : maximal level floors are removed.
 				
-					.. note::
-						**How to use:**
-						
-						Click `E` button to start the destroy area, after the area is set, press the E button again
+					
 			
 		* **Raycast deletion:**	
 			* **Common delete settings:**
@@ -276,11 +279,20 @@ Destroy mode
 					* **Y brush raycast normal offset** : offset from brush hit surface.
 					* **Max brush raycast distance** : raycast distance from offset point.
 				* **Screen selection**
+				
+				.. note::
+					**How to use:**
+						
+					Click `E` button to start the selection box, after the objects are selected, press the space button to destroy them
+						
 					* **Selection object method:**
 						* **Multiple** : all objects under selection box will be selected.
 						* **Single** : only 1 object under the cursor will be selected.
 					* **Auto destroy on select** : object will automatically be deleted after selection.
 					* **Selection color** : color of the selection box.
+					
+					
+					
 
 Tileset mode
 ------------
