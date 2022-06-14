@@ -240,6 +240,8 @@ Destroy mode
 
 ``Destroy mode is designed for convenient destruction of objects in the scene``
 
+
+
 	* **Delete mode:**
 		* **MapTile grid delete**	
 			* **Delete floor method:**
@@ -247,6 +249,12 @@ Destroy mode
 				* **Selected** : selected floors are deleted.
 				* **Cell last amount** : selected top floors are deleted.
 				* **Area max amount** : maximal level floors are removed.
+				
+					.. note::
+						**How to use:**
+						
+						Click `E` button to start the destroy area, after the area is set, press the E button again
+			
 		* **Raycast deletion:**	
 			* **Common delete settings:**
 				* **Allow delete not prefab** : not prefabs can be deleted.
