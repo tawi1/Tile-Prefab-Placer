@@ -334,6 +334,8 @@ Tileset mode
 			.. image:: images/modes/TilesetArea/TilesetAnim4.gif
 				:width: 400
 			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
+				:width: 400
+			.. image:: images/modes/TilesetArea/TilesetAnim6.gif
 		
 	.. note::
 		**How to use:**
