@@ -110,18 +110,17 @@ Single mode
 	
 	**Show edit info** : show rotation and local of position of target object.
 	
-	
 	**Snapping settings:**
 	
 		.. image:: images/modes/SingleMode/SingleModeTab7.png
 	
-		**Enable rotation snapping**
-			**Snap angle value** : value of rotation snapping.					
-		**Enable position snapping**
-			**Snap position value** : value of position snapping.
-		**Enable scale snapping**
-			**Snap scale value** : value of scale snapping.
-			**Scale step** : value of increasing scale by button.
+		**Enable rotation snapping:**
+			* **Snap angle value** : value of rotation snapping.					
+		**Enable position snapping:**
+			* **Snap position value** : value of position snapping.
+		**Enable scale snapping:**
+			* **Snap scale value** : value of scale snapping.
+			* **Scale step** : value of increasing scale by button.
 
 Brush mode
 ------------
@@ -327,13 +326,13 @@ Tileset mode
 		* Select the cells where the connection of the tiles will be.
 		
 			.. image:: images/modes/TilesetArea/TilesetAnim2.gif
-				:width: 300
+				:width: 200
 			.. image:: images/modes/TilesetArea/TilesetAnim3.gif
-				:width: 300
+				:width: 200
 			.. image:: images/modes/TilesetArea/TilesetAnim4.gif
-				:width: 300
+				:width: 200
 			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
-				:width: 300
+				:width: 200
 			.. image:: images/modes/TilesetArea/TilesetAnim6.gif
 		
 	.. note::
