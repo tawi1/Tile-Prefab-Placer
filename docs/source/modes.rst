@@ -168,15 +168,20 @@ Brush mode
 
 
 	.. image:: images/modes/BrushMode/BrushAnim1.gif
-	Brush example1.
+	`Brush example1.`
 	
 	
 	.. image:: images/modes/BrushMode/BrushAnim2.gif
-	Brush example2.
+	`Brush example2.`
 	
 	
 	.. image:: images/modes/BrushMode/BrushAnim3.gif
-	Brush example3 (slope angle 30 degrees enabled).
+	`Brush example3 (slope angle 30 degrees enabled).`
+	
+	.. note::
+		**How to use:**
+							
+		Click `E` button to spawn objects under the brush.
 	
 
 Line mode
@@ -210,6 +215,11 @@ Line mode
 	* **Rotation along line** : rotation of each object is rotated along the line.
 
 	.. note::
+		**How to use:**
+							
+		Click `E` button to start the line, after the line is set, press the `E` button again to spawn line of the objects.
+		
+	.. note::
 		`Snap same floor` feature for autosnap available
 		
 Area mode
@@ -232,6 +242,11 @@ Area mode
 			* **Collider bounds** : Y axis size collider floor offset.				
 		* **Floor offset** : additional floor offset.
 		
+	.. note::
+		**How to use:**
+							
+		Click `E` button to start the area, after the area is set, press the `E` button again to spawn area of the objects.
+
 	.. note::
 		`Snap same floor` feature for autosnap available
 
@@ -313,7 +328,12 @@ Tileset mode
 		* Select the cells where the connection of the tiles will be.
 		
 			.. image:: images/modes/TilesetArea/TilesetAnim2.gif
+				:width: 400
 			.. image:: images/modes/TilesetArea/TilesetAnim3.gif
+				:width: 400
+			.. image:: images/modes/TilesetArea/TilesetAnim4.gif
+				:width: 400
+			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
 		
 	.. note::
 		**How to use:**
