@@ -61,7 +61,7 @@ Single mode
 		
 		* **Physics placing** : place objects using physics.
 		
-		.. image:: images/modes/SingleMode/SingleModeTab5.png
+			.. image:: images/modes/SingleMode/SingleModeTab5.png
 		
 			* **Simulation settings:**
 				* **Auto stop simulation**
@@ -103,7 +103,7 @@ Single mode
 			* **Add surface pivot offset** : 
 			
 		.. image:: images/modes/SingleMode/SingleModeTab6-2.png
-		Snap cube to cell example.
+		`Snap cube to cell example.`
 		
 		
 	**Draw forward arrow** : show forward rotation of target object.
@@ -113,8 +113,7 @@ Single mode
 	
 	**Snapping settings:**
 	
-	
-	.. image:: images/modes/SingleMode/SingleModeTab7.png
+		.. image:: images/modes/SingleMode/SingleModeTab7.png
 	
 		**Enable rotation snapping**
 			**Snap angle value** : value of rotation snapping.					
@@ -168,15 +167,15 @@ Brush mode
 
 
 	.. image:: images/modes/BrushMode/BrushAnim1.gif
-	`Brush example1.`
+	`Brush example 1.`
 	
 	
 	.. image:: images/modes/BrushMode/BrushAnim2.gif
-	`Brush example2.`
+	`Brush example 2.`
 	
 	
 	.. image:: images/modes/BrushMode/BrushAnim3.gif
-	`Brush example3 (slope angle 30 degrees enabled).`
+	`Brush example 3 (slope angle 30 degrees enabled).`
 	
 	.. note::
 		**How to use:**
@@ -328,13 +327,13 @@ Tileset mode
 		* Select the cells where the connection of the tiles will be.
 		
 			.. image:: images/modes/TilesetArea/TilesetAnim2.gif
-				:width: 400
+				:width: 300
 			.. image:: images/modes/TilesetArea/TilesetAnim3.gif
-				:width: 400
+				:width: 300
 			.. image:: images/modes/TilesetArea/TilesetAnim4.gif
-				:width: 400
+				:width: 300
 			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
-				:width: 400
+				:width: 300
 			.. image:: images/modes/TilesetArea/TilesetAnim6.gif
 		
 	.. note::
