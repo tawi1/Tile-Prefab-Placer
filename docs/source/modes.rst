@@ -240,15 +240,13 @@ Destroy mode
 
 ``Destroy mode is designed for convenient destruction of objects in the scene``
 
-
-
 	* **Delete mode:**
 		* **MapTile grid delete**	
 			* **Delete floor method:**
 				* **Disabled**
 				* **Selected** : selected floors are deleted.
 				* **Cell last amount** : selected top floors are deleted.
-				* **Area max amount** : maximal level floors are removed.
+				* **Area max amount** : maximal level floors are deleted.
 				
 		.. note::
 			**How to use:**
@@ -270,31 +268,28 @@ Destroy mode
 					* **Y box offset** : offset from surface.
 					* **Max box raycast distance** : raycast distance from offset point.
 				* **Brush raycast**
-				
-					.. note::
-						**How to use:**
-						
-						Click `E` button to destroy objects under the brush.
-					
 					* **Brush radius** : radius of the delete brush.
 					* **Attach to surface:**
 						* **Attach layer** : layer to which the brush is attached.
 					* **Y brush raycast normal offset** : offset from brush hit surface.
 					* **Max brush raycast distance** : raycast distance from offset point.
+					
+				.. note::
+					**How to use:**
+					
+					Click `E` button to destroy objects under the brush.
+					
 				* **Screen selection**
-				
-					.. note::
-						**How to use:**
-							
-						Click `E` button to start the selection box, after the objects are selected, press the space button to destroy them.
-						
 					* **Selection object method:**
 						* **Multiple** : all objects under selection box will be selected.
 						* **Single** : only 1 object under the cursor will be selected.
 					* **Auto destroy on select** : object will automatically be deleted after selection.
 					* **Selection color** : color of the selection box.
 					
-					
+				.. note::
+					**How to use:**
+							
+					Click `E` button to start the selection box, after the objects are selected, press the space button to destroy them.
 					
 
 Tileset mode
