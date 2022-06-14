@@ -76,6 +76,9 @@ Single mode
 			* **Target point position** : position of target point.
 			
 			.. image:: images/modes/SingleMode/PhysicsPlacingAnim.gif
+			
+			.. note::
+				Rigidbody and collider components will automatically be temporarily added if they are missing.
 		
 		
 	**Attach mode:**
