@@ -326,13 +326,13 @@ Tileset mode
 		* Select the cells where the connection of the tiles will be.
 		
 			.. image:: images/modes/TilesetArea/TilesetAnim2.gif
-				:width: 200
+				:width: 250
 			.. image:: images/modes/TilesetArea/TilesetAnim3.gif
-				:width: 200
+				:width: 250
 			.. image:: images/modes/TilesetArea/TilesetAnim4.gif
-				:width: 200
+				:width: 250
 			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
-				:width: 200
+				:width: 250
 			.. image:: images/modes/TilesetArea/TilesetAnim6.gif
 		
 	.. note::
