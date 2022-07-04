@@ -130,6 +130,11 @@ Brush mode
 
 ``Brush mode is used to position multiple objects on any surface``
 
+	.. note::
+		**How to use:**
+							
+		Click `E` button to spawn objects under the brush.
+
 	.. image:: images/modes/BrushMode/BrushModeTab1.png
 
 	* **Attach settings:**
@@ -178,18 +183,17 @@ Brush mode
 	
 	.. image:: images/modes/BrushMode/BrushAnim3.gif
 	`Brush example 3 (slope angle 30 degrees enabled).`
-	
-	.. note::
-		**How to use:**
-							
-		Click `E` button to spawn objects under the brush.
-	
 
 Line mode
 ------------
 
 ``Line mode is designed for placing objects along a line``
 
+	.. note::
+		**How to use:**
+							
+		Click `E` button to start the line, after the line is set, press the `E` button again to spawn line of the objects.
+		
 	* **Line type:**
 	
 		.. image:: images/modes/LineMode/LineModeTab1.png
@@ -216,17 +220,17 @@ Line mode
 	* **Rotation along line** : rotation of each object is rotated along the line.
 
 	.. note::
-		**How to use:**
-							
-		Click `E` button to start the line, after the line is set, press the `E` button again to spawn line of the objects.
-		
-	.. note::
 		`Snap same floor` feature for autosnap available
 		
 Area mode
 ------------
 
 ``Area mode is designed for positioning objects by area``
+
+	.. note::
+		**How to use:**
+							
+		Click `E` button to start the area, after the area is set, press the `E` button again to spawn area of the objects.
 
 	* **Show info** : show information about object count of the area.
 	* **Area mode type:**
@@ -242,11 +246,6 @@ Area mode
 			* **Mesh bounds** : Y axis size mesh renderer floor offset.			
 			* **Collider bounds** : Y axis size collider floor offset.				
 		* **Floor offset** : additional floor offset.
-		
-	.. note::
-		**How to use:**
-							
-		Click `E` button to start the area, after the area is set, press the `E` button again to spawn area of the objects.
 
 	.. note::
 		`Snap same floor` feature for autosnap available
@@ -306,12 +305,16 @@ Destroy mode
 					**How to use:**
 							
 					Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
-					
 
 Tileset mode
 ------------
 
 ``Tileset area is created to create areas of linked tiles``
+
+	.. note::
+		**How to use:**
+							
+		Click `E` button to start the tileset area, after the area is set, press the `E` button again to spawn tileset area.
 
 	* **Selected MapTile prefab** : what MapTile prefab is selected.
 	* **Selected tileset** : what tileset prefab is selected.
@@ -337,81 +340,85 @@ Tileset mode
 			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
 				:width: 250
 			.. image:: images/modes/TilesetArea/TilesetAnim6.gif
-		
-	.. note::
-		**How to use:**
-							
-		Click `E` button to start the tileset area, after the area is set, press the `E` button again to spawn tileset area.
-
-
 	
 Translate mode
 ------------
 
 ``Translate mode is designed to move the set of object``
 
+	.. note::
+		**How to use:**							
+			* Click `E` button to start the selection area.
+			* Move the scene handle to the desired position.
+			* Press the `E` button again to translate selected objects.
+
 	* **Movement type:**
-		* **World cursor**
-		* **Scene handle**
+		* **World cursor** : objects move along the world cursor.
+		* **Scene handle** : objects move along the scene handle.
 	* **Translate mode:**
-		* **Full translate**
-		* **Partial translate**
-		* **Can replace**
+		* **Full translate** : objects can be moved only if all selected objects can be moved.
+		* **Partial translate** : will be translated those objects that do not intersect other objects.
+		* **Can replace** : intersected objects can be replaced when the selected objects are translated.
 	* **Selection method:**
-		* **Map**
-		* **Screen selection**
-	* **Hide source selected objects**
-	* **Show intersected objects**
-	* **Intersected objects color**
-	* **Report translate result**
+		* **Map** : selecting objects on the grid.
+		* **Screen selection** : selecting objects under the selection box.
+	* **Hide source selected objects** : source objects will be hidden for the time of the translating.
+	* **Show intersected objects** : intersected objects will be highlighted.
+		* **Intersected objects color** : the color of the intersected objects highlighting.
+	* **Report translate result** : on/off translate result report in the console.
 	* **Snap to grid**	
-		* Snap grid enabled:
-			* **Cell offset**
-			* **Custom Y Snap**
-		* Snap grid disabled:		
-			* **Translate snap type:**
-				* **Snap translate**
-				* **Snap position**
+		* **Snap grid enabled** : snapping on the grid.
+			* **Cell offset** : value of offset in grid cells.
+			* **Custom Y Snap** : custom snapping value for Y axis.
+		* **Snap grid disabled:**	
+			* **Translate snap type** : custom snapping.
+				* **Snap translate** : offset of translation will be snapped.
+				* **Snap position** : position of translated objects will be snapped.
 			* **Snap value**
-	* **Lock Y Axis**
+	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
 
 Create template mode
 ------------
 
 ``Template mode is designed to create template prefabs from existing prefabs``
 
+	.. note::
+		**How to use:**
+			* Click `E` button to start the selection area, after the desired objects are selected, configure the template parameters and click the `create` button.
+			* After the desired objects are selected, configure the template parameters and click the `create` button.
+			* Click the `create` button.
+
 	* **Selection method:**
-		* **Map**
-		* **Screen selection**
+		* **Map:** selecting objects on the grid.
+		* **Screen selection:** selecting objects under the selection box.
 			* **Object type:**
-				* **Any**
-				* **MapTile**
-				* **Default gameobject**
-			* **Target layer**
+				* **Any** : any object can be selected.
+				* **MapTile** : only `MapTile` objects can be selected.
+				* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be selected.
+			* **Target layer** : layer of objects to be selected.
 			* **Selection object method:**
-				* **Multiple**
-				* **Single**
-			* **Auto destroy on select**
-			* **Selection color**
-	* **Template prefab name**
-	* **Template create path**
-	* **Template object type**
-		* **MapTile**
-		* **Defalt gameobject**
+				* **Multiple** : all objects under selection box will be selected.
+				* **Single** : only 1 object under the cursor will be selected.
+			* **Selection color** : color of the selection box.
+	* **Template prefab name** : template name.
+	* **Template create path** : template creation path.
+	* **Template object type:**
+		* **MapTile** : template will be created with the MapTile component.
+		* **Default gameobject** : template will be created without the MapTile component.
 	* **Child prefab type:**
-		* **Linked prefab**
-		* **Prefab clone**
-	* **Category type**
-		* **Template**
-		* **Custom**
-			* **Category**
-	* **Delete child components**
-		* **Delete only MapTile**
-	* **Delete child colliders**
-	* **Selected object count**
-	* **Template pivot**
-	* **Current template tile size**
-	* **Draw bounds**
-	* **Y bounds size**
-	* **Bounds color**
+		* **Linked prefab** : child objects of the template are linked prefabs.
+		* **Prefab clone**: child objects of the template are prefab clones.
+	* **Category type:**
+		* **Template**: template prefab is added to the template category.
+		* **Custom**: template prefab is added to the custom category.
+			* **Category**: name of the custom category.
+	* **Delete child components**: delete all unity-components of the object.
+		* **Delete only MapTile**: or only MapTile component
+	* **Delete child colliders**: delete colliders of created object
+	* **Selected object count**: the number of selected objects for the template.
+	* **Template pivot**: local pivot position of the template.
+	* **Current template tile size**: the current grid size of the template.
+	* **Draw bounds**: draw bounds of the template.
+		* **Y bounds size**: y bounds size of the template.
+		* **Bounds color**: color of the bounds.
 
