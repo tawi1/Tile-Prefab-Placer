@@ -352,6 +352,8 @@ Translate mode
 			* Move the scene handle to the desired position.
 			* Press the `E` button again to translate selected objects.
 
+	.. image:: images/modes/TranslateMode/TranslateModeTab1.png
+	
 	* **Movement type:**
 		* **World cursor** : objects move along the world cursor.
 		* **Scene handle** : objects move along the scene handle.
@@ -376,6 +378,13 @@ Translate mode
 				* **Snap position** : position of translated objects will be snapped.
 			* **Snap value**
 	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
+	
+	.. image:: images/modes/TranslateMode/TranslateModeAnim1.gif
+	`Translate mode example 1`	
+	
+	
+	.. image:: images/modes/TranslateMode/TranslateModeAnim2.gif
+	`Translate mode example 2`
 
 Create template mode
 ------------
@@ -385,9 +394,12 @@ Create template mode
 	.. note::
 		**How to use:**
 			* Click `E` button to start the selection area, after the desired objects are selected, configure the template parameters and click the `create` button.
-			* After the desired objects are selected, configure the template parameters and click the `create` button.
+			.. image:: images/modes/TemplateMode/TemplateMode1.png
+			* After the desired objects are selected, configure the template parameters.
 			* Click the `create` button.
 
+	.. image:: images/modes/TemplateMode/TemplateMode2.png
+	
 	* **Selection method:**
 		* **Map:** selecting objects on the grid.
 		* **Screen selection:** selecting objects under the selection box.
@@ -421,4 +433,9 @@ Create template mode
 	* **Draw bounds**: draw bounds of the template.
 		* **Y bounds size**: y bounds size of the template.
 		* **Bounds color**: color of the bounds.
+		
+	.. image:: images/modes/TemplateMode/TemplateMode3.png
+	
+	.. image:: images/modes/TemplateMode/TemplateModeAnim1.gif
+	`Template mode example`
 
