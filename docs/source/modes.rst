@@ -203,8 +203,43 @@ Line mode
 		.. image:: images/modes/LineMode/LineModeTab2.png
 		* **Fixed** : create straight lines on a grid.
 		
-		.. image:: images/modes/LineMode/LineModeTab3-0.png
-		* **Curved** : place objects along a curved line.
+		.. image:: images/modes/LineMode/LineModeTab3.png
+		* **Curved** : place objects along a curved line.	
+			* **Common settings:**
+				* **Curve line type:**
+					* **Bezier**
+					* **Simple line**
+					* **Circle**
+				* **Snap type:**
+					* **Disabled**
+					* **Lock Y**
+					* **Auto Snap**
+				* **Object normal type:**
+					* **Up**
+					* **Curve direction**
+					* **Surface normal**
+					* **Custom**
+			* **Tabs:**
+				* **Common**
+					* **Loop line**
+					* **Additive euler rotation**
+					* **Flexible spacing**
+					* **Spacing length**
+					* **Clamp tangents**
+				* **Custom**
+					* **Auto snap:**
+						* **Attach to mesh**
+						* **Snap layer mask**
+						* **Raycast direction**
+						* **Raycast distance**
+						* **Offset raycast distance**
+				* **Visual**
+					* **Curve color**
+					* **Handles type**
+					* **Draw nodes**
+					* **Draw buttons**
+					* **Draw tangents**
+					* **Bezier segment line count**
 	* **Show info** : show information about object count of the line.
 	* **Spacing cell** : spacing cell beetween objects.
 	* **Endless line** : the line automatically continues after the created previous one. 
@@ -230,7 +265,13 @@ Area mode
 	.. note::
 		**How to use:**
 							
-		Click `E` button to start the area, after the area is set, press the `E` button again to spawn area of the objects.
+		* Click `E` button to start the area, 
+		.. image:: images/modes/AreaMode/AreaModeTab1.png
+		
+		* After the area is set, press the `E` button again to spawn area of the objects.
+		.. image:: images/modes/AreaMode/AreaModeTab2.png
+		
+	.. image:: images/modes/AreaMode/AreaModeTab3.png
 
 	* **Show info** : show information about object count of the area.
 	* **Area mode type:**
