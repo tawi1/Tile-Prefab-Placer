@@ -47,5 +47,5 @@ MapTile layer
 
 ``Each MapTile object has its own layer, the first 9 are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``
 
-.. raw:: html
-	<video controls src="_static/TestVideo.mp4"></video>
+	.. raw:: html
+		<video controls src="_static/TestVideo.mp4"></video>
