@@ -398,8 +398,8 @@ Destroy mode
 			.. image:: images/modes/DestroyMode/DestroyModeTab8.png
 			`Brush raycast remove example.`		
 					
-		.. note::
-			The raycast method only works on any GameObject with collider.
+				.. note::
+					The raycast method only works on any GameObject with collider.
 			
 				* **Screen selection**
 					* **Selection object method:**
