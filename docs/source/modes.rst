@@ -199,11 +199,36 @@ Line mode
 		.. image:: images/modes/LineMode/LineModeTab1.png
 		* **Free** : places objects on a grid in the direction of the cursor.
 
-		
 		.. image:: images/modes/LineMode/LineModeTab2.png
-		* **Fixed** : create straight lines on a grid.
+		`Free line example`
+		
 		
 		.. image:: images/modes/LineMode/LineModeTab3.png
+		* **Fixed** : create straight lines on a grid.
+		
+		* **Free/Fixed line settings:**
+			* **Show info** : show information about object count of the line.
+			* **Spacing cell** : spacing cell beetween objects.
+			* **Endless line** : the line automatically continues after the created previous one. 
+			* **Show snap neighbors**
+			* **Multifloor support:** : enable multi floor feature
+				* **Auto reset floor** : auto reset floor count to 1 after unselect.
+				* **Floor count** : count of object floors.
+				* **Floor offset mode:**
+					* **Custom** : user floor offset.		
+					* **Mesh bounds** : Y axis size mesh renderer floor offset.			
+					* **Collider bounds** : Y axis size collider floor offset.				
+				* **Floor offset** : additional floor offset.
+			* **Rotation along line** : rotation of each object is rotated along the line.
+			
+			
+		.. image:: images/modes/LineMode/LineModeTab4.png
+		`Fixed line example`
+		
+		.. note::
+			`Snap same floor` feature for auto-snap available
+		
+		.. image:: images/modes/LineMode/LineModeTab5.png
 		* **Curved** : place objects along a curved line.	
 			* **Common settings:**
 				* **Curve line type:**
@@ -212,50 +237,48 @@ Line mode
 					* **Circle**
 				* **Snap type:**
 					* **Disabled**
-					* **Lock Y**
-					* **Auto Snap**
+					* **Lock Y** : Y position is fixed.
+					* **Auto Snap** : the object of the curve is automatically attached to the surface.
 				* **Object normal type:**
 					* **Up**
 					* **Curve direction**
 					* **Surface normal**
-					* **Custom**
+					* **Custom** : user normal.
 			* **Tabs:**
 				* **Common**
-					* **Loop line**
-					* **Additive euler rotation**
-					* **Flexible spacing**
-					* **Spacing length**
-					* **Clamp tangents**
+					* **Loop line** : should the line be looped.
+					* **Additive euler rotation** : additional rotation for each object.
+					* **Flexible spacing** : position of objects on the curve depending on their size.
+					* **Spacing length** : user spacing.
+					* **Clamp tangents** : tangents move together relative to the central node.
 				* **Custom**
 					* **Auto snap:**
-						* **Attach to mesh**
-						* **Snap layer mask**
+						* **Attach to mesh** : should the object be attached to the mesh.
+						* **Snap layer mask** : layer for attaching objects.
 						* **Raycast direction**
-						* **Raycast distance**
-						* **Offset raycast distance**
+						* **Raycast distance** : raycast from offset point to raycast direction distance.
+						* **Offset raycast distance** : offset from zero Y surface.
 				* **Visual**
-					* **Curve color**
-					* **Handles type**
-					* **Draw nodes**
-					* **Draw buttons**
-					* **Draw tangents**
-					* **Bezier segment line count**
-	* **Show info** : show information about object count of the line.
-	* **Spacing cell** : spacing cell beetween objects.
-	* **Endless line** : the line automatically continues after the created previous one. 
-	* **Show snap neighbors**
-	* **Multifloor support:** : enable multi floor feature
-		* **Auto reset floor** : auto reset floor count to 1 after unselect.
-		* **Floor count** : count of object floors.
-		* **Floor offset mode:**
-			* **Custom** : user floor offset.		
-			* **Mesh bounds** : Y axis size mesh renderer floor offset.			
-			* **Collider bounds** : Y axis size collider floor offset.				
-		* **Floor offset** : additional floor offset.
-	* **Rotation along line** : rotation of each object is rotated along the line.
+					* **Curve color** : color of the curve.
+					* **Handles type:** : handle type for tangents.
+						* **Sphere**
+						* **Position handle**
+					* **Draw nodes** : display handles of the nodes.
+					* **Draw buttons** : display add/remove buttons of the curve segments.
+					* **Draw tangents** : display tangents of the nodes.
+					* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
+					
+		.. image:: images/modes/LineMode/LineModeTab6.png
+		`Simple line example (random pattern enabled)`		
+		
+		.. image:: images/modes/LineMode/LineModeTab7.png
+		`Bezier line example (auto-snap enabled)`		
+		
+		.. image:: images/modes/LineMode/LineModeTab8.png
+		`Circle line example`
 
-	.. note::
-		`Snap same floor` feature for autosnap available
+		.. note::
+			For simple line segment can be added by `Ctrl` and `left-mouse click` hotkeys.
 		
 Area mode
 ------------
@@ -289,7 +312,7 @@ Area mode
 		* **Floor offset** : additional floor offset.
 
 	.. note::
-		`Snap same floor` feature for autosnap available
+		`Snap same floor` feature for auto-snap available
 
 Destroy mode
 ------------
