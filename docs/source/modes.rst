@@ -16,7 +16,7 @@ Single mode
 
 ``Single mode is used to position single objects.``
 
-`YouTube tutorial <https://youtu.be/wHtF12qiRgI>`_
+`Single mode tutorial <https://youtu.be/wHtF12qiRgI>`_
 
 	.. image:: images/modes/SingleMode/SingleModeTab1.png
 	
@@ -130,10 +130,13 @@ Brush mode
 
 ``Brush mode is used to position multiple objects on any surface``
 
+`Brush mode tutorial <https://youtu.be/CrvR2lRYawo>`_
+
 	.. note::
 		**How to use:**
 							
-		Click `E` button to spawn objects under the brush.
+		Click `E` button to spawn objects under the brush.		
+
 
 	.. image:: images/modes/BrushMode/BrushModeTab1.png
 
@@ -189,6 +192,8 @@ Line mode
 
 ``Line mode is designed for placing objects along a line``
 
+`Line mode tutorial <https://youtu.be/BPoSkfNI7FY>`_
+
 	.. note::
 		**How to use:**
 							
@@ -200,7 +205,7 @@ Line mode
 		* **Free** : places objects on a grid in the direction of the cursor.
 
 		.. image:: images/modes/LineMode/LineModeTab2.png
-		`Free line example`
+		`Free line example (endless line enabled)`
 		
 		
 		.. image:: images/modes/LineMode/LineModeTab3.png
@@ -255,12 +260,12 @@ Line mode
 					* **Auto snap:**
 						* **Attach to mesh** : should the object be attached to the mesh.
 						* **Snap layer mask** : layer for attaching objects.
-						* **Raycast direction**
+						* **Raycast direction** : direction of the raycast.
 						* **Raycast distance** : raycast from offset point to raycast direction distance.
 						* **Offset raycast distance** : offset from zero Y surface.
 				* **Visual**
 					* **Curve color** : color of the curve.
-					* **Handles type:** : handle type for tangents.
+					* **Handles type** : handle type for tangents.
 						* **Sphere**
 						* **Position handle**
 					* **Draw nodes** : display handles of the nodes.
@@ -275,7 +280,7 @@ Line mode
 		`Bezier line example (auto-snap enabled)`		
 		
 		.. image:: images/modes/LineMode/LineModeTab8.png
-		`Circle line example`
+		`Circle line example (object random enabled)`
 
 		.. note::
 			For simple line segment can be added by `Ctrl` and `left-mouse click` hotkeys.
@@ -284,6 +289,8 @@ Area mode
 ------------
 
 ``Area mode is designed for positioning objects by area``
+
+`Area mode tutorial <https://youtu.be/QqRKa3xVoyI>`_
 
 	.. note::
 		**How to use:**
@@ -319,18 +326,31 @@ Destroy mode
 
 ``Destroy mode is designed for convenient destruction of objects in the scene``
 
+`Destroy mode tutorial <https://youtu.be/aZUhq0YlEk8>`_
+
+	.. note::
+		**How to use:**
+								
+		Click `E` button to start the destroy area, after the area is set, press the `E` button again to destroy the selected area.
+			
+	.. image:: images/modes/DestroyMode/DestroyModeTab1.png
+	
 	* **Delete mode:**
 		* **MapTile grid delete**	
 			* **Delete floor method:**
 				* **Disabled**
 				* **Selected** : selected floors are deleted.
+					* **Floor height** : floor height in unity units.
+					* **Floor precision** : offset on the edges between floors.
+					* **Min floor number** : min floor number for delete. 
+					* **Max floor number** : max floor number for delete. 
 				* **Cell last amount** : selected top floors are deleted.
+					* **Floor amount** : number of floors to remove.
 				* **Area max amount** : maximal level floors are deleted.
-				
+					* **Floor amount** : number of floors to remove.				
+					
 		.. note::
-			**How to use:**
-								
-			Click `E` button to start the destroy area, after the area is set, press the `E` button again to destroy the selected area.
+			The floor delete method only works on GameObjects with MapTile component.
 			
 		* **Raycast deletion:**	
 			* **Common delete settings:**
@@ -369,11 +389,17 @@ Destroy mode
 					**How to use:**
 							
 					Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
+					
+					
+			.. note::
+				The raycast method only works on any GameObject with collider.
 
 Tileset mode
 ------------
 
 ``Tileset area is created to create areas of linked tiles``
+
+`Tileset area mode tutorial <https://youtu.be/LaKgNFQdPNI>`_
 
 	.. note::
 		**How to use:**
@@ -409,6 +435,8 @@ Translate mode
 ------------
 
 ``Translate mode is designed to move the set of object``
+
+`Translate mode tutorial <https://youtu.be/mlIa1BwmDiE>`_
 
 	.. note::
 		**How to use:**							
@@ -454,6 +482,8 @@ Create template mode
 ------------
 
 ``Template mode is designed to create template prefabs from existing prefabs``
+
+`Template mode tutorial <https://youtu.be/c67ExYwabG0>`_
 
 	.. note::
 		**How to use:**
