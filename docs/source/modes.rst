@@ -128,7 +128,7 @@ Single mode
 Brush mode
 ------------
 
-``Brush mode is used to position multiple objects on any surface``
+``Brush mode is used to position multiple objects on any surface.``
 
 `Brush mode tutorial <https://youtu.be/CrvR2lRYawo>`_
 
@@ -190,7 +190,7 @@ Brush mode
 Line mode
 ------------
 
-``Line mode is designed for placing objects along a line``
+``Line mode is designed for placing objects along a line.``
 
 `Line mode tutorial <https://youtu.be/BPoSkfNI7FY>`_
 
@@ -205,7 +205,7 @@ Line mode
 		* **Free** : places objects on a grid in the direction of the cursor.
 
 		.. image:: images/modes/LineMode/LineModeTab2.png
-		`Free line example (endless line enabled)`
+		`Free line example (endless line enabled).`
 		
 		
 		.. image:: images/modes/LineMode/LineModeTab3.png
@@ -228,10 +228,10 @@ Line mode
 			
 			
 		.. image:: images/modes/LineMode/LineModeTab4.png
-		`Fixed line example`
+		`Fixed line example.`
 		
 		.. note::
-			`Snap same floor` feature for auto-snap available
+			`Snap same floor` feature for auto-snap available.
 		
 		.. image:: images/modes/LineMode/LineModeTab5.png
 		* **Curved** : place objects along a curved line.	
@@ -274,13 +274,13 @@ Line mode
 					* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
 					
 		.. image:: images/modes/LineMode/LineModeTab6.png
-		`Simple line example (random pattern enabled)`		
+		`Simple line example (random pattern enabled).`		
 		
 		.. image:: images/modes/LineMode/LineModeTab7.png
-		`Bezier line example (auto-snap enabled)`		
+		`Bezier line example (auto-snap enabled).`		
 		
 		.. image:: images/modes/LineMode/LineModeTab8.png
-		`Circle line example (object random enabled)`
+		`Circle line example (object random enabled).`
 
 		.. note::
 			For simple line segment can be added by `Ctrl` and `left-mouse click` hotkeys.
@@ -288,7 +288,7 @@ Line mode
 Area mode
 ------------
 
-``Area mode is designed for positioning objects by area``
+``Area mode is designed for positioning objects by area.``
 
 `Area mode tutorial <https://youtu.be/QqRKa3xVoyI>`_
 
@@ -319,12 +319,12 @@ Area mode
 		* **Floor offset** : additional floor offset.
 
 	.. note::
-		`Snap same floor` feature for auto-snap available
+		`Snap same floor` feature for auto-snap available.
 
 Destroy mode
 ------------
 
-``Destroy mode is designed for convenient destruction of objects in the scene``
+``Destroy mode is designed for convenient destruction of objects in the scene.``
 
 `Destroy mode tutorial <https://youtu.be/aZUhq0YlEk8>`_
 
@@ -339,22 +339,36 @@ Destroy mode
 		* **MapTile grid delete**	
 			* **Delete floor method:**
 				* **Disabled**
+				
+				.. image:: images/modes/DestroyMode/DestroyModeTab2.png
 				* **Selected** : selected floors are deleted.
 					* **Floor height** : floor height in unity units.
 					* **Floor precision** : offset on the edges between floors.
 					* **Min floor number** : min floor number for delete. 
 					* **Max floor number** : max floor number for delete. 
+					
+				.. image:: images/modes/DestroyMode/DestroyModeTab3.png
 				* **Cell last amount** : selected top floors are deleted.
 					* **Floor amount** : number of floors to remove.
+					
+				.. image:: images/modes/DestroyMode/DestroyModeTab4.png
 				* **Area max amount** : maximal level floors are deleted.
-					* **Floor amount** : number of floors to remove.				
+					* **Floor amount** : number of floors to remove.	
+					
+			.. image:: images/modes/DestroyMode/DestroyModeTab5.png
+			`Cell last amount remove example.`			
+			
+			.. image:: images/modes/DestroyMode/DestroyModeTab6.png
+			`Selected 0 - 2 floors to remove example.`
+					
 					
 		.. note::
-			The floor delete method only works on GameObjects with MapTile component.
+			* The floor delete method only works on GameObjects with MapTile component.
+			* Enable auto-snap to attach cursor for any surface.
 			
 		* **Raycast deletion:**	
 			* **Common delete settings:**
-				* **Allow delete not prefab** : not prefabs can be deleted.
+				* **Allow delete not prefab** : gameobjects (not prefabs) can be deleted.
 				* **Object type:**
 					* **Any** : any object can be deleted.
 					* **MapTile** : only `MapTile` objects can be deleted.
@@ -378,6 +392,15 @@ Destroy mode
 					
 					Click `E` button to destroy objects under the brush.
 					
+			.. image:: images/modes/DestroyMode/DestroyModeTab7.png
+			`Box raycast remove example.`		
+			
+			.. image:: images/modes/DestroyMode/DestroyModeTab8.png
+			`Brush raycast remove example.`		
+					
+		.. note::
+			The raycast method only works on any GameObject with collider.
+			
 				* **Screen selection**
 					* **Selection object method:**
 						* **Multiple** : all objects under selection box will be selected.
@@ -390,14 +413,13 @@ Destroy mode
 							
 					Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
 					
-					
-			.. note::
-				The raycast method only works on any GameObject with collider.
+			.. image:: images/modes/DestroyMode/DestroyModeTab9.png
+			`Screen selection remove example.`		
 
 Tileset mode
 ------------
 
-``Tileset area is created to create areas of linked tiles``
+``Tileset area is created to create areas of linked tiles.``
 
 `Tileset area mode tutorial <https://youtu.be/LaKgNFQdPNI>`_
 
@@ -434,7 +456,7 @@ Tileset mode
 Translate mode
 ------------
 
-``Translate mode is designed to move the set of object``
+``Translate mode is designed to move the set of object.``
 
 `Translate mode tutorial <https://youtu.be/mlIa1BwmDiE>`_
 
@@ -481,7 +503,7 @@ Translate mode
 Create template mode
 ------------
 
-``Template mode is designed to create template prefabs from existing prefabs``
+``Template mode is designed to create template prefabs from existing prefabs.``
 
 `Template mode tutorial <https://youtu.be/c67ExYwabG0>`_
 
@@ -531,5 +553,5 @@ Create template mode
 	.. image:: images/modes/TemplateMode/TemplateMode3.png
 	
 	.. image:: images/modes/TemplateMode/TemplateModeAnim1.gif
-	`Template mode example`
+	`Template mode example.`
 
