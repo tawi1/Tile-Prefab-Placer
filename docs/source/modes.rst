@@ -451,6 +451,10 @@ Tileset mode
 				:width: 250
 			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
 				:width: 250
+				
+			`Tile connection setup example example.`		
+				
+				
 			.. image:: images/modes/TilesetArea/TilesetAnim6.gif
 	
 Translate mode

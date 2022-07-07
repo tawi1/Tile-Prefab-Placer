@@ -45,7 +45,4 @@ MapTile component settings
 MapTile layer
 ------------
 
-``Each MapTile object has its own layer, the first 9 are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``
-
-	.. raw:: html
-		<iframe src="_static/TestVideo.mp4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+``Each MapTile object has its own layer, (Layer 1, Layer2, ..., Layer9) are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``

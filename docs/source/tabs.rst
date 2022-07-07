@@ -163,11 +163,8 @@ Merge is used to create object by a child to an existing one
 	.. image:: images/tabs/MergeTab/MergeTab2.png
 	
 	* Merge object prefab mode
-		* **Linked prefab**
-		The created object is a linked prefab
-		
-		* **Prefab clone**
-		The created object is a prefab clone
+		* **Linked prefab** : the created object is a linked prefab.
+		* **Prefab clone** : the created object is a prefab clone.
 		
 	.. image:: images/tabs/MergeTab/MergeTab3.png
 	

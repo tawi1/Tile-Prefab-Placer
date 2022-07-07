@@ -8,13 +8,13 @@ Installation
 
 **To use Tile Prefab Placer steps:**
 
-#. Download & import from unity asset store
+#. Download & import from unity asset store.
 
-#. First time initilization window will appear automatically or you can open it manually in toolbar ``604Spirit/MapEditor/Window/Map Creator Initialization``
+#. First time initilization window will appear automatically or you can open it manually in toolbar ``604Spirit/MapEditor/Window/Map Creator Initialization.``
 
-#. Click `Load Packages` to start downloading required packages for this tool
+#. Click `Load Packages` to start downloading required packages for this tool.
 
-	.. image:: images/InitilizationWindow.png
+	.. image:: images/gettingstarted/InitilizationWindow.png
 
 
 	.. note::
@@ -25,16 +25,20 @@ Installation
 		* **Naughty Atrributes** (`com.dbrizov.naughtyattributes`) - made by Denis Rizov extension for unity inspector, also you can manually download it from unity asset store `Naughty Attributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`_
 
 
+	.. note::
+		**Required project script defines:**
+			* **MAP_EDITOR**
+
 #. Select tile 1x1 size to customize tile size of the tool
 
-	.. image:: images/TileInitilization.png
+	.. image:: images/gettingstarted/TileInitilization.png
 
 
-	* Move the 1x1 size of the tile into the field & press show info button
+	* Move the 1x1 size of the tile into the field & press show info button.
 
-	.. image:: images/TileInitilization2.png
+	.. image:: images/gettingstarted/TileInitilization2.png
 
-	* Press click set exist config to assign the tile size to the tool
+	* Press click set exist config to assign the tile size to the tool.
 
 
 .. _prefabs:
@@ -43,31 +47,31 @@ Installation
 Prefabs
 ------------
 
-**Category** - it's a prefab set, create categories according to your needs
+**Category** - it's a prefab set, create categories according to your needs.
 
 **How to create categories:**
 
-	.. image:: images/AddCategory1.png
+	.. image:: images/gettingstarted/AddCategory1.png
 
-* Click `+` button to start adding category
-* Enter category name
-* Click `add` button
+* Click `+` button to start adding category.
+* Enter category name.
+* Click `add` button.
 
 	.. note::
-		To delete a category, select category and click the `-` button
+		To delete a category, select category and click the `-` button.
 
 **How to add prefabs:**
 
-	.. image:: images/AddingPrefabs1.png
+	.. image:: images/gettingstarted/AddingPrefabs1.png
 
 * Drag & drop desirable prefabs to drop tab
 
-	.. image:: images/AddingPrefabs2.png
+	.. image:: images/gettingstarted/AddingPrefabs2.png
 
 * Prefabs are ready to use
 
 	.. note::
-		Map tile component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects
+		Map tile component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
 
 
 .. _configs:
@@ -77,71 +81,109 @@ Configs
 
 **Cached Values Settings**
 
-	.. image:: images/CachedValuesTab.png
+	.. image:: images/gettingstarted/CachedValuesTab.png
 
-* Root
-* Default Game Objects Root
-* Tile Path
-* Tileset Path	
-* Map Preference Config
-* Map Config
-* Hotkey Config
-* Map Creator Tab View
-* Map Data Holder
+* Root : root for map creator's stuff.
+* Default Game Objects Root : root for created default game objects.
+* Tile Path : the path in the project where the categories are located.
+* Tileset Path : the path in the project where the tilesets are located.
+* Map Preference Config : map preference config scriptable object.
+* Map Config : map creator config scriptable object.
+* Hotkey Config : hotkey config scriptable object.
+* Map Creator Tab View : internal map creator tabs view.
+* Map Data Holder : map layer data.
 
 
 **Map Holder Settings**
 
-	.. image:: images/MapHolderTab.png
+	.. image:: images/gettingstarted/MapHolderTab.png
+	
+Here are references to the maps, also the name of the layers.
 
 
 **Map Preference Config**
 
-	.. image:: images/MapPreferenceWindow.png
-
+	.. image:: images/gettingstarted/MapPreferenceWindow.png
+	
 * Common Settings
-	* Tile Size
-	* World Tile Relative Offset
+	* Tile Size : default tile size of MapCreator.
+	* World Tile Relative Offset : world offset relative to the floored cell position.
 	
 * Tool Settings
-	* Show Scene Tool Panel
-	* Tool Bar Max Count
-	* Tile Button Size
-	* Has Remove Buttons
-	* Remove Button Size
-	* Buttons Row Count
-	* Prefab Scroll View Height
+	* Show Scene Tool Panel : displays `M` UI button on the scene view.
+	* Tool Bar Max Count : the number of category buttons in one row of the toolbar.
+	* Tile Button Size : the size of the prefab button in the mapcreator inspector.
+	* Has Remove Buttons : enable buttons to remove prefabs from categories in mapcreator view.
+	* Remove Button Size : size of remove button.
+	* Buttons Row Count : the number of prefab buttons in the scroll view in one row.
+	* Prefab Scroll View Height : height of scroll view of mapcreator.
 	
 * Temp Mesh Settings
-	* Default Draw Mesh Type
-	* Apply Allow Color To Objects
-	* Allow Mesh Grid Color
-	* Allow Object Color
-	* Forbidden Mesh Grid Color
-	* Intersection Mesh Grid Color
-
-
-**Hotkey config**
-
-	.. image:: images/HotKeyConfig.png
-
+	* Default Draw Mesh Type : object view type for temp meshes.
+		* Draw Mesh : display the temp mesh object at the end of a render pipeline cycle.
+		* Draw Mesh Now : the display of the temp mesh object at the moment.
+	* Apply Allow Color To Objects : enable custom allow color for the objects that can be placed.
+	* Allow Mesh Grid Color : color of mesh grid when object can be placed.
+	* Allow Object Color : color for the object that can be placed.
+	* Forbidden Mesh Grid Color : color for the object that can't be placed.
+	* Intersection Mesh Grid Color : color for the object that intersected.
 
 **Common Settings**
 
-	.. image:: images/CommonSettingsTab.png
+	.. image:: images/gettingstarted/CommonSettingsTab.png
 
-* Show Map Tile Bounds
-* Draw Grid
-* Always Visible Grid
-* Grid Size
-* Grid Color
-* Async Creation
-* Create Objects Per Frame
-* Create Prefab Mode
-* Key Rotate Angle
-* Show Edit Category Buttons
-* Show Map Tile Selected Info Tab
-* Show Add New Prefab Tab
+* Show Map Tile Bounds : display the mesh grid of the object.
+* Draw Grid : display scene view grid.
+* Always Visible Grid : the grid will always be displayed regardless of the overlap with other objects.
+* Grid Size : size of scene view grid.
+* Grid Color : color of scene view grid.
+* Async Creation : async instantiation for the objects.
+	* Create Objects Per Frame : the number of instantiated objects per frame.
+* Create Prefab Mode:
+	* Linked prefab : created object will be linked with source prefab.
+	* Prefab clone : created object will be cloned from source prefab.
+* Key Rotate Angle : the angle of rotation of the object by button (by default `capslock` button).
+* Show Edit Category Buttons : show add/remove buttons for category in MapCreator inspector.
+* Show Map Tile Selected Info Tab : show `MapTile selected info` tab.
+* Show Add New Prefab Tab : show drag'n'drop prefab box in MapCreator inspector.
+
+Hotkeys
+------------
+
+**Common hotkey config**
+
+	.. image:: images/gettingstarted/HotKeyConfig.png
+	
+* Rotate button : rotate button of the object.
+* Switch sub prefab button : rerandomize TRS (transform, rotation, scale) or selected objects (if randomize feature enabled and configured).
+* Action button : action of the MapCreator (for example object spawning).
+* Unselect prefab button : cancel action or unselect selected temp prefab.
+* Select default edit mode button : select default edit mode hotkey.
+* Select brush mode button : select brush mode hotkey.
+* Select line mode button : select line mode hotkey.
+* Select area mode button : select area mode hotkey.
+* Select destroy mode button : select destroy mode hotkey.
+* Select tileset mode button : select tileset mode hotkey.
+* Select translate mode button : select translate mode hotkey.
+* Select template mode button : select template mode hotkey.
+* Scroll wheel button : additional action with scroll wheel button in the edit modes.
+
+**Custom hotkey settings**
+
+	* **Single mode:**
+		* **Ctrl & scroll wheel button** : increasing and decreasing the scale of the object.
+	* **Line mode:**
+		* **Default:**
+			* **Ctrl & scroll wheel button** : increase number of the floors (multi-floor support should be enabled).
+		* **Curved:**
+			* **Simple line:**
+				* **Ctrl & left-mouse click** : add a new segment of the line.
+	* **Area mode:**
+		* **Default:**
+			* **Ctrl & scroll wheel button** : increase number of the floors (multi-floor support should be enabled).
+	* **Destroy mode:**
+			**Selection mode:**
+				**Space** : deleting selected objects using the selection box.
 
 
 
