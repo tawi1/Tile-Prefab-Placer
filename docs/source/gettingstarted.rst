@@ -83,15 +83,15 @@ Configs
 
 	.. image:: images/gettingstarted/CachedValuesTab.png
 
-* Root : root for map creator's stuff.
-* Default Game Objects Root : root for created default game objects.
-* Tile Path : the path in the project where the categories are located.
-* Tileset Path : the path in the project where the tilesets are located.
-* Map Preference Config : map preference config scriptable object.
-* Map Config : map creator config scriptable object.
-* Hotkey Config : hotkey config scriptable object.
-* Map Creator Tab View : internal map creator tabs view.
-* Map Data Holder : map layer data.
+* **Root** : root for map creator's stuff.
+* **Default Game Objects Root** : root for created default game objects.
+* **Tile Path** : the path in the project where the categories are located.
+* **Tileset Path** : the path in the project where the tilesets are located.
+* **Map Preference Config** : map preference config scriptable object.
+* **Map Config** : map creator config scriptable object.
+* **Hotkey Config** : hotkey config scriptable object.
+* **Map Creator Tab View** : internal map creator tabs view.
+* **Map Data Holder** : map layer data.
 
 
 **Map Holder Settings**
@@ -106,46 +106,46 @@ Here are references to the maps, also the name of the layers.
 	.. image:: images/gettingstarted/MapPreferenceWindow.png
 	
 * Common Settings
-	* Tile Size : default tile size of MapCreator.
-	* World Tile Relative Offset : world offset relative to the floored cell position.
+	* **Tile Size** : default tile size of MapCreator.
+	* **World Tile Relative Offset** : world offset relative to the floored cell position.
 	
 * Tool Settings
-	* Show Scene Tool Panel : displays `M` UI button on the scene view.
-	* Tool Bar Max Count : the number of category buttons in one row of the toolbar.
-	* Tile Button Size : the size of the prefab button in the mapcreator inspector.
-	* Has Remove Buttons : enable buttons to remove prefabs from categories in mapcreator view.
-	* Remove Button Size : size of remove button.
-	* Buttons Row Count : the number of prefab buttons in the scroll view in one row.
-	* Prefab Scroll View Height : height of scroll view of mapcreator.
+	* **Show Scene Tool Panel** : displays `M` UI button on the scene view.
+	* **Tool Bar Max Count** : the number of category buttons in one row of the toolbar.
+	* **Tile Button Size** : the size of the prefab button in the mapcreator inspector.
+	* **Has Remove Buttons** : enable buttons to remove prefabs from categories in mapcreator view.
+	* **Remove Button Size** : size of remove button.
+	* **Buttons Row Count** : the number of prefab buttons in the scroll view in one row.
+	* **Prefab Scroll View Height** : height of scroll view of mapcreator.
 	
 * Temp Mesh Settings
-	* Default Draw Mesh Type : object view type for temp meshes.
-		* Draw Mesh : display the temp mesh object at the end of a render pipeline cycle.
-		* Draw Mesh Now : the display of the temp mesh object at the moment.
-	* Apply Allow Color To Objects : enable custom allow color for the objects that can be placed.
-	* Allow Mesh Grid Color : color of mesh grid when object can be placed.
-	* Allow Object Color : color for the object that can be placed.
-	* Forbidden Mesh Grid Color : color for the object that can't be placed.
-	* Intersection Mesh Grid Color : color for the object that intersected.
+	* **Default Draw Mesh Type** : object view type for temp meshes.
+		* **Draw Mesh** : display the temp mesh object at the end of a render pipeline cycle.
+		* **Draw Mesh Now** : the display of the temp mesh object at the moment.
+	* **Apply Allow Color To Objects** : enable custom allow color for the objects that can be placed.
+	* **Allow Mesh Grid Color** : color of mesh grid when object can be placed.
+	* **Allow Object Color** : color for the object that can be placed.
+	* **Forbidden Mesh Grid Color** : color for the object that can't be placed.
+	* **Intersection Mesh Grid Color** : color for the object that intersected.
 
 **Common Settings**
 
 	.. image:: images/gettingstarted/CommonSettingsTab.png
 
-* Show Map Tile Bounds : display the mesh grid of the object.
-* Draw Grid : display scene view grid.
-* Always Visible Grid : the grid will always be displayed regardless of the overlap with other objects.
-* Grid Size : size of scene view grid.
-* Grid Color : color of scene view grid.
-* Async Creation : async instantiation for the objects.
-	* Create Objects Per Frame : the number of instantiated objects per frame.
-* Create Prefab Mode:
-	* Linked prefab : created object will be linked with source prefab.
-	* Prefab clone : created object will be cloned from source prefab.
-* Key Rotate Angle : the angle of rotation of the object by button (by default `capslock` button).
-* Show Edit Category Buttons : show add/remove buttons for category in MapCreator inspector.
-* Show Map Tile Selected Info Tab : show `MapTile selected info` tab.
-* Show Add New Prefab Tab : show drag'n'drop prefab box in MapCreator inspector.
+* **Show Map Tile Bounds** : display the mesh grid of the object.
+* **Draw Grid** : display scene view grid.
+* **Always Visible Grid** : the grid will always be displayed regardless of the overlap with other objects.
+* **Grid Size** : size of scene view grid.
+* **Grid Color** : color of scene view grid.
+* **Async Creation** : async instantiation for the objects.
+	* **Create Objects Per Frame** : the number of instantiated objects per frame.
+* **Create Prefab Mode:**
+	* **Linked prefab** : created object will be linked with source prefab.
+	* **Prefab clone** : created object will be cloned from source prefab.
+* **Key Rotate Angle** : the angle of rotation of the object by button (by default `capslock` button).
+* **Show Edit Category Buttons** : show add/remove buttons for category in MapCreator inspector.
+* **Show Map Tile Selected Info Tab** : show `MapTile selected info` tab.
+* **Show Add New Prefab Tab** : show drag'n'drop prefab box in MapCreator inspector.
 
 Hotkeys
 ------------
@@ -154,19 +154,19 @@ Hotkeys
 
 	.. image:: images/gettingstarted/HotKeyConfig.png
 	
-* Rotate button : rotate button of the object.
-* Switch sub prefab button : rerandomize TRS (transform, rotation, scale) or selected objects (if randomize feature enabled and configured).
-* Action button : action of the MapCreator (for example object spawning).
-* Unselect prefab button : cancel action or unselect selected temp prefab.
-* Select default edit mode button : select default edit mode hotkey.
-* Select brush mode button : select brush mode hotkey.
-* Select line mode button : select line mode hotkey.
-* Select area mode button : select area mode hotkey.
-* Select destroy mode button : select destroy mode hotkey.
-* Select tileset mode button : select tileset mode hotkey.
-* Select translate mode button : select translate mode hotkey.
-* Select template mode button : select template mode hotkey.
-* Scroll wheel button : additional action with scroll wheel button in the edit modes.
+* **Rotate button** : rotate button of the object.
+* **Switch sub prefab button** : rerandomize TRS (transform, rotation, scale) or selected objects (if randomize feature enabled and configured).
+* **Action button** : action of the MapCreator (for example object spawning).
+* **Unselect prefab button** : cancel action or unselect selected temp prefab.
+* **Select default edit mode button** : select default edit mode hotkey.
+* **Select brush mode button** : select brush mode hotkey.
+* **Select line mode button** : select line mode hotkey.
+* **Select area mode button** : select area mode hotkey.
+* **Select destroy mode button** : select destroy mode hotkey.
+* **Select tileset mode button** : select tileset mode hotkey.
+* **Select translate mode button** : select translate mode hotkey.
+* **Select template mode button** : select template mode hotkey.
+* **Scroll wheel button** : additional action with scroll wheel button in the edit modes.
 
 **Custom hotkey settings**
 
@@ -182,8 +182,8 @@ Hotkeys
 		* **Default:**
 			* **Ctrl & scroll wheel button** : increase number of the floors (multi-floor support should be enabled).
 	* **Destroy mode:**
-			**Selection mode:**
-				**Space** : deleting selected objects using the selection box.
+		* **Selection mode:**
+			* **Space** : deleting selected objects using the selection box.
 
 
 
