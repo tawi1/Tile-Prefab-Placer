@@ -90,20 +90,20 @@ Single mode
 		.. image:: images/modes/SingleMode/SingleModeTab6-1.png
 			:width: 500
 
-		**Hit surface type:**
-			* **Mesh** : attach object to mesh.
-			* **Collider** : attach object to collider.
-		**Attach layer** : layer of hit object.
-		**Normal offset** : offset from normal hit.
-		**Additive euler rotation** : additional rotation euler offset of the object.
-		**Normal rotation:**
-			* **Disabled** : default object rotation.
-				* **Look normal** : look normal method for the attached object.
-				* **Revert normal rotation** : inverse normal direction of the surface hit.
-			* **Along normal** : along normal method for the attached object.
-				* **Along normal base** : normal base value (default Vector3(0,1,0)).	
-		**Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
-			* **Add surface pivot offset** : 
+			* **Hit surface type:**
+				* **Mesh** : attach object to mesh.
+				* **Collider** : attach object to collider.
+			* **Attach layer** : layer of hit object.
+			* **Normal offset** : offset from normal hit.
+			* **Additive euler rotation** : additional rotation euler offset of the object.
+			* **Normal rotation:**
+				* **Disabled** : default object rotation.
+					* **Look normal** : look normal method for the attached object.
+					* **Revert normal rotation** : inverse normal direction of the surface hit.
+				* **Along normal** : along normal method for the attached object.
+					* **Along normal base** : normal base value (default Vector3(0,1,0)).	
+			* **Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
+				* **Add surface pivot offset** : 
 			
 		.. image:: images/modes/SingleMode/SingleModeTab6-2.png
 		`Snap cube to cell example.`
@@ -117,11 +117,11 @@ Single mode
 	
 		.. image:: images/modes/SingleMode/SingleModeTab7.png
 	
-		**Enable rotation snapping:**
+		* **Enable rotation snapping:**
 			* **Snap angle value** : value of rotation snapping.					
-		**Enable position snapping:**
+		* **Enable position snapping:**
 			* **Snap position value** : value of position snapping.
-		**Enable scale snapping:**
+		* **Enable scale snapping:**
 			* **Snap scale value** : value of scale snapping.
 			* **Scale step** : value of increasing scale by button.
 
