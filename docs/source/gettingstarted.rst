@@ -29,7 +29,7 @@ Installation
 		**Required project script defines:**
 			* **MAP_EDITOR**
 
-#. Select tile 1x1 size to customize tile size of the tool
+#. Select tile 1x1 size to customize tile size of the tool.
 
 	.. image:: images/gettingstarted/TileInitilization.png
 
@@ -64,11 +64,11 @@ Prefabs
 
 	.. image:: images/gettingstarted/AddingPrefabs1.png
 
-* Drag & drop desirable prefabs to drop tab
+* Drag & drop desirable prefabs to drop tab.
 
 	.. image:: images/gettingstarted/AddingPrefabs2.png
 
-* Prefabs are ready to use
+* Prefabs are ready to use.
 
 	.. note::
 		Map tile component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
@@ -171,19 +171,19 @@ Hotkeys
 **Custom hotkey settings**
 
 	* **Single mode:**
-		* **Ctrl & scroll wheel button** : increasing and decreasing the scale of the object.
+		* `**Ctrl & scroll wheel button**` : increasing and decreasing the scale of the object.
 	* **Line mode:**
 		* **Default:**
-			* **Ctrl & scroll wheel button** : increase number of the floors (multi-floor support should be enabled).
+			* `**Ctrl & scroll wheel button**` : increase number of the floors (multi-floor support should be enabled).
 		* **Curved:**
 			* **Simple line:**
-				* **Ctrl & left-mouse click** : add a new segment of the line.
+				* `**Ctrl & left-mouse click**` : add a new segment of the line.
 	* **Area mode:**
 		* **Default:**
-			* **Ctrl & scroll wheel button** : increase number of the floors (multi-floor support should be enabled).
+			* `**Ctrl & scroll wheel button**` : increase number of the floors (multi-floor support should be enabled).
 	* **Destroy mode:**
 		* **Selection mode:**
-			* **Space** : deleting selected objects using the selection box.
+			* `**Space**` : deleting selected objects using the selection box.
 
 
 

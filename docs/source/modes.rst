@@ -98,7 +98,7 @@ Single mode
 		**Additive euler rotation** : additional rotation euler offset of the object.
 		**Normal rotation:**
 			* **Disabled** : default object rotation.
-			* **Look normal** : look normal method for the attached object.
+				* **Look normal** : look normal method for the attached object.
 				* **Revert normal rotation** : inverse normal direction of the surface hit.
 			* **Along normal** : along normal method for the attached object.
 				* **Along normal base** : normal base value (default Vector3(0,1,0)).	
