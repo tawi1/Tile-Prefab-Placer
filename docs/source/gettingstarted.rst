@@ -4,7 +4,7 @@ Getting started
 .. _installation:
 
 Installation
-------------
+============
 
 **To use Tile Prefab Placer steps:**
 
@@ -40,17 +40,22 @@ Installation
 
 
 	* Press click set exist config to assign the tile size to the tool.
+	
+#. Set the path in the `MapCreator`'s cached settings tab where the prefab categories are stored.
+
+	.. image:: images/gettingstarted/CachedValuesTabPrefabPath.png
 
 
 .. _prefabs:
 
 
 Prefabs
-------------
+=======
 
 **Category** - it's a prefab set, create categories according to your needs.
 
 **How to create categories:**
+-----------------------------
 
 	.. image:: images/gettingstarted/AddCategory1.png
 
@@ -62,6 +67,7 @@ Prefabs
 		To delete a category, select category and click the `-` button.
 
 **How to add prefabs:**
+-----------------------
 
 	* Drag & drop desirable prefabs to drop tab.
 	
@@ -78,14 +84,14 @@ Prefabs
 .. _category:
 
 Category
-------------
+========
 
 .. image:: images/gettingstarted/CategorySOExample.png
 
 * **Title** : name of category.
 * **Prefab data:**
 	* **Prefab** : reference to the prefab gameobject.
-	* **MapTilePrefab** : reference to the MapTile prefab.
+	* **MapTilePrefab** : reference to the `MapTile` prefab.
 	* **TileSize** : object size in grid cells (you can set the size manually if the prefab is without a `MapTile` component).
 * **MapTile category parent type:** 
 	* **Local map path** : object is created relative to the path of the `MapCreator` layer.
@@ -96,9 +102,10 @@ Category
 .. _configs:
 
 Configs
-------------
+=======
 
 **Cached Values Settings**
+--------------------------
 
 	.. image:: images/gettingstarted/CachedValuesTab.png
 
@@ -114,6 +121,7 @@ Configs
 
 
 **Map Holder Settings**
+-----------------------
 
 	.. image:: images/gettingstarted/MapHolderTab.png
 	
@@ -121,6 +129,7 @@ Here are references to the maps and the name of the layers.
 
 
 **Map Preference Config**
+-------------------------
 
 	.. image:: images/gettingstarted/MapPreferenceWindow.png
 	
@@ -167,9 +176,10 @@ Here are references to the maps and the name of the layers.
 * **Show Add New Prefab Tab** : show drag'n'drop prefab box in `MapCreator` inspector.
 
 Hotkeys
-------------
+=======
 
 **Common hotkey config**
+------------------------
 
 	.. image:: images/gettingstarted/HotKeyConfig.png
 	
@@ -188,6 +198,7 @@ Hotkeys
 * **Scroll wheel button** : additional action with scroll wheel button in the edit modes.
 
 **Custom hotkey settings**
+--------------------------
 
 	* **Single mode:**
 		* `**Ctrl & scroll wheel button**` : increasing and decreasing the scale of the object.
