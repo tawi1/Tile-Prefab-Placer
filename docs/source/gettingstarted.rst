@@ -69,13 +69,12 @@ Prefabs
 **How to add prefabs:**
 -----------------------
 
-	* Drag & drop desirable prefabs to drop tab.
-	
-	.. image:: images/gettingstarted/AddingPrefabs1.png
+	* Drag & drop desirable prefabs to drop tab.	
+		.. image:: images/gettingstarted/AddingPrefabs1.png
 
 
 	* Prefabs are ready to use.
-	.. image:: images/gettingstarted/AddingPrefabs2.png
+		.. image:: images/gettingstarted/AddingPrefabs2.png
 
 	.. note::
 		`MapTile` component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
@@ -157,6 +156,7 @@ Here are references to the maps and the name of the layers.
 	* **Intersection Mesh Grid Color** : color for the object that intersected.
 
 **Common Settings**
+-------------------
 
 	.. image:: images/gettingstarted/CommonSettingsTab.png
 
