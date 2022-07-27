@@ -31,17 +31,14 @@ Installation
 
 #. Select tile 1x1 size to customize tile size of the tool.
 
-	.. image:: images/gettingstarted/TileInitilization.png
+		.. image:: images/gettingstarted/TileInitilization.png
 
+	* Move the 1x1 size of the tile into the field & press `show info` button.
+		.. image:: images/gettingstarted/TileInitilization2.png
 
-	* Move the 1x1 size of the tile into the field & press show info button.
-
-	.. image:: images/gettingstarted/TileInitilization2.png
-
-
-	* Press click set exist config to assign the tile size to the tool.
+	* Press `set exist config` to assign the tile size to the tool.
 	
-#. Set the path in the `MapCreator`'s cached settings tab where the prefab categories are stored.
+#. Set the tile path in the `MapCreator`'s cached settings tab where the prefab categories are stored.
 
 	.. image:: images/gettingstarted/CachedValuesTabPrefabPath.png
 
@@ -51,6 +48,8 @@ Installation
 
 Prefabs
 =======
+
+`MapCreator` scroll view consists of prefab categories.
 
 **Category** - it's a prefab set, create categories according to your needs.
 
@@ -185,7 +184,7 @@ Hotkeys
 	
 * **Rotate button** : rotate button of the object.
 * **Switch sub prefab button** : rerandomize TRS (transform, rotation, scale) or selected objects (if randomize feature enabled and configured).
-* **Action button** : action of the `MapCreator` (for example object spawning).
+* **Action button** : action of the `MapCreator` edit mode (for example object spawning).
 * **Unselect prefab button** : cancel action or unselect selected temp prefab.
 * **Select default edit mode button** : select default edit mode hotkey.
 * **Select brush mode button** : select brush mode hotkey.
