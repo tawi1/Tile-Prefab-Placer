@@ -72,12 +72,12 @@ Prefabs
 	.. image:: images/gettingstarted/AddingPrefabs2.png
 
 	.. note::
-		Map tile component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
+		`MapTile` component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
 
 
-.. _categories:
+.. _category:
 
-Categories
+Category
 ------------
 
 .. image:: images/gettingstarted/CategorySOExample.png
@@ -86,7 +86,7 @@ Categories
 * **Prefab data:**
 	* **Prefab** : reference to the prefab gameobject.
 	* **MapTilePrefab** : reference to the MapTile prefab.
-	* **TileSize** : object size in grid cells (you can set the size manually if the prefab is without a MapTile component).
+	* **TileSize** : object size in grid cells (you can set the size manually if the prefab is without a `MapTile` component).
 * **MapTile category parent type:** 
 	* **Local map path** : object is created relative to the path of the `MapCreator` layer.
 	* **Scene path** : object is created relative to the path of the scene root.
@@ -103,7 +103,7 @@ Configs
 	.. image:: images/gettingstarted/CachedValuesTab.png
 
 * **Root** : root for `MapCreator`'s stuff.
-* **Default Game Objects Root** : root for created default game objects (without MapTile component).
+* **Default Game Objects Root** : root for created default game objects (without `MapTile` component).
 * **Tile Path** : the path in the project where the categories are located.
 * **Tileset Path** : the path in the project where the tilesets are located.
 * **Map Preference Config** : :ref:`Map Preference Config` scriptable object.
