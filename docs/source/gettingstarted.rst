@@ -20,7 +20,7 @@ Installation
 	.. note::
 		**Required packages:**
 		
-		* **Editor coroutines** (`com.unity.editorcoroutines`) - unity package allows developers to start constructs similar to Unity’s monobehaviour based coroutines within the editor using abitrary objects.
+		* **Editor coroutines** (`com.unity.editorcoroutines`) - unity package allows developers to start constructs similar to Unity’s monobehaviour based coroutines within the editor using arbitrary objects.
 		
 		* **Naughty Atrributes** (`com.dbrizov.naughtyattributes`) - made by Denis Rizov extension for unity inspector, also you can manually download it from unity asset store `Naughty Attributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`_
 
@@ -37,6 +37,7 @@ Installation
 	* Move the 1x1 size of the tile into the field & press show info button.
 
 	.. image:: images/gettingstarted/TileInitilization2.png
+
 
 	* Press click set exist config to assign the tile size to the tool.
 
@@ -62,16 +63,34 @@ Prefabs
 
 **How to add prefabs:**
 
+	* Drag & drop desirable prefabs to drop tab.
+	
 	.. image:: images/gettingstarted/AddingPrefabs1.png
 
-* Drag & drop desirable prefabs to drop tab.
 
+	* Prefabs are ready to use.
 	.. image:: images/gettingstarted/AddingPrefabs2.png
-
-* Prefabs are ready to use.
 
 	.. note::
 		Map tile component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
+
+
+.. _categories:
+
+Categories
+------------
+
+.. image:: images/gettingstarted/CategorySOExample.png
+
+* **Title** : name of category.
+* **Prefab data:**
+	* **Prefab** : reference to the prefab gameobject.
+	* **MapTilePrefab** : reference to the MapTile prefab.
+	* **TileSize** : object size in grid cells (you can set the size manually if the prefab is without a MapTile component).
+* **MapTile category parent type:** 
+	* **Local map path** : object is created relative to the path of the `MapCreator` layer.
+	* **Scene path** : object is created relative to the path of the scene root.
+* **Scene path** : object creation path.
 
 
 .. _configs:
@@ -83,22 +102,22 @@ Configs
 
 	.. image:: images/gettingstarted/CachedValuesTab.png
 
-* **Root** : root for map creator's stuff.
-* **Default Game Objects Root** : root for created default game objects.
+* **Root** : root for `MapCreator`'s stuff.
+* **Default Game Objects Root** : root for created default game objects (without MapTile component).
 * **Tile Path** : the path in the project where the categories are located.
 * **Tileset Path** : the path in the project where the tilesets are located.
-* **Map Preference Config** : map preference config scriptable object.
-* **Map Config** : map creator config scriptable object.
-* **Hotkey Config** : hotkey config scriptable object.
+* **Map Preference Config** : :ref:`Map Preference Config` scriptable object.
+* **Map Config** : `MapCreator` config scriptable object.
+* **Hotkey Config** : :ref:`hotkey config<Common hotkey config>` scriptable object.
 * **Map Creator Tab View** : internal map creator tabs view.
-* **Map Data Holder** : map layer data.
+* **Map Data Holder** : :ref:`map layer data<Map Holder Settings>`.
 
 
 **Map Holder Settings**
 
 	.. image:: images/gettingstarted/MapHolderTab.png
 	
-Here are references to the maps, also the name of the layers.
+Here are references to the maps and the name of the layers.
 
 
 **Map Preference Config**
@@ -106,17 +125,17 @@ Here are references to the maps, also the name of the layers.
 	.. image:: images/gettingstarted/MapPreferenceWindow.png
 	
 * Common Settings
-	* **Tile Size** : default tile size of MapCreator.
+	* **Tile Size** : default tile size of `MapCreator`.
 	* **World Tile Relative Offset** : world offset relative to the floored cell position.
 	
 * Tool Settings
 	* **Show Scene Tool Panel** : displays `M` UI button on the scene view.
 	* **Tool Bar Max Count** : the number of category buttons in one row of the toolbar.
-	* **Tile Button Size** : the size of the prefab button in the mapcreator inspector.
-	* **Has Remove Buttons** : enable buttons to remove prefabs from categories in mapcreator view.
+	* **Tile Button Size** : the size of the prefab button in the `MapCreator` prefab scroll view.
+	* **Has Remove Buttons** : enable buttons to remove prefabs from categories in `MapCreator` prefab scroll view.
 	* **Remove Button Size** : size of remove button.
 	* **Buttons Row Count** : the number of prefab buttons in the scroll view in one row.
-	* **Prefab Scroll View Height** : height of scroll view of mapcreator.
+	* **Prefab Scroll View Height** : height of scroll view of `MapCreator`.
 	
 * Temp Mesh Settings
 	* **Default Draw Mesh Type** : object view type for temp meshes.
@@ -143,9 +162,9 @@ Here are references to the maps, also the name of the layers.
 	* **Linked prefab** : created object will be linked with source prefab.
 	* **Prefab clone** : created object will be cloned from source prefab.
 * **Key Rotate Angle** : the angle of rotation of the object by button (by default `capslock` button).
-* **Show Edit Category Buttons** : show add/remove buttons for category in MapCreator inspector.
+* **Show Edit Category Buttons** : show add/remove buttons for category in `MapCreator` inspector.
 * **Show Map Tile Selected Info Tab** : show `MapTile selected info` tab.
-* **Show Add New Prefab Tab** : show drag'n'drop prefab box in MapCreator inspector.
+* **Show Add New Prefab Tab** : show drag'n'drop prefab box in `MapCreator` inspector.
 
 Hotkeys
 ------------
@@ -156,7 +175,7 @@ Hotkeys
 	
 * **Rotate button** : rotate button of the object.
 * **Switch sub prefab button** : rerandomize TRS (transform, rotation, scale) or selected objects (if randomize feature enabled and configured).
-* **Action button** : action of the MapCreator (for example object spawning).
+* **Action button** : action of the `MapCreator` (for example object spawning).
 * **Unselect prefab button** : cancel action or unselect selected temp prefab.
 * **Select default edit mode button** : select default edit mode hotkey.
 * **Select brush mode button** : select brush mode hotkey.
