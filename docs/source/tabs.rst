@@ -30,7 +30,7 @@ Random TRS
 
 .. image:: images/tabs/RandomTab/RandomTab1.png
 
-* Сhoose which angle and axis of rotation to randomize.
+* Choose which angle and axis of rotation to randomize.
 	.. image:: images/tabs/RandomTab/RandomTab2.png
 
 * Enter randomize local position relative spawn position.
@@ -73,8 +73,11 @@ Object snap type:
 		* **Attach to mesh** : the object is attached to the mesh, instead of the collider.
 		* **Attach same floor** : to auto-snap objects on the same height use the attach same floor.
 			
-		.. image:: images/tabs/SnapTab/SnapTab3.png		
-		.. image:: images/tabs/SnapTab/SnapTab4.png
+			.. image:: images/tabs/SnapTab/SnapTab3.png		
+				:width: 49 %			
+			
+			.. image:: images/tabs/SnapTab/SnapTab4.png
+				:width: 49 %				
 			`Attach same floor example.`
 					
 		.. note::
@@ -96,8 +99,6 @@ Object snap type:
 	* **Custom** : customization value of the position on the Y axis.
 
 	.. image:: images/tabs/SnapTab/SnapTab7.png
-
-	Customization value of the position on the Y axis.
 
 		* **Fixed zero position** : object is always positioned at Y zero position.
 		* **Prefab position** : object Y position is taken from the prefab position.
@@ -195,10 +196,10 @@ For overlay `MapTile` objects and `non-MapTile` object overlay mapping enabled b
 	
 **Obstacle check type:**
 	* **Distance** : object intersections are checked by distance (works only for `MapTile` overlay grid objects).
-		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
-		
-	* **Raycast** : object intersections are checked by raycasts (works only for any gameobject).
 		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample2.png
+		
+	* **Raycast** : object intersections are checked by raycasts (works only for any gameobject with colliders).
+		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
 
 
 Randomizer
@@ -210,8 +211,8 @@ Randomizer
 
 	* **Randomize any category object** : any object of selected category involved in randomization.
 
-.. image:: images/tabs/RandomizerTab/RandomizerTab2.png
-
+	.. image:: images/tabs/RandomizerTab/RandomizerTab2.png
+	
 	.. image:: images/tabs/RandomizerTab/RandomizerExample1.png
 	`Object randomization example (by default by pressing the space bar button)` 
 
