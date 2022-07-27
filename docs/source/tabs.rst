@@ -1,10 +1,12 @@
-Common tabs Overview
-=====
+********************
+Common tabs overview
+********************
 
-.. _installation:
+.. _tabs:
 
 EditMode settings
-------------
+=================
+
 
 **There are the following modes:**
 	* Single mode
@@ -19,31 +21,28 @@ EditMode settings
 Each mode contains unique settings, that described in more detail here :ref:`modes`
 
 Random TRS
-------------
+==========
 
-Random TRS tab is used for randomization position, rotation or scale of the object.
+``Random TRS tab is used for randomization position, rotation or scale of the object.``
 
 
 **Main randomize tab displays which random is enabled**
 
 .. image:: images/tabs/RandomTab/RandomTab1.png
 
-.. image:: images/tabs/RandomTab/RandomTab2.png
+* Сhoose which angle and axis of rotation to randomize.
+	.. image:: images/tabs/RandomTab/RandomTab2.png
 
-Сhoose which angle and axis of rotation to randomize.
+* Enter randomize local position relative spawn position.
+	.. image:: images/tabs/RandomTab/RandomTab3.png
 
-.. image:: images/tabs/RandomTab/RandomTab3.png
-
-Enter randomize local position relative spawn position.
-
-.. image:: images/tabs/RandomTab/RandomTab4.png
-
-Enter value and axis of scale to randomize.
+* Enter value and axis of scale to randomize.
+	.. image:: images/tabs/RandomTab/RandomTab4.png
 
 Override settings
-------------
+=================
 
-In the override settings tab you can override parent object, MapTile layer for non-overlay objects, and override unity layer.
+``In the override settings tab you can override parent object, MapTile layer for non-overlay objects, and override unity layer.``
 
 	.. image:: images/tabs/OverrideTab/OverrideTab1.png
 
@@ -54,12 +53,12 @@ In the override settings tab you can override parent object, MapTile layer for n
 	.. image:: images/tabs/OverrideTab/OverrideTab2.png
 
 	.. note::
-		For overlay MapTile objects or default game objects you can't override MapTile layer.
+		For overlay MapTile objects or default game objects you can't override `MapTile` layer.
 
 Snap settings
-------------
+=============
 
-In snap settings you can adjust the y-axis snap settings.
+``In snap settings you can adjust the y-axis object snap settings.``
 
 .. image:: images/tabs/SnapTab/SnapTab1.png
 
@@ -67,36 +66,24 @@ Object snap type:
 	* Auto snap
 	* Custom
 	
-**Auto snap**
+**Auto snap** : objects are automatically attached to the surface depending on the parameters.
 
-.. image:: images/tabs/SnapTab/SnapTab2.png
+	.. image:: images/tabs/SnapTab/SnapTab2.png
 
-Objects are automatically attached to the surface depending on the parameters.
-
-	* **Attach to mesh**
-	
-	The object is attached to the mesh, instead of the collider.
-	
-	* **Attach same floor**
-	
+	* **Attach to mesh** : the object is attached to the mesh, instead of the collider.
+	* **Attach same floor** : to auto-snap objects on the same height use the attach same floor.
+		
+	.. image:: images/tabs/SnapTab/SnapTab3.png		
+	.. image:: images/tabs/SnapTab/SnapTab4.png
+		`Attach same floor example.`
+				
 	.. note::
 		Only works for area and line modes.
+
 	
-	.. image:: images/tabs/SnapTab/SnapTab3.png
-	
-	To auto-snap objects on the same height use the attach same floor.
-	
-	.. image:: images/tabs/SnapTab/SnapTab4.png
-	
-	* **Snap layer mask**
-	
-	Layer that the object is automatically attached.
-	
-	* **Custom floor offset**
-	
-	Additional offsets to the surface.
-	
-	* **Add pivot offset**
+	* **Snap layer mask** : layer that the object is automatically attached.
+	* **Custom floor offset** : additional offset to the surface.
+	* **Add pivot offset** : adds a pivot offset of the object relative to the surface.
 	
 	.. image:: images/tabs/SnapTab/SnapTab5.png
 	
@@ -112,22 +99,16 @@ To fix this, turn on add pivot offset
 
 Customization value of the position on the Y axis.
 
-	* **Fixed zero position**
-	
-	Object is always positioned at Y zero position.
-	
-	* **Prefab position**
-	
-	Object Y position is taken from the prefab position.
-	
-	* **Custom position**
+	* **Fixed zero position** : object is always positioned at Y zero position.
+	* **Prefab position** : object Y position is taken from the prefab position.
+	* **Custom position** : set desired Y position of the object.
 	
 	.. image:: images/tabs/SnapTab/SnapTab8.png
-	
-	Set desired Y position of the object.
 
 Replace
-------------
+=======
+
+``Replace is used to replace intersected objects.``
 
 .. image:: images/tabs/ReplaceTab/ReplaceTab1.png
 
@@ -143,23 +124,21 @@ Enable replace to replace intersected objects.
 	
 		.. image:: images/tabs/ReplaceTab/ReplaceTab4.png
 	
-		* **Object layer**
-		Replace objects only on the same object layer.
+		* **Object layer** : replace objects only on the same object layer.
 		
 		.. image:: images/tabs/ReplaceTab/ReplaceTab5.png
 		
 		* **Custom layers**
-			* **Replace map tile layer**
-			Replace objects only on the selected layers.
+			* **Replace map tile layer** : replace objects only on the selected layers.
 			* **Include object layer**
 
 Merge
-------------
+=====
+
+``Merge is used to create object by a child to an existing one.``
 
 	.. image:: images/tabs/MergeTab/MergeTab1.png
 
-Merge is used to create object by a child to an existing one.
- 
 	.. image:: images/tabs/MergeTab/MergeTab2.png
 	
 	* Merge object prefab mode
@@ -168,26 +147,16 @@ Merge is used to create object by a child to an existing one.
 		
 	.. image:: images/tabs/MergeTab/MergeTab3.png
 	
-	* Merge parent type
-		* **Target object prefab root**
-		The created object is created by a child to the prefab root.
-		
-		* **Target object parent of hit**
-		The created object is created by a child to the attached object.
-			
-		* **Custom parent**	
-		User selected custom parent
-		
-		* **Relative prefab root path**
-		The created object is created by a child to the prefab root relative prefab root path.
-		
-	* Delete components
-		Delete all unity-components of the object
+	* **Merge parent type:**
+		* **Target object prefab root** : the created object is created by a child to the prefab root.		
+		* **Target object parent of hit** : the created object is created by a child to the attached object.
+		* **Custom parent**	: user selected custom parent.
+		* **Relative prefab root path** : the created object is created by a child to the prefab root relative prefab root path.
+	* **Delete components** : delete all unity-components of the object.
 			* Delete only map tile 
 				or only MapTile component
 			
-	* Delete colliders	
-	Delete colliders of created object.
+	* **Delete colliders** : delete colliders of created object.
 	
 .. image:: images/tabs/MergeTab/MergeTab4.png
 
@@ -198,9 +167,9 @@ For example, use the brush to attach the object to desired object.
 And create it
 
 Overlay mapping
-------------
+===============
  
- Overlay mapping is used for objects that do not need a grid.
+``Overlay mapping is used for objects that do not need a grid.``
  
 .. image:: images/tabs/OverlayTab/OverlayTab1.png
 
@@ -213,50 +182,40 @@ For overlay MapTile objects and non-MapTile object overlay mapping enabled by de
 .. image:: images/tabs/OverlayTab/OverlayTab3.png
 
 **Movement type:**
-	* **Free moving**
-	Object attached to cursor
-	
-	* **Default cell**
-	Object snapping to default cell size.
-	
-	.. image:: images/tabs/OverlayTab/OverlayTab4.png
-	* **Custom cell**
-	Object snapping to custom cell size.
-	
-	.. image:: images/tabs/OverlayTab/OverlayTab5.png
-	.. image:: images/tabs/OverlayTab/OverlayTab6.png
-	* **Snap edge**
-	Object snapping to edges of default cell.
+	* **Free moving** :	object attached to cursor.	
+	* **Default cell** : object snapping to default cell size.
+	* **Custom cell** : object snapping to custom cell size.
+		.. image:: images/tabs/OverlayTab/OverlayTab4.png
+	* **Snap edge** : object snapping to edges of default cell.
+		.. image:: images/tabs/OverlayTab/OverlayTab5.png
+		.. image:: images/tabs/OverlayTab/OverlayTab6.png
 	
 	.. image:: images/tabs/OverlayTab/OverlayTab7.png
 
 	
 **Obstacle check type:**
-	* **Distance**
+	* **Distance** : object intersections are checked by distance (works only for ovelay grid objects).
 	
 	.. image:: images/tabs/OverlayTab/ObstacleDistanceAnim.gif
-	Object intersections are checked by distance (works only for ovelay grid objects).
 		
-	* **Raycast**
+	* **Raycast** : object intersections are checked by raycasts (works only for any gameobject).
 	.. image:: images/tabs/OverlayTab/ObstacleRaycastAnim.gif
-	Object intersections are checked by raycasts (works only for any gameobject).
 
 
 Randomizer
-------------
+==========
+
+``Enable randomize objects to randomize every object creation.``
 
 	.. image:: images/tabs/RandomizerTab/RandomizerTab1.png
-	
-Enable randomize objects to randomize every object creation.
-	* **Randomize any category object**
-	Any object of selected category involved in randomization.
+
+	* **Randomize any category object** : any object of selected category involved in randomization.
 
 .. image:: images/tabs/RandomizerTab/RandomizerTab2.png
 
 .. image:: images/tabs/RandomizerTab/RandomizeAnim.gif
 
 Or select custom objects to randomize.
-
 	
 .. image:: images/tabs/RandomizerTab/RandomizerTab3.png
 

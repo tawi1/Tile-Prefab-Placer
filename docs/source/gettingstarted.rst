@@ -49,7 +49,7 @@ Installation
 Prefabs
 =======
 
-`MapCreator` scroll view consists of prefab categories.
+```MapCreator` scroll view consists of prefab categories.``
 
 **Category** - it's a prefab set, create categories according to your needs.
 
