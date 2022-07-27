@@ -18,7 +18,7 @@ EditMode settings
 	* Translate mode
 	* Create template mode
 	
-Each mode contains unique settings, that described in more detail here :ref:`modes`
+Each mode contains unique settings, that described in more detail here :ref:`modes`.
 
 Random TRS
 ==========
@@ -46,14 +46,14 @@ Override settings
 
 	.. image:: images/tabs/OverrideTab/OverrideTab1.png
 
-	* **Override object parent** - choose a custom parent for the override.
-	* **Override MapTile layer** - choose a custom MapTile layer for MapTile objects.
-	* **Override Unity layer** - choose a custom Unity layer for the objects (Default, TransparentFX, Ignore Raycast, Water, UI, etc...).
+	* **Override object parent** : a custom parent for the override.
+	* **Override MapTile layer** : a custom MapTile layer for MapTile objects.
+	* **Override Unity layer** : a custom Unity layer for the objects (Default, TransparentFX, Ignore Raycast, Water, UI, etc...).
 
 	.. image:: images/tabs/OverrideTab/OverrideTab2.png
 
 	.. note::
-		For overlay MapTile objects or default game objects you can't override `MapTile` layer.
+		For overlay MapTile objects or default game objects (without `MapTile` component) you can't override `MapTile` layer.
 
 Snap settings
 =============
@@ -66,44 +66,44 @@ Object snap type:
 	* Auto snap
 	* Custom
 	
-**Auto snap** : objects are automatically attached to the surface depending on the parameters.
+	* **Auto snap** : objects are automatically attached to the surface depending on the parameters.
 
-	.. image:: images/tabs/SnapTab/SnapTab2.png
+		.. image:: images/tabs/SnapTab/SnapTab2.png
 
-	* **Attach to mesh** : the object is attached to the mesh, instead of the collider.
-	* **Attach same floor** : to auto-snap objects on the same height use the attach same floor.
+		* **Attach to mesh** : the object is attached to the mesh, instead of the collider.
+		* **Attach same floor** : to auto-snap objects on the same height use the attach same floor.
+			
+		.. image:: images/tabs/SnapTab/SnapTab3.png		
+		.. image:: images/tabs/SnapTab/SnapTab4.png
+			`Attach same floor example.`
+					
+		.. note::
+			Only works for area and line modes.
+
 		
-	.. image:: images/tabs/SnapTab/SnapTab3.png		
-	.. image:: images/tabs/SnapTab/SnapTab4.png
-		`Attach same floor example.`
-				
-	.. note::
-		Only works for area and line modes.
+		* **Snap layer mask** : layer that the object is automatically attached.
+		* **Custom floor offset** : additional offset to the surface.
+		* **Add pivot offset** : adds a pivot offset of the object relative to the surface.
+		
+		.. image:: images/tabs/SnapTab/SnapTab5.png
+		
+	Some tile objects may have a pivot in the center of the object.
+		
+		.. image:: images/tabs/SnapTab/SnapTab6.png
+		
+	To fix this, turn on add pivot offset
 
-	
-	* **Snap layer mask** : layer that the object is automatically attached.
-	* **Custom floor offset** : additional offset to the surface.
-	* **Add pivot offset** : adds a pivot offset of the object relative to the surface.
-	
-	.. image:: images/tabs/SnapTab/SnapTab5.png
-	
-Some tile objects may have a pivot in the center of the object.
-	
-	.. image:: images/tabs/SnapTab/SnapTab6.png
-	
-To fix this, turn on add pivot offset
+	* **Custom** : customization value of the position on the Y axis.
 
-**Custom**
+	.. image:: images/tabs/SnapTab/SnapTab7.png
 
-.. image:: images/tabs/SnapTab/SnapTab7.png
+	Customization value of the position on the Y axis.
 
-Customization value of the position on the Y axis.
-
-	* **Fixed zero position** : object is always positioned at Y zero position.
-	* **Prefab position** : object Y position is taken from the prefab position.
-	* **Custom position** : set desired Y position of the object.
-	
-	.. image:: images/tabs/SnapTab/SnapTab8.png
+		* **Fixed zero position** : object is always positioned at Y zero position.
+		* **Prefab position** : object Y position is taken from the prefab position.
+		* **Custom position** : set desired Y position of the object.
+		
+		.. image:: images/tabs/SnapTab/SnapTab8.png
 
 Replace
 =======
@@ -154,7 +154,7 @@ Merge
 		* **Relative prefab root path** : the created object is created by a child to the prefab root relative prefab root path.
 	* **Delete components** : delete all unity-components of the object.
 			* Delete only map tile 
-				or only MapTile component
+				or only MapTile component.
 			
 	* **Delete colliders** : delete colliders of created object.
 	
