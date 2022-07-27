@@ -178,7 +178,8 @@ You can enable it for `MapTile` layer 1-9.
 
 .. image:: images/tabs/OverlayTab/OverlayTab2.png
 
-For overlay `MapTile` objects and `non-MapTile` object overlay mapping enabled by default.
+	.. note::
+		For overlay `MapTile` objects and `non-MapTile` object overlay mapping enabled by default.
 
 .. image:: images/tabs/OverlayTab/OverlayTab3.png
 
@@ -214,7 +215,7 @@ Randomizer
 	.. image:: images/tabs/RandomizerTab/RandomizerTab2.png
 	
 	.. image:: images/tabs/RandomizerTab/RandomizerExample1.png
-	`Object randomization example (by default by pressing the space bar button)` 
+	`Object randomization example (by default by pressing the space bar button).` 
 
 Or select custom objects to randomize.
 	
