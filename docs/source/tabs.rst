@@ -141,7 +141,7 @@ Merge
 
 	.. image:: images/tabs/MergeTab/MergeTab2.png
 	
-	* Merge object prefab mode
+	* **Merge object prefab mode:**
 		* **Linked prefab** : the created object is a linked prefab.
 		* **Prefab clone** : the created object is a prefab clone.
 		
@@ -173,11 +173,11 @@ Overlay mapping
  
 .. image:: images/tabs/OverlayTab/OverlayTab1.png
 
-You can enable it for map tile layer 1-9.
+You can enable it for `MapTile` layer 1-9.
 
 .. image:: images/tabs/OverlayTab/OverlayTab2.png
 
-For overlay MapTile objects and non-MapTile object overlay mapping enabled by default.
+For overlay `MapTile` objects and `non-MapTile` object overlay mapping enabled by default.
 
 .. image:: images/tabs/OverlayTab/OverlayTab3.png
 
@@ -190,16 +190,15 @@ For overlay MapTile objects and non-MapTile object overlay mapping enabled by de
 		.. image:: images/tabs/OverlayTab/OverlayTab5.png
 		.. image:: images/tabs/OverlayTab/OverlayTab6.png
 	
+	
 	.. image:: images/tabs/OverlayTab/OverlayTab7.png
-
 	
 **Obstacle check type:**
-	* **Distance** : object intersections are checked by distance (works only for ovelay grid objects).
-	
-	.. image:: images/tabs/OverlayTab/ObstacleDistanceAnim.gif
+	* **Distance** : object intersections are checked by distance (works only for `MapTile` overlay grid objects).
+		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
 		
 	* **Raycast** : object intersections are checked by raycasts (works only for any gameobject).
-	.. image:: images/tabs/OverlayTab/ObstacleRaycastAnim.gif
+		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample2.png
 
 
 Randomizer
@@ -213,7 +212,8 @@ Randomizer
 
 .. image:: images/tabs/RandomizerTab/RandomizerTab2.png
 
-.. image:: images/tabs/RandomizerTab/RandomizeAnim.gif
+	.. image:: images/tabs/RandomizerTab/RandomizerExample1.png
+	`Object randomization example (by default by pressing the space bar button)` 
 
 Or select custom objects to randomize.
 	
