@@ -20,6 +20,9 @@ Contents
    maptile
    
    
+.. only:: html
+	ONLY html
+	
 .. only:: custom3
 	ONLY custom3
 		
