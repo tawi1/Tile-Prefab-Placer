@@ -47,56 +47,56 @@ MapTile layer
 
 ``Each MapTile object has its own layer, (Layer 1, Layer2, ..., Layer9) are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``
 
-.. only:: livehtml
-	ONLY livehtml
-	
-.. only:: main
-	ONLY main
-	
-.. only:: latest
-	ONLY latest
-	
-.. only:: pdf
-	ONLY pdf
-	
-.. only:: custom1
-	ONLY custom1
-	
-.. only:: custom2
-	ONLY custom2
-	
-.. only:: custom3
-	ONLY custom3
-	
-.. only:: is_on_readthedocs
-	ONLY is_on_readthedocs
-	
-.. only:: readthedocs
-	ONLY readthedocs
-	
-.. only:: format_html
-	ONLY format_html
-	
-.. only:: format_pdf
-	ONLY format_pdf
-	
-.. only:: builder_pdf
-	ONLY builder_pdf
-	
-.. only:: builder_html
-	ONLY builder_html	
-	
-.. only:: builder_singlehtml
-	ONLY builder_singlehtml
-	
-.. only:: latex
-	ONLY latex
-	
-.. only:: html
-	ONLY html
-	
-.. only:: HTML
-	ONLY HTML
+	.. only:: livehtml
+		ONLY livehtml
+		
+	.. only:: main
+		ONLY main
+		
+	.. only:: latest
+		ONLY latest
+		
+	.. only:: pdf
+		ONLY pdf
+		
+	.. only:: custom1
+		ONLY custom1
+		
+	.. only:: custom2
+		ONLY custom2
+		
+	.. only:: custom3
+		ONLY custom3
+		
+	.. only:: is_on_readthedocs
+		ONLY is_on_readthedocs
+		
+	.. only:: readthedocs
+		ONLY readthedocs
+		
+	.. only:: format_html
+		ONLY format_html
+		
+	.. only:: format_pdf
+		ONLY format_pdf
+		
+	.. only:: builder_pdf
+		ONLY builder_pdf
+		
+	.. only:: builder_html
+		ONLY builder_html	
+		
+	.. only:: builder_singlehtml
+		ONLY builder_singlehtml
+		
+	.. only:: latex
+		ONLY latex
+		
+	.. only:: html
+		ONLY html
+		
+	.. only:: HTML
+		ONLY HTML
 
-.. only:: PDF
-	ONLY PDF
+	.. only:: PDF
+		ONLY PDF
