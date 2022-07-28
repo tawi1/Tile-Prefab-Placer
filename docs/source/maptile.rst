@@ -52,3 +52,31 @@ MapTile layer
 
 .. only:: html
 	.. image:: images/modes/TilesetArea/TilesetAnim1.gif
+	
+.. only:: pdf
+	ONLY pdf
+	
+.. only:: html
+	ONLY html
+	
+.. only:: HTML
+	ONLY HTML
+
+.. only:: PDF
+	ONLY PDF
+	
+.. ifconfig:: releaselevel in ('pdf')
+
+	This stuff is only included in the built docs for pdf versions.
+   
+.. ifconfig:: releaselevel in ('latex')
+
+   This stuff is only included in the built docs for latex versions.
+   
+.. ifconfig:: releaselevel in ('html')
+
+   This stuff is only included in the built docs for html versions.
+   
+   .. ifconfig:: releaselevel in ('pdf')
+
+   This stuff is only included in the built docs for pdf versions.
