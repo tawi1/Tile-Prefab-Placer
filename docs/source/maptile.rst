@@ -56,6 +56,9 @@ MapTile layer
 .. only:: pdf
 	ONLY pdf
 	
+.. only:: latex
+	ONLY latex
+	
 .. only:: html
 	ONLY html
 	
