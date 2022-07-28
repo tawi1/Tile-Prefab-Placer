@@ -18,3 +18,10 @@ Contents
    tabs
    modes
    maptile
+   
+   
+.. only:: custom3
+	ONLY custom3
+		
+.. only:: readthedocs
+	ONLY readthedocs
