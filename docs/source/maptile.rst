@@ -56,6 +56,15 @@ MapTile layer
 .. only:: pdf
 	ONLY pdf
 	
+.. only:: builder_pdf
+	ONLY builder_pdf
+	
+.. only:: builder_html
+	ONLY builder_html	
+	
+.. only:: builder_singlehtml
+	ONLY builder_singlehtml
+	
 .. only:: latex
 	ONLY latex
 	
