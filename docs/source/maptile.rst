@@ -46,3 +46,9 @@ MapTile layer
 ------------
 
 ``Each MapTile object has its own layer, (Layer 1, Layer2, ..., Layer9) are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``
+
+.. only:: pdf
+	.. image:: images/modes/TilesetArea/TilesetAreaTab1.png
+
+.. only:: html
+	.. image:: images/modes/TilesetArea/TilesetAnim1.gif
