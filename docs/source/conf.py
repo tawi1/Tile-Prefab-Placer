@@ -34,3 +34,10 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+if READTHEDOCS == 'True':
+    tags.add('custom1')
+else:
+    tags.add('custom2')
+
+tags.add('custom3')

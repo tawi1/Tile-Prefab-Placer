@@ -59,6 +59,21 @@ MapTile layer
 .. only:: pdf
 	ONLY pdf
 	
+.. only:: custom1
+	ONLY custom1
+	
+.. only:: custom2
+	ONLY custom2
+	
+.. only:: custom3
+	ONLY custom3
+	
+.. only:: is_on_readthedocs
+	ONLY is_on_readthedocs
+	
+.. only:: readthedocs
+	ONLY readthedocs
+	
 .. only:: format_html
 	ONLY format_html
 	
