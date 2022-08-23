@@ -75,7 +75,9 @@ Single mode
 				
 			* **Target point position** : position of target point.
 			
+			|
 			.. image:: images/modes/SingleMode/PhysicsPlacingExample.png
+			`Physics placing example.`	
 			
 			.. note::
 				Rigidbody and collider components will automatically be temporarily added if they are missing.
@@ -105,6 +107,7 @@ Single mode
 			* **Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
 				* **Add surface pivot offset** : 
 			
+		|
 		.. image:: images/modes/SingleMode/SingleModeTab6-2.png
 		`Snap cube to cell example.`
 		
@@ -274,12 +277,15 @@ Line mode
 					* **Draw tangents** : display tangents of the nodes.
 					* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
 					
+		|
 		.. image:: images/modes/LineMode/LineModeTab6.png
 		`Simple line example (random pattern enabled).`		
 		
+		|
 		.. image:: images/modes/LineMode/LineModeTab7.png
 		`Bezier line example (auto-snap enabled).`		
 		
+		|
 		.. image:: images/modes/LineMode/LineModeTab8.png
 		`Circle line example (object random enabled).`
 
@@ -347,11 +353,13 @@ Destroy mode
 					* **Floor precision** : offset on the edges between floors.
 					* **Min floor number** : min floor number for delete. 
 					* **Max floor number** : max floor number for delete. 
-					
+				
+				|
 				.. image:: images/modes/DestroyMode/DestroyModeTab3.png
 				* **Cell last amount** : selected top floors are deleted.
 					* **Floor amount** : number of floors to remove.
 					
+				|
 				.. image:: images/modes/DestroyMode/DestroyModeTab4.png
 				* **Area max amount** : maximal level floors are deleted.
 					* **Floor amount** : number of floors to remove.	
@@ -366,7 +374,7 @@ Destroy mode
 					
 					
 		.. note::
-			* The floor delete method only works on GameObjects with MapTile component.
+			* The floor delete method only works on GameObjects with `MapTile` component.
 			* Enable auto-snap to attach cursor for any surface.
 			
 		* **Raycast deletion:**	
@@ -431,7 +439,7 @@ Tileset mode
 							
 		Click `E` button to start the tileset area, after the area is set, press the `E` button again to spawn tileset area.
 
-	* **Selected MapTile prefab** : what MapTile prefab is selected.
+	* **Selected MapTile prefab** : what `MapTile` prefab is selected.
 	* **Selected tileset** : what tileset prefab is selected.
 	
 	**How to create tileset:**	
@@ -445,6 +453,8 @@ Tileset mode
 		
 		.. image:: images/modes/TilesetArea/TileSetAreaExample1.png
 		.. image:: images/modes/TilesetArea/TileSetAreaExample2.png
+		
+		|
 		* Press open tile edit mode prefab to configure the tile set.
 		* Select the cells where the connection of the tiles will be.
 		
@@ -541,8 +551,8 @@ Create template mode
 	* **Template prefab name** : template name.
 	* **Template create path** : template creation path.
 	* **Template object type:**
-		* **MapTile** : template will be created with the MapTile component.
-		* **Default gameobject** : template will be created without the MapTile component.
+		* **MapTile** : template will be created with the `MapTile` component.
+		* **Default gameobject** : template will be created without the `MapTile` component.
 	* **Child prefab type:**
 		* **Linked prefab** : child objects of the template are linked prefabs.
 		* **Prefab clone**: child objects of the template are prefab clones.
@@ -551,7 +561,7 @@ Create template mode
 		* **Custom**: template prefab is added to the custom category.
 			* **Category**: name of the custom category.
 	* **Delete child components**: delete all unity-components of the object.
-		* **Delete only MapTile**: or only MapTile component
+		* **Delete only MapTile**: or only `MapTile` component
 	* **Delete child colliders**: delete colliders of created object
 	* **Selected object count**: the number of selected objects for the template.
 	* **Template pivot**: local pivot position of the template.
