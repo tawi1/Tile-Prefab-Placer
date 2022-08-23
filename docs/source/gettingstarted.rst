@@ -32,7 +32,8 @@ Installation
 #. Select tile 1x1 size to customize tile size of the tool.
 
 		.. image:: images/gettingstarted/TileInitilization.png
-
+		
+	|
 	* Move the 1x1 size of the tile into the field & press `show info` button.
 		.. image:: images/gettingstarted/TileInitilization2.png
 
@@ -43,7 +44,7 @@ Installation
 	.. image:: images/gettingstarted/CachedValuesTabPrefabPath.png
 
 
-.. _prefabs:
+.. _prefabs:Ctrl & scroll wheel button
 
 
 Prefabs
@@ -200,19 +201,19 @@ Hotkeys
 --------------------------
 
 	* **Single mode:**
-		* `**Ctrl & scroll wheel button**` : increasing and decreasing the scale of the object.
+		* `Ctrl & scroll wheel button` : increasing and decreasing the scale of the object.
 	* **Line mode:**
 		* **Default:**
-			* `**Ctrl & scroll wheel button**` : increase number of the floors (multi-floor support should be enabled).
+			* `Ctrl & scroll wheel button` : increase number of the floors (multi-floor support should be enabled).
 		* **Curved:**
 			* **Simple line:**
-				* `**Ctrl & left-mouse click**` : add a new segment of the line.
+				* `Ctrl & left-mouse click` : add a new segment of the line.
 	* **Area mode:**
 		* **Default:**
-			* `**Ctrl & scroll wheel button**` : increase number of the floors (multi-floor support should be enabled).
+			* `Ctrl & scroll wheel button` : increase number of the floors (multi-floor support should be enabled).
 	* **Destroy mode:**
 		* **Selection mode:**
-			* `**Space**` : deleting selected objects using the selection box.
+			* `Space` : deleting selected objects using the selection box.
 
 
 
