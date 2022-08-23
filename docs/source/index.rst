@@ -17,6 +17,12 @@ how to :ref:`installation` the project.
 			
 	.. only:: readthedocs
 		ONLY readthedocs
+		
+	.. only:: pdf
+		ONLY pdf	
+		
+.. only:: pdf
+	ONLY pdf
 	
 Contents
 --------
