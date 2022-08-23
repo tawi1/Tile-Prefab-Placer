@@ -39,25 +39,25 @@ Single mode
 			* **Clamp cell movement** : clamp the object movement within grid cell.
 
 		.. image:: images/modes/SingleMode/SelectEditExample.png
-	
-
-
+		
+		|
+		
 		* **Cursor point rotation** : rotates the object in the direction of the cursor.
 		
 		.. image:: images/modes/SingleMode/CursorPointExample.png
 		
-
-
-		* **Custom point rotation** : rotates the object in the direction of the target object.
+		|
+		
+		* **Custom point rotation** : rotates the object in the direction of the target object.		
 		
 		.. image:: images/modes/SingleMode/SingleModeTab4.png
 		
 			* **Snap Y Axis** : snap target object to the Y axis.
 			* **Target point position** : position of target point.
 		
-		.. image:: images/modes/SingleMode/CustomPointRotationExample.png
+		.. image:: images/modes/SingleMode/CustomPointRotationExample.png		
 		
-		
+		|			
 		
 		* **Physics placing** : place objects using physics.
 		
@@ -204,6 +204,7 @@ Line mode
 		.. image:: images/modes/LineMode/LineModeTab1.png
 		* **Free** : places objects on a grid in the direction of the cursor.
 
+		|
 		.. image:: images/modes/LineMode/LineModeTab2.png
 		`Free line example (endless line enabled).`
 		
@@ -226,7 +227,7 @@ Line mode
 				* **Floor offset** : additional floor offset.
 			* **Rotation along line** : rotation of each object is rotated along the line.
 			
-			
+		|
 		.. image:: images/modes/LineMode/LineModeTab4.png
 		`Fixed line example.`
 		
@@ -355,9 +356,11 @@ Destroy mode
 				* **Area max amount** : maximal level floors are deleted.
 					* **Floor amount** : number of floors to remove.	
 					
+			|
 			.. image:: images/modes/DestroyMode/DestroyModeTab5.png
 			`Cell last amount remove example.`			
 			
+			|
 			.. image:: images/modes/DestroyMode/DestroyModeTab6.png
 			`Selected 0 - 2 floors to remove example.`
 					
@@ -437,6 +440,7 @@ Tileset mode
 		* Press create button.
 		.. image:: images/modes/TilesetArea/TilesetAreaTab1.png
 		
+		|
 		* Drag and drop the desired prefabs into the box (the default prefab should drop first).
 		
 		.. image:: images/modes/TilesetArea/TileSetAreaExample1.png
@@ -445,12 +449,16 @@ Tileset mode
 		* Select the cells where the connection of the tiles will be.
 		
 			.. image:: images/modes/TilesetArea/TilesetConnectionExample1.png
+			|
 			.. image:: images/modes/TilesetArea/TilesetConnectionExample2.png
+			|
 			.. image:: images/modes/TilesetArea/TilesetConnectionExample3.png
+			|
 			.. image:: images/modes/TilesetArea/TilesetConnectionExample4.png
 				
 			`Tile connection setup example example.`						
 				
+			|
 			.. image:: images/modes/TilesetArea/CreateTilesetExample1.png
 			`Create tileset area example.`		
 	
@@ -494,10 +502,11 @@ Translate mode
 			* **Snap value**
 	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
 	
+	|
 	.. image:: images/modes/TranslateMode/TranslateModeExample1.png
 	`Translate mode example 1.`	
 	
-	
+	|
 	.. image:: images/modes/TranslateMode/TranslateModeExample2.png
 	`Translate mode example 2 (Red object is a source, blue object is the intersected object).`
 
@@ -551,6 +560,7 @@ Create template mode
 		* **Y bounds size**: y bounds size of the template.
 		* **Bounds color**: color of the bounds.
 		
+	|
 	.. image:: images/modes/TemplateMode/TemplateMode3.png
 	`Template mode example.`
 
