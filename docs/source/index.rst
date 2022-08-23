@@ -9,6 +9,15 @@ You can buy it from unity asset store: `Tile Prefab Placer <https://assetstore.u
 Check out the :doc:`gettingstarted` section for further information, including
 how to :ref:`installation` the project.
 
+	.. only:: html
+		ONLY html
+		
+	.. only:: custom3
+		ONLY custom3
+			
+	.. only:: readthedocs
+		ONLY readthedocs
+	
 Contents
 --------
 
@@ -20,11 +29,4 @@ Contents
    maptile
    
    
-.. only:: html
-	ONLY html
-	
-.. only:: custom3
-	ONLY custom3
-		
-.. only:: readthedocs
-	ONLY readthedocs
+
