@@ -1,7 +1,7 @@
+.. _modes:
+
 Modes overview
 =====
-
-.. _modes:
 	
 Common info
 ------------
