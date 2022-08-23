@@ -1,17 +1,17 @@
+.. _maptile:
+
 MapTile component overview
 =====
-
-.. _maptile:
 
 MapTile component settings
 ------------
 
-``Map tile component is used for the calculation of intersections on the grid, but if you don't need it, you can use default game objects without maptile component.``
+``Map tile component is used for the calculation of intersections on the grid, but if you don't need it, you can use default game objects without `MapTile` component.``
 
-	.. image:: images/other/MapTile.png
+	.. image:: images/maptile/MapTile.png
 	
-	* **Map** : reference to MapCreator.
-	* **Map tile layer** : current MapTile layer.
+	* **Map** : reference to `MapCreator`.
+	* **Map tile layer** : current `MapTile` layer.
 	* **Movement type:**
 		* **Cell** : moving an object on a grid.
 			* **Auto snap position** : enable grid snapping for the object.
@@ -45,8 +45,41 @@ MapTile component settings
 MapTile layer
 ------------
 
-``Each MapTile object has its own layer, (Layer 1, Layer2, ..., Layer9) are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``
+``Each `MapTile` object has its own layer, (Layer 1, Layer2, ..., Layer9) are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``
 
+	.. note::
+		You can change the name of the layer here :ref:`mapHolder`.
+		
+MapCreator layer
+------------
+
+``MapCreator layers is used to configure the display, selection, removal of objects of the selected layer in the scene and display in the inspector, depending on the selected edit mode.``
+
+	.. image:: images/maptile/LayerSettings1.png
+	* **Show all layers `(if disabled)`**
+		* **Selected `MapTile` layer**
+		* **Disable other object layers** : turn off objects in the scene with the improper layer.
+	
+	|
+	
+	Adjust the layers for displaying objects in the inspector according to their layer.
+	.. image:: images/maptile/LayerSettings2.png
+	.. image:: images/maptile/LayerSettings3.png
+	
+	|
+	.. image:: images/maptile/LayerSettings4.png	
+	`Show only Layer1 objects example.`
+	
+	|
+	.. image:: images/maptile/LayerSettings5.png
+	`Show only Layer2 objects example.`
+	
+	|
+	.. image:: images/maptile/LayerSettings6.png
+	`Show only Overlay objects example.`
+	
+	
+		
 	.. only:: custom3
 		ONLY custom3
 		

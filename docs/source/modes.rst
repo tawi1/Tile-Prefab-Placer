@@ -57,6 +57,9 @@ Single mode
 		
 		.. image:: images/modes/SingleMode/CustomPointRotationExample.png		
 		
+		.. note::
+			By default, you can change the scale of the object with the `left-ctrl` and the `mouse wheel` keys.
+		
 		|			
 		
 		* **Physics placing** : place objects using physics.
@@ -64,7 +67,7 @@ Single mode
 			.. image:: images/modes/SingleMode/SingleModeTab5.png
 		
 			* **Simulation settings:**
-				* **Auto stop simulation**
+				* **Auto stop simulation** : physics simulation will automatically stop after the objects are frozen in position.
 				* **Auto destroy falling object** :
 					* **Y destroy position** : position below which physical objects are automatically destroyed.
 				

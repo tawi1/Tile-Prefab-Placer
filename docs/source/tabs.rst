@@ -92,9 +92,8 @@ Object snap type:
 		Some tile objects may have a pivot in the center of the object.
 	
 		|	
-		.. image:: images/tabs/SnapTab/SnapTab6.png
-		
-	To fix this, turn on add pivot offset
+		.. image:: images/tabs/SnapTab/SnapTab6.png		
+		To fix this, turn on add pivot offset
 
 	* **Custom** : customization value of the position on the Y axis.
 
@@ -186,13 +185,14 @@ You can enable it for `MapTile` layer 1-9.
 	* **Free moving** :	object attached to cursor.	
 	* **Default cell** : object snapping to default cell size.
 	* **Custom cell** : object snapping to custom cell size.
+	
 		.. image:: images/tabs/OverlayTab/OverlayTab4.png
-		
+		`Custom cell snapping example (custom cell size is equal 4.)` 
 	|
 	* **Snap edge** : object snapping to edges of default cell.
 		.. image:: images/tabs/OverlayTab/OverlayTab5.png
 		.. image:: images/tabs/OverlayTab/OverlayTab6.png
-	
+		`Snap edge examples.` 
 	|
 	.. image:: images/tabs/OverlayTab/OverlayTab7.png
 	

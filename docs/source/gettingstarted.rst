@@ -119,6 +119,8 @@ Configs
 * **Map Data Holder** : :ref:`map layer data<Map Holder Settings>`.
 
 
+.. _mapHolder:
+
 **Map Holder Settings**
 -----------------------
 
