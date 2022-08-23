@@ -1,8 +1,8 @@
+.. _tabs:
+
 ********************
 Common tabs overview
 ********************
-
-.. _tabs:
 
 EditMode settings
 =================
@@ -88,10 +88,10 @@ Object snap type:
 		* **Custom floor offset** : additional offset to the surface.
 		* **Add pivot offset** : adds a pivot offset of the object relative to the surface.
 		
-		.. image:: images/tabs/SnapTab/SnapTab5.png
-		
-	Some tile objects may have a pivot in the center of the object.
-		
+		.. image:: images/tabs/SnapTab/SnapTab5.png		
+		Some tile objects may have a pivot in the center of the object.
+	
+		|	
 		.. image:: images/tabs/SnapTab/SnapTab6.png
 		
 	To fix this, turn on add pivot offset
@@ -159,13 +159,12 @@ Merge
 			
 	* **Delete colliders** : delete colliders of created object.
 	
-.. image:: images/tabs/MergeTab/MergeTab4.png
+	.. image:: images/tabs/MergeTab/MergeTab4.png
+	For example, use the brush to attach the object to desired object.
 
-For example, use the brush to attach the object to desired object.
-
-.. image:: images/tabs/MergeTab/MergeTab5.png
-
-And create it
+	|
+	.. image:: images/tabs/MergeTab/MergeTab5.png
+	And create it
 
 Overlay mapping
 ===============
@@ -188,16 +187,19 @@ You can enable it for `MapTile` layer 1-9.
 	* **Default cell** : object snapping to default cell size.
 	* **Custom cell** : object snapping to custom cell size.
 		.. image:: images/tabs/OverlayTab/OverlayTab4.png
+		
+	|
 	* **Snap edge** : object snapping to edges of default cell.
 		.. image:: images/tabs/OverlayTab/OverlayTab5.png
 		.. image:: images/tabs/OverlayTab/OverlayTab6.png
 	
-	
+	|
 	.. image:: images/tabs/OverlayTab/OverlayTab7.png
 	
 **Obstacle check type:**
 	* **Distance** : object intersections are checked by distance (works only for `MapTile` overlay grid objects).
 		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample2.png
+		|
 		
 	* **Raycast** : object intersections are checked by raycasts (works only for any gameobject with colliders).
 		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
@@ -219,11 +221,9 @@ Randomizer
 
 Or select custom objects to randomize.
 	
-.. image:: images/tabs/RandomizerTab/RandomizerTab3.png
+	.. image:: images/tabs/RandomizerTab/RandomizerTab3.png
+	Enter random pattern according to the indices of the selected objects.
 
-Enter random pattern according to the indices of the selected objects.
-
-
-.. image:: images/tabs/RandomizerTab/RandomizerTab4.png
-	
-And place the objects according to the pattern.
+	|
+	.. image:: images/tabs/RandomizerTab/RandomizerTab4.png	
+	And place the objects according to the pattern.
