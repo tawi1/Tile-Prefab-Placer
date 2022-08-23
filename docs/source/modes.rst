@@ -38,13 +38,13 @@ Single mode
 			* **Show movement handle** : show movement handle of target object.
 			* **Clamp cell movement** : clamp the object movement within grid cell.
 
-		.. image:: images/modes/SingleMode/SelectEditAnim.gif
+		.. image:: images/modes/SingleMode/SelectEditExample.png
 	
 
 
 		* **Cursor point rotation** : rotates the object in the direction of the cursor.
 		
-		.. image:: images/modes/SingleMode/CursorPointAnim.gif
+		.. image:: images/modes/SingleMode/CursorPointExample.png
 		
 
 
@@ -55,7 +55,7 @@ Single mode
 			* **Snap Y Axis** : snap target object to the Y axis.
 			* **Target point position** : position of target point.
 		
-		.. image:: images/modes/SingleMode/CustomPointRotationAnim.gif
+		.. image:: images/modes/SingleMode/CustomPointRotationExample.png
 		
 		
 		
@@ -75,7 +75,7 @@ Single mode
 				
 			* **Target point position** : position of target point.
 			
-			.. image:: images/modes/SingleMode/PhysicsPlacingAnim.gif
+			.. image:: images/modes/SingleMode/PhysicsPlacingExample.png
 			
 			.. note::
 				Rigidbody and collider components will automatically be temporarily added if they are missing.
@@ -176,15 +176,15 @@ Brush mode
 			* **Additional rotation along brush** : additional rotation offset for along line objects.
 
 
-	.. image:: images/modes/BrushMode/BrushAnim1.gif
+	.. image:: images/modes/BrushMode/BrushExample1.png
 	`Brush example 1.`
 	
 	
-	.. image:: images/modes/BrushMode/BrushAnim2.gif
+	.. image:: images/modes/BrushMode/BrushExample2.png
 	`Brush example 2.`
 	
 	
-	.. image:: images/modes/BrushMode/BrushAnim3.gif
+	.. image:: images/modes/BrushMode/BrushExample3.png
 	`Brush example 3 (slope angle 30 degrees enabled).`
 
 Line mode
@@ -439,23 +439,20 @@ Tileset mode
 		
 		* Drag and drop the desired prefabs into the box (the default prefab should drop first).
 		
-		.. image:: images/modes/TilesetArea/TilesetAnim1.gif
+		.. image:: images/modes/TilesetArea/TileSetAreaExample1.png
+		.. image:: images/modes/TilesetArea/TileSetAreaExample2.png
 		* Press open tile edit mode prefab to configure the tile set.
 		* Select the cells where the connection of the tiles will be.
 		
-			.. image:: images/modes/TilesetArea/TilesetAnim2.gif
-				:width: 250
-			.. image:: images/modes/TilesetArea/TilesetAnim3.gif
-				:width: 250
-			.. image:: images/modes/TilesetArea/TilesetAnim4.gif
-				:width: 250
-			.. image:: images/modes/TilesetArea/TilesetAnim5.gif
-				:width: 250
+			.. image:: images/modes/TilesetArea/TilesetConnectionExample1.png
+			.. image:: images/modes/TilesetArea/TilesetConnectionExample2.png
+			.. image:: images/modes/TilesetArea/TilesetConnectionExample3.png
+			.. image:: images/modes/TilesetArea/TilesetConnectionExample4.png
 				
-			`Tile connection setup example example.`		
+			`Tile connection setup example example.`						
 				
-				
-			.. image:: images/modes/TilesetArea/TilesetAnim6.gif
+			.. image:: images/modes/TilesetArea/CreateTilesetExample1.png
+			`Create tileset area example.`		
 	
 Translate mode
 ------------
@@ -497,12 +494,12 @@ Translate mode
 			* **Snap value**
 	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
 	
-	.. image:: images/modes/TranslateMode/TranslateModeAnim1.gif
-	`Translate mode example 1`	
+	.. image:: images/modes/TranslateMode/TranslateModeExample1.png
+	`Translate mode example 1.`	
 	
 	
-	.. image:: images/modes/TranslateMode/TranslateModeAnim2.gif
-	`Translate mode example 2`
+	.. image:: images/modes/TranslateMode/TranslateModeExample2.png
+	`Translate mode example 2 (Red object is a source, blue object is the intersected object).`
 
 Create template mode
 ------------
@@ -555,7 +552,5 @@ Create template mode
 		* **Bounds color**: color of the bounds.
 		
 	.. image:: images/modes/TemplateMode/TemplateMode3.png
-	
-	.. image:: images/modes/TemplateMode/TemplateModeAnim1.gif
 	`Template mode example.`
 
