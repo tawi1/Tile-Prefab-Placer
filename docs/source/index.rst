@@ -13,11 +13,6 @@ Contents
 --------
 
 .. toctree::
-
-   gettingstarted
-   tabs
-   modes
-   maptile
-   
+	:numbered:
    
 
