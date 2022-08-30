@@ -48,4 +48,3 @@ latex_use_parts = False
 latex_elements = {
   'extraclassoptions': 'openany,oneside'
 }
-}

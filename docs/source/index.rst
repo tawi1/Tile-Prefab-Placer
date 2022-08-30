@@ -13,6 +13,8 @@ Contents
 --------
 
 .. toctree::
+	:maxdepth: 3
+	
 	gettingstarted
 	tabs
 	modes
