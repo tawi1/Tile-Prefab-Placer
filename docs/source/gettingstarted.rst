@@ -6,16 +6,35 @@ Getting started
 Installation
 ============
 
+`Getting started tutorial <https://youtu.be/Y_LklnjDQ2U>`_
+
 **To use Tile Prefab Placer steps:**
 
 #. Download & import from unity asset store.
 
 #. First time initilization window will appear automatically or you can open it manually in toolbar ``604Spirit/MapEditor/Window/Map Creator Initialization.``
 
-#. Click `Load Packages` to start downloading required packages for this tool.
-
 	.. image:: images/gettingstarted/InitilizationWindow.png
 
+#. Set the root path of the tool, it is automatically detected (or manually press the `Detect Root` button).
+
+#. Click the create and init button (if you want to change the tool prefab root path you will need to do 2 previous steps again). 
+
+#. Select tile 1x1 size to customize tile size of the tool.
+
+		.. image:: images/gettingstarted/TileInitilization.png
+		
+	|
+	* Move the 1x1 size of the tile into the field & press `show info` button.
+		.. image:: images/gettingstarted/TileInitilization2.png
+
+	* Press `set exist config` to assign the tile size to the tool.
+	
+	|
+	
+	.. image:: images/gettingstarted/PackageSetupWindow.png
+	
+#. Click `Load Packages` to start downloading required packages for this tool.
 
 	.. note::
 		**Required packages:**
@@ -28,16 +47,6 @@ Installation
 	.. note::
 		**Required project script defines:**
 			* **MAP_EDITOR**
-
-#. Select tile 1x1 size to customize tile size of the tool.
-
-		.. image:: images/gettingstarted/TileInitilization.png
-		
-	|
-	* Move the 1x1 size of the tile into the field & press `show info` button.
-		.. image:: images/gettingstarted/TileInitilization2.png
-
-	* Press `set exist config` to assign the tile size to the tool.
 	
 #. Set the tile path in the `MapCreator`'s cached settings tab where the prefab categories are stored.
 

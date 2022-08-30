@@ -56,14 +56,16 @@ MapCreator layer
 ``MapCreator layers is used to configure the display, selection, removal of objects of the selected layer in the scene and display in the inspector, depending on the selected edit mode.``
 
 	.. image:: images/maptile/LayerSettings1.png
-	* **Show all layers `(if disabled)`**
+	* **Show all layers [if disabled]:`**
 		* **Selected `MapTile` layer**
 		* **Disable other object layers** : turn off objects in the scene with the improper layer.
 	
 	|
 	
 	Adjust the layers for displaying objects in the inspector according to their layer.
+	
 	.. image:: images/maptile/LayerSettings2.png
+	
 	.. image:: images/maptile/LayerSettings3.png
 	
 	|
@@ -77,68 +79,3 @@ MapCreator layer
 	|
 	.. image:: images/maptile/LayerSettings6.png
 	`Show only Overlay objects example.`
-	
-	
-		
-	.. only:: custom3
-		ONLY custom3
-		
-	.. only:: readthedocs
-		ONLY readthedocs
-		
-	.. only:: is_on_readthedocs
-		ONLY is_on_readthedocs
-		
-	.. only:: livehtml
-		ONLY livehtml
-		
-	.. only:: main
-		ONLY main
-		
-	.. only:: latest
-		ONLY latest
-		
-	.. only:: pdf
-		ONLY pdf
-		
-	.. only:: custom1
-		ONLY custom1
-		
-	.. only:: custom2
-		ONLY custom2
-		
-	.. only:: custom3
-		ONLY custom3
-		
-	.. only:: is_on_readthedocs
-		ONLY is_on_readthedocs
-		
-	.. only:: readthedocs
-		ONLY readthedocs
-		
-	.. only:: format_html
-		ONLY format_html
-		
-	.. only:: format_pdf
-		ONLY format_pdf
-		
-	.. only:: builder_pdf
-		ONLY builder_pdf
-		
-	.. only:: builder_html
-		ONLY builder_html	
-		
-	.. only:: builder_singlehtml
-		ONLY builder_singlehtml
-		
-	.. only:: latex
-		ONLY latex
-		
-	.. only:: html
-		ONLY html
-		
-	.. only:: HTML
-		ONLY HTML
-
-	.. only:: PDF
-		ONLY PDF

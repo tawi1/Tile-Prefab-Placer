@@ -223,7 +223,7 @@ Line mode
 			* **Spacing cell** : spacing cell beetween objects.
 			* **Endless line** : the line automatically continues after the created previous one. 
 			* **Show snap neighbors**
-			* **Multifloor support:** : enable multi floor feature
+			* **Multifloor:** : enable multi floor feature
 				* **Auto reset floor** : auto reset floor count to 1 after unselect.
 				* **Floor count** : count of object floors.
 				* **Floor offset mode:**
@@ -250,7 +250,7 @@ Line mode
 		`Fixed line example:`		
 			* Randomizer with pattern (01) enabled.	
 			* Snap edge enabled.
-			* Edge side offset (0.5)).		
+			* Edge side offset (0.5).		
 		
 		|
 		
@@ -297,6 +297,7 @@ Line mode
 					* **Draw tangents** : display tangents of the nodes.
 					* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
 					
+			|
 			
 			.. image:: images/modes/LineMode/AdditionalCurveSettings.png
 			* **Additional curve settings (randomizer window):**
@@ -309,11 +310,13 @@ Line mode
 		.. image:: images/modes/LineMode/LineModeTab6.png
 		`Simple line example:`
 			* Random pattern enabled.		
-			* Flexible spacing enabled (additional `ignore size` & `edge` enabled at the pillar in the randomizer window).		
+			* Flexible spacing enabled (additional `ignore size` & `edge` enabled at the pillar in the `randomizer` window).		
 		
 		|
 		.. image:: images/modes/LineMode/LineModeTab7.png
-		`Bezier line example (auto-snap enabled).`		
+		`Bezier line example:`
+			* Auto-snap enabled.	
+			* Random rotation enabled.	
 		
 		|
 		.. image:: images/modes/LineMode/LineModeTab8.png
@@ -346,7 +349,7 @@ Area mode
 		* **Scale**	: scaling a single object on an area.
 	* **Random spacing cell** : spacing cell beetween objects.
 	* **Spacing cell** : spacing cell beetween objects.
-	* **Multifloor support:** : enable multi floor feature
+	* **Multifloor:** : enable multi floor feature
 		* **Auto reset floor** : auto reset floor count to 1 after unselect.
 		* **Floor count** : count of object floors.
 		* **Floor offset mode:**
@@ -354,6 +357,7 @@ Area mode
 			* **Mesh bounds** : Y axis size mesh renderer floor offset.			
 			* **Collider bounds** : Y axis size collider floor offset.				
 		* **Floor offset** : additional floor offset.
+	* **Floating grid** : the center of the grid will be at the cursor (works only with `Free moving` movement type).
 
 	.. note::
 		`Snap same floor` feature for auto-snap available.
@@ -496,7 +500,7 @@ Tileset mode
 			|
 			.. image:: images/modes/TilesetArea/TilesetConnectionExample4.png
 				
-			`Tile connection setup example example.`						
+			`Tile connection setup example examples.`						
 				
 			|
 			.. image:: images/modes/TilesetArea/CreateTilesetExample1.png

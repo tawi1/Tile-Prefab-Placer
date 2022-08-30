@@ -32,7 +32,7 @@ Random TRS
 
 * Choose which angle and axis of rotation to randomize.
 	.. image:: images/tabs/RandomTab/RandomTab2.png
-
+	
 * Enter randomize local position relative spawn position.
 	.. image:: images/tabs/RandomTab/RandomTab3.png
 
@@ -62,10 +62,7 @@ Snap settings
 
 .. image:: images/tabs/SnapTab/SnapTab1.png
 
-Object snap type:
-	* Auto snap
-	* Custom
-	
+**Object snap type:**
 	* **Auto snap** : objects are automatically attached to the surface depending on the parameters.
 
 		.. image:: images/tabs/SnapTab/SnapTab2.png
@@ -97,7 +94,7 @@ Object snap type:
 
 	* **Custom** : customization value of the position on the Y axis.
 
-	.. image:: images/tabs/SnapTab/SnapTab7.png
+		.. image:: images/tabs/SnapTab/SnapTab7.png
 
 		* **Fixed zero position** : object is always positioned at Y zero position.
 		* **Prefab position** : object Y position is taken from the prefab position.
@@ -168,11 +165,11 @@ Merge
 Overlay mapping
 ===============
  
-``Overlay mapping is used for objects that do not need a grid.``
+``Overlay mapping is used for objects that do not need to calculate intersections with other objects on the grid, also used to set a custom grid or disable snapping to the grid.``
  
 .. image:: images/tabs/OverlayTab/OverlayTab1.png
 
-You can enable it for `MapTile` layer 1-9.
+You can enable it for `MapTile` layer 1-9 (for overlay layer objects and default gameobjects (without `MapTile` component) enabled by default).
 
 .. image:: images/tabs/OverlayTab/OverlayTab2.png
 
@@ -189,20 +186,36 @@ You can enable it for `MapTile` layer 1-9.
 		.. image:: images/tabs/OverlayTab/OverlayTab4.png
 		`Custom cell snapping example (custom cell size is equal 4.)` 
 	|
+	
 	* **Snap edge** : object snapping to edges of default cell.
-		.. image:: images/tabs/OverlayTab/OverlayTab5.png
-		.. image:: images/tabs/OverlayTab/OverlayTab6.png
-		`Snap edge examples.` 
+	
 	|
+	
+		.. image:: images/tabs/OverlayTab/OverlayTab5.png		
+		`Snap edge example 1.` 
+		
+		.. image:: images/tabs/OverlayTab/OverlayTab6.png
+		`Snap edge example 2.` 
+	|
+	
 	.. image:: images/tabs/OverlayTab/OverlayTab7.png
 	
 **Obstacle check type:**
 	* **Distance** : object intersections are checked by distance (works only for `MapTile` overlay grid objects).
+	
+		|
+		
 		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample2.png
+		`Obstacle distance check example.` 
+		
 		|
 		
 	* **Raycast** : object intersections are checked by raycasts (works only for any gameobject with colliders).
+	
+		|
+		
 		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
+		`Obstacle raycast check example.` 
 
 
 Randomizer
