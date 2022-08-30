@@ -247,7 +247,10 @@ Line mode
 			
 		
 		.. image:: images/modes/LineMode/LineEdgeExample.png
-		`Fixed line example (randomizer with pattern (01) enabled; snap edge enabled; edge side offset (0.5)).`		
+		`Fixed line example:`		
+			* Randomizer with pattern (01) enabled.	
+			* Snap edge enabled.
+			* Edge side offset (0.5)).		
 		
 		|
 		
@@ -294,9 +297,19 @@ Line mode
 					* **Draw tangents** : display tangents of the nodes.
 					* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
 					
+			
+			.. image:: images/modes/LineMode/AdditionalCurveSettings.png
+			* **Additional curve settings (randomizer window):**
+				* **Flexible spacing [enabled]:**
+					* **Ignore size** : object size in the line is ignored.
+						* **Edge** : object takes the rotation of the previous object, also the line is finished by this object.
+				
+		
 		|
 		.. image:: images/modes/LineMode/LineModeTab6.png
-		`Simple line example (random pattern enabled).`		
+		`Simple line example:`
+			* Random pattern enabled.		
+			* Flexible spacing enabled (additional `ignore size` & `edge` enabled at the pillar in the randomizer window).		
 		
 		|
 		.. image:: images/modes/LineMode/LineModeTab7.png
