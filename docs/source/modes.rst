@@ -235,7 +235,21 @@ Line mode
 			
 		|
 		.. image:: images/modes/LineMode/LineModeTab4.png
-		`Fixed line example.`
+		`Fixed line example (randomizer enabled).`		
+		|
+		
+		.. image:: images/modes/LineMode/LineEdgeSettings.png
+		* **Free/Fixed edge settings (movement type `snap edge` should be enabled in the `overlay tab`)** 
+			* **Snap every edge** : object will be placed on each cell edge on the line.
+			* **Add edge side offset* : adds an offset to the side of the line.
+				* **Edge relative point* : point relative to which the offset will be applied to the side.
+				* **Edge side offset* : offset value to the side.
+			
+		|
+		
+		.. image:: images/modes/LineMode/LineEdgeExample.png
+		`Fixed line example (randomizer with pattern (01) enabled; snap edge enabled; edge side offset (0.5)).`		
+		|
 		
 		.. note::
 			`Snap same floor` feature for auto-snap available.

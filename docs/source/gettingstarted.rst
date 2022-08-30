@@ -156,6 +156,9 @@ Here are references to the maps and the name of the layers.
 	* **Allow Object Color** : color for the object that can be placed.
 	* **Forbidden Mesh Grid Color** : color for the object that can't be placed.
 	* **Intersection Mesh Grid Color** : color for the object that intersected.
+	
+* Temp Overlay Mesh Grid Settings
+	* **Mesh Surface Offset** : offset from the surface for the mesh grid.
 
 **Common Settings**
 -------------------
