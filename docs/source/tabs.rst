@@ -100,7 +100,9 @@ Snap settings
 		* **Prefab position** : object Y position is taken from the prefab position.
 		* **Custom position** : set desired Y position of the object.
 		
+		|
 		.. image:: images/tabs/SnapTab/SnapTab8.png
+		`Custom local offset (0, 4, 0) example.`
 
 Replace
 =======

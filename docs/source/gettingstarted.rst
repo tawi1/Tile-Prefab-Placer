@@ -16,9 +16,9 @@ Installation
 
 	.. image:: images/gettingstarted/InitilizationWindow.png
 
-#. Set the root path of the tool, it is automatically detected (or manually press the `Detect Root` button).
+#. Set the root path of the tool, it is automatically detected (or manually press the `Detect Root` button if you changed the root of the tool prefab path).
 
-#. Click the create and init button (if you want to change the tool prefab root path you will need to do 2 previous steps again). 
+#. Click the `Create & init MapCreator` button (if you want to change the tool prefab root path you will need to do 2 previous steps again). 
 
 #. Select tile 1x1 size to customize tile size of the tool.
 
@@ -28,13 +28,13 @@ Installation
 	* Move the 1x1 size of the tile into the field & press `show info` button.
 		.. image:: images/gettingstarted/TileInitilization2.png
 
-	* Press `set exist config` to assign the tile size to the tool.
+	* Press `Set exist config` to assign the tile size to the tool.
 	
 	|
 	
-	.. image:: images/gettingstarted/PackageSetupWindow.png
-	
 #. Click `Load Packages` to start downloading required packages for this tool.
+
+	.. image:: images/gettingstarted/PackageSetupWindow.png
 
 	.. note::
 		**Required packages:**
@@ -86,7 +86,7 @@ Prefabs
 		.. image:: images/gettingstarted/AddingPrefabs2.png
 
 	.. note::
-		`MapTile` component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
+		:ref:`_maptile` is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
 
 
 .. _category:
