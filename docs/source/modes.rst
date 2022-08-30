@@ -259,51 +259,51 @@ Line mode
 		
 		.. image:: images/modes/LineMode/LineModeTab5.png
 		* **Curved** : place objects along a curved line.	
-			* **Common settings:**
-				* **Curve line type:**
-					* **Bezier**
-					* **Simple line**
-					* **Circle**
-				* **Snap type:**
-					* **Disabled**
-					* **Lock Y** : Y position is fixed.
-					* **Auto Snap** : the object of the curve is automatically attached to the surface.
-				* **Object normal type:**
-					* **Up**
-					* **Curve direction**
-					* **Surface normal**
-					* **Custom** : user normal.
-			* **Tabs:**
-				* **Common**
-					* **Loop line** : should the line be looped.
-					* **Additive euler rotation** : additional rotation for each object.
-					* **Flexible spacing** : position of objects on the curve depending on their size.
-					* **Spacing length** : user spacing.
-					* **Clamp tangents** : tangents move together relative to the central node.
-				* **Custom**
-					* **Auto snap:**
-						* **Attach to mesh** : should the object be attached to the mesh.
-						* **Snap layer mask** : layer for attaching objects.
-						* **Raycast direction** : direction of the raycast.
-						* **Raycast distance** : raycast from offset point to raycast direction distance.
-						* **Offset raycast distance** : offset from zero Y surface.
-				* **Visual**
-					* **Curve color** : color of the curve.
-					* **Handles type** : handle type for tangents.
-						* **Sphere**
-						* **Position handle**
-					* **Draw nodes** : display handles of the nodes.
-					* **Draw buttons** : display add/remove buttons of the curve segments.
-					* **Draw tangents** : display tangents of the nodes.
-					* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
+		* **Common settings:**
+			* **Curve line type:**
+				* **Bezier**
+				* **Simple line**
+				* **Circle**
+			* **Snap type:**
+				* **Disabled**
+				* **Lock Y** : Y position is fixed.
+				* **Auto Snap** : the object of the curve is automatically attached to the surface.
+			* **Object normal type:**
+				* **Up**
+				* **Curve direction**
+				* **Surface normal**
+				* **Custom** : user normal.
+		* **Tabs:**
+			* **Common**
+				* **Loop line** : should the line be looped.
+				* **Additive euler rotation** : additional rotation for each object.
+				* **Flexible spacing** : position of objects on the curve depending on their size.
+				* **Spacing length** : user spacing.
+				* **Clamp tangents** : tangents move together relative to the central node.
+			* **Custom**
+				* **Auto snap:**
+					* **Attach to mesh** : should the object be attached to the mesh.
+					* **Snap layer mask** : layer for attaching objects.
+					* **Raycast direction** : direction of the raycast.
+					* **Raycast distance** : raycast from offset point to raycast direction distance.
+					* **Offset raycast distance** : offset from zero Y surface.
+			* **Visual**
+				* **Curve color** : color of the curve.
+				* **Handles type** : handle type for tangents.
+					* **Sphere**
+					* **Position handle**
+				* **Draw nodes** : display handles of the nodes.
+				* **Draw buttons** : display add/remove buttons of the curve segments.
+				* **Draw tangents** : display tangents of the nodes.
+				* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
 					
 			|
 			
-			.. image:: images/modes/LineMode/AdditionalCurveSettings.png
-			* **Additional curve settings (randomizer window):**
-				* **Flexible spacing [enabled]:**
-					* **Ignore size** : object size in the line is ignored.
-						* **Edge** : object takes the rotation of the previous object, also the line is finished by this object.
+		.. image:: images/modes/LineMode/AdditionalCurveSettings.png
+		* **Additional curve settings (randomizer window):**
+			* **Flexible spacing [enabled]:**
+				* **Ignore size** : object size in the line is ignored.
+					* **Edge** : object takes the rotation of the previous object, also the line is finished by this object.
 				
 		
 		|
@@ -376,27 +376,27 @@ Destroy mode
 			
 	.. image:: images/modes/DestroyMode/DestroyModeTab1.png
 	
-	* **Delete mode:**
-		* **MapTile grid delete**	
-			* **Delete floor method:**
-				* **Disabled**
+* **Delete mode:**
+	* **MapTile grid delete**	
+		* **Delete floor method:**
+			* **Disabled**
 				
-				.. image:: images/modes/DestroyMode/DestroyModeTab2.png
-				* **Selected** : selected floors are deleted.
-					* **Floor height** : floor height in unity units.
-					* **Floor precision** : offset on the edges between floors.
-					* **Min floor number** : min floor number for delete. 
-					* **Max floor number** : max floor number for delete. 
+			.. image:: images/modes/DestroyMode/DestroyModeTab2.png
+			* **Selected** : selected floors are deleted.
+				* **Floor height** : floor height in unity units.
+				* **Floor precision** : offset on the edges between floors.
+				* **Min floor number** : min floor number for delete. 
+				* **Max floor number** : max floor number for delete. 
 				
-				|
-				.. image:: images/modes/DestroyMode/DestroyModeTab3.png
-				* **Cell last amount** : selected top floors are deleted.
-					* **Floor amount** : number of floors to remove.
+			|
+			.. image:: images/modes/DestroyMode/DestroyModeTab3.png
+			* **Cell last amount** : selected top floors are deleted.
+				* **Floor amount** : number of floors to remove.
 					
-				|
-				.. image:: images/modes/DestroyMode/DestroyModeTab4.png
-				* **Area max amount** : maximal level floors are deleted.
-					* **Floor amount** : number of floors to remove.	
+			|
+			.. image:: images/modes/DestroyMode/DestroyModeTab4.png
+			* **Area max amount** : maximal level floors are deleted.
+				* **Floor amount** : number of floors to remove.	
 					
 			|
 			.. image:: images/modes/DestroyMode/DestroyModeTab5.png
@@ -407,56 +407,56 @@ Destroy mode
 			`Selected 0 - 2 floors to remove example.`
 					
 					
-		.. note::
-			* The floor delete method only works on GameObjects with `MapTile` component.
-			* Enable auto-snap to attach cursor for any surface.
+	.. note::
+		* The floor delete method only works on GameObjects with `MapTile` component.
+		* Enable auto-snap to attach cursor for any surface.
 			
-		* **Raycast deletion:**	
-			* **Common delete settings:**
-				* **Allow delete not prefab** : gameobjects (not prefabs) can be deleted.
-				* **Object type:**
-					* **Any** : any object can be deleted.
-					* **MapTile** : only `MapTile` objects can be deleted.
-					* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be deleted.
-				* **Target layer** : layers that will be deleted.
-				* **Draw debug** : show bounds of deletion.
+	* **Raycast deletion:**	
+		* **Common delete settings:**
+			* **Allow delete not prefab** : gameobjects (not prefabs) can be deleted.
+			* **Object type:**
+				* **Any** : any object can be deleted.
+				* **MapTile** : only `MapTile` objects can be deleted.
+				* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be deleted.
+			* **Target layer** : layers that will be deleted.
+			* **Draw debug** : show bounds of deletion.
 				* **Debug color** : color of debug.
-			* **Unique delete settings:**
-				* **Box raycast**			
-					* **Y box offset** : offset from surface.
-					* **Max box raycast distance** : raycast distance from offset point.
-				* **Brush raycast**
-					* **Brush radius** : radius of the delete brush.
-					* **Attach to surface:**
-						* **Attach layer** : layer to which the brush is attached.
-					* **Y brush raycast normal offset** : offset from brush hit surface.
-					* **Max brush raycast distance** : raycast distance from offset point.
+		* **Unique delete settings:**
+			* **Box raycast**			
+				* **Y box offset** : offset from surface.
+				* **Max box raycast distance** : raycast distance from offset point.
+			* **Brush raycast**
+				* **Brush radius** : radius of the delete brush.
+				* **Attach to surface:**
+					* **Attach layer** : layer to which the brush is attached.
+				* **Y brush raycast normal offset** : offset from brush hit surface.
+				* **Max brush raycast distance** : raycast distance from offset point.
 					
-				.. note::
-					**How to use:**
+			.. note::
+				**How to use:**
 					
-					Click `E` button to destroy objects under the brush.
+				Click `E` button to destroy objects under the brush.
 					
-			.. image:: images/modes/DestroyMode/DestroyModeTab7.png
-			`Box raycast remove example.`		
+		.. image:: images/modes/DestroyMode/DestroyModeTab7.png
+		`Box raycast remove example.`		
 			
-			.. image:: images/modes/DestroyMode/DestroyModeTab8.png
-			`Brush raycast remove example.`		
+		.. image:: images/modes/DestroyMode/DestroyModeTab8.png
+		`Brush raycast remove example.`		
 					
-				.. note::
-					The raycast method only works on any GameObject with collider.
+		.. note::
+			The raycast method only works on any GameObject with collider.
 			
-				* **Screen selection**
-					* **Selection object method:**
-						* **Multiple** : all objects under selection box will be selected.
-						* **Single** : only 1 object under the cursor will be selected.
-					* **Auto destroy on select** : object will automatically be deleted after selection.
-					* **Selection color** : color of the selection box.
+	* **Screen selection**
+		* **Selection object method:**
+				* **Multiple** : all objects under selection box will be selected.
+				* **Single** : only 1 object under the cursor will be selected.
+			* **Auto destroy on select** : object will automatically be deleted after selection.
+			* **Selection color** : color of the selection box.
 					
-				.. note::
-					**How to use:**
+			.. note::
+				**How to use:**
 							
-					Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
+				Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
 					
 			.. image:: images/modes/DestroyMode/DestroyModeTab9.png
 			`Screen selection remove example.`		
@@ -570,39 +570,39 @@ Create template mode
 
 	.. image:: images/modes/TemplateMode/TemplateMode2.png
 	
-	* **Selection method:**
-		* **Map:** selecting objects on the grid.
-		* **Screen selection:** selecting objects under the selection box.
-			* **Object type:**
-				* **Any** : any object can be selected.
-				* **MapTile** : only `MapTile` objects can be selected.
-				* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be selected.
-			* **Target layer** : layer of objects to be selected.
-			* **Selection object method:**
-				* **Multiple** : all objects under selection box will be selected.
-				* **Single** : only 1 object under the cursor will be selected.
-			* **Selection color** : color of the selection box.
-	* **Template prefab name** : template name.
-	* **Template create path** : template creation path.
-	* **Template object type:**
-		* **MapTile** : template will be created with the `MapTile` component.
-		* **Default gameobject** : template will be created without the `MapTile` component.
-	* **Child prefab type:**
-		* **Linked prefab** : child objects of the template are linked prefabs.
-		* **Prefab clone**: child objects of the template are prefab clones.
-	* **Category type:**
-		* **Template**: template prefab is added to the template category.
-		* **Custom**: template prefab is added to the custom category.
-			* **Category**: name of the custom category.
-	* **Delete child components**: delete all unity-components of the object.
-		* **Delete only MapTile**: or only `MapTile` component
-	* **Delete child colliders**: delete colliders of created object
-	* **Selected object count**: the number of selected objects for the template.
-	* **Template pivot**: local pivot position of the template.
-	* **Current template tile size**: the current grid size of the template.
-	* **Draw bounds**: draw bounds of the template.
-		* **Y bounds size**: y bounds size of the template.
-		* **Bounds color**: color of the bounds.
+* **Selection method:**
+	* **Map:** selecting objects on the grid.
+	* **Screen selection:** selecting objects under the selection box.
+		* **Object type:**
+			* **Any** : any object can be selected.
+			* **MapTile** : only `MapTile` objects can be selected.
+			* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be selected.
+		* **Target layer** : layer of objects to be selected.
+		* **Selection object method:**
+			* **Multiple** : all objects under selection box will be selected.
+			* **Single** : only 1 object under the cursor will be selected.
+		* **Selection color** : color of the selection box.
+* **Template prefab name** : template name.
+* **Template create path** : template creation path.
+* **Template object type:**
+	* **MapTile** : template will be created with the `MapTile` component.
+	* **Default gameobject** : template will be created without the `MapTile` component.
+* **Child prefab type:**
+	* **Linked prefab** : child objects of the template are linked prefabs.
+	* **Prefab clone**: child objects of the template are prefab clones.
+* **Category type:**
+	* **Template**: template prefab is added to the template category.
+	* **Custom**: template prefab is added to the custom category.
+		* **Category**: name of the custom category.
+* **Delete child components**: delete all unity-components of the object.
+	* **Delete only MapTile**: or only `MapTile` component
+* **Delete child colliders**: delete colliders of created object
+* **Selected object count**: the number of selected objects for the template.
+* **Template pivot**: local pivot position of the template.
+* **Current template tile size**: the current grid size of the template.
+* **Draw bounds**: draw bounds of the template.
+	* **Y bounds size**: y bounds size of the template.
+	* **Bounds color**: color of the bounds.
 		
 	|
 	.. image:: images/modes/TemplateMode/TemplateMode3.png
