@@ -3,6 +3,9 @@
 MapTile component overview
 =====
 
+.. contents::
+   :local:
+   
 MapTile component settings
 ------------
 

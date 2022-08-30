@@ -4,11 +4,11 @@
 Common tabs overview
 ********************
 
-EditMode settings
-=================
-
 .. contents::
    :local:
+   
+EditMode settings
+=================
    
 **There are the following modes:**
 	* Single mode
