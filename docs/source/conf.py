@@ -36,3 +36,21 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 tags.add('custom3')
+
+# Options for LaTeX output
+# ------------------------
+
+# For "manual" documents, if this is true, then toplevel headings are parts,
+# not chapters.
+latex_use_parts = False
+
+# remove blank pages (between the title page and the TOC, etc.)
+'classoptions': ',openany,oneside',
+'babel' : '\\usepackage[english]{babel}',
+
+# Additional stuff for the LaTeX preamble.
+'preamble': r'''
+  \usepackage{hyperref}
+  \setcounter{tocdepth}{3}
+'''
+}

@@ -7,10 +7,9 @@ Common tabs overview
 EditMode settings
 =================
 
-
 .. contents::
    :local:
-
+   
 **There are the following modes:**
 	* Single mode
 	* Brush mode
