@@ -3,6 +3,9 @@ Getting started
 
 .. _installation:
 
+.. contents::
+   :local:
+
 Installation
 ============
 

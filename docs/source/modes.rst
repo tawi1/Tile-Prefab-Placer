@@ -2,6 +2,9 @@
 
 Modes overview
 =====
+
+.. contents::
+   :local:
 	
 Common info
 ------------
