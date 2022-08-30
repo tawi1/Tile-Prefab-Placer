@@ -14,4 +14,9 @@ Contents
 
 .. toctree::
 	:glob:
+	gettingstarted
+	tabs
+	modes
+	maptile
+
 
