@@ -49,18 +49,18 @@ Override settings
 	.. image:: images/tabs/OverrideTab/OverrideTab1.png
 
 	* **Override object parent** : a custom parent for the override.
-	* **Override MapTile layer** : a custom MapTile layer for MapTile objects.
+	* **Override MapTile layer** : a custom `MapTile` layer for `MapTile` objects.
 	* **Override Unity layer** : a custom Unity layer for the objects (Default, TransparentFX, Ignore Raycast, Water, UI, etc...).
 
 	.. image:: images/tabs/OverrideTab/OverrideTab2.png
 
 	.. note::
-		For overlay MapTile objects or default game objects (without `MapTile` component) you can't override `MapTile` layer.
+		For overlay `MapTile` objects or default game objects (without `MapTile` component) you can't override `MapTile` layer.
 
 Snap settings
 =============
 
-``In snap settings you can adjust the y-axis object snap settings.``
+``In snap settings you can adjust the Y-axis object snap settings.``
 
 .. image:: images/tabs/SnapTab/SnapTab1.png
 

@@ -62,7 +62,7 @@ Installation
 Prefabs
 =======
 
-```MapCreator` scroll view consists of prefab categories.``
+``MapCreator's scroll view consists of prefab categories.``
 
 **Category** - it's a prefab set, create categories according to your needs.
 
@@ -89,7 +89,7 @@ Prefabs
 		.. image:: images/gettingstarted/AddingPrefabs2.png
 
 	.. note::
-		:ref:`_maptile` is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
+		`MapTile` component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
 
 
 .. _category:
