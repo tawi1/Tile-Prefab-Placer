@@ -48,10 +48,4 @@ latex_use_parts = False
 latex_elements = {
   'extraclassoptions': 'openany,oneside'
 }
-
-# Additional stuff for the LaTeX preamble.
-'preamble': r'''
-  \usepackage{hyperref}
-  \setcounter{tocdepth}{3}
-'''
 }
