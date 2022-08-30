@@ -45,8 +45,9 @@ tags.add('custom3')
 latex_use_parts = False
 
 # remove blank pages (between the title page and the TOC, etc.)
-'classoptions': ',openany,oneside',
-'babel' : '\\usepackage[english]{babel}',
+latex_elements = {
+  'extraclassoptions': 'openany,oneside'
+}
 
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
