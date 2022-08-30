@@ -66,7 +66,7 @@ Prefabs
 
 **Category** - it's a prefab set, create categories according to your needs.
 
-**How to create categories:**
+**How to create categories**
 -----------------------------
 
 	.. image:: images/gettingstarted/AddCategory1.png
@@ -78,7 +78,7 @@ Prefabs
 	.. note::
 		To delete a category, select category and click the `-` button.
 
-**How to add prefabs:**
+**How to add prefabs**
 -----------------------
 
 	* Drag & drop desirable prefabs to drop tab.	
