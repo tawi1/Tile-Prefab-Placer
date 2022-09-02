@@ -524,6 +524,7 @@ Translate mode
 
 	.. image:: images/modes/TranslateMode/TranslateModeTab1.png
 	
+* **Scene settings:**
 	* **Movement type:**
 		* **World cursor** : objects move along the world cursor.
 		* **Scene handle** : objects move along the scene handle.
@@ -534,10 +535,21 @@ Translate mode
 	* **Selection method:**
 		* **Map** : selecting objects on the grid.
 		* **Screen selection** : selecting objects under the selection box.
-	* **Hide source selected objects** : source objects will be hidden for the time of the translating.
+		
+* **Translate settings:**
 	* **Show intersected objects** : intersected objects will be highlighted.
 		* **Intersected objects color** : the color of the intersected objects highlighting.
+	* **Check intesection for Overlay** : intersections for overlay objects will be detected by the raycast.
+		
+* **Other settings:**
 	* **Report translate result** : on/off translate result report in the console.
+	* **Hide source selected objects** : source objects will be hidden for the time of the translating.
+	* **Move intersected to source position** : objects will be moved to the initial position if they have an intersection.
+	* **Delayed heavy calculation** : calculation of intersections will be delayed with a huge amount of objects.
+		* **Heavy calculation object amount** : amount of objects to start a delay.
+		* **Calculation delay duration** : duration of the delay after a position change.
+		
+* **Snap settings:**
 	* **Snap to grid**	
 		* **Snap grid enabled** : snapping on the grid.
 			* **Cell offset** : value of offset in grid cells.
@@ -549,6 +561,8 @@ Translate mode
 			* **Snap value**
 	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
 	
+	.. note::
+		Moving a huge amount of objects can take a very long time when the raycast is on.
 	|
 	.. image:: images/modes/TranslateMode/TranslateModeExample1.png
 	`Translate mode example 1.`	
