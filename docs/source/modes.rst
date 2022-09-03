@@ -562,7 +562,8 @@ Translate mode
 	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
 	
 	.. note::
-		Moving a huge amount of objects can take a very long time.
+		Moving a huge amount of objects can take a very long time.		
+		To quickly move a huge amount of objects, turn on `Can replace` mode and turn off `Show intersected objects`.
 	|
 	.. image:: images/modes/TranslateMode/TranslateModeExample1.png
 	`Translate mode example 1.`	
