@@ -562,7 +562,7 @@ Translate mode
 	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
 	
 	.. note::
-		Moving a huge amount of objects can take a very long time when the raycast is on.
+		Moving a huge amount of objects can take a very long time.
 	|
 	.. image:: images/modes/TranslateMode/TranslateModeExample1.png
 	`Translate mode example 1.`	
