@@ -11,11 +11,11 @@ Installation
 
 `Getting started tutorial <https://youtu.be/Y_LklnjDQ2U>`_
 
-**To use Tile Prefab Placer steps:**
+**Steps to use Tile Prefab Placer:**
 
 #. Download & import from unity asset store.
 
-#. First time initilization window will appear automatically or you can open it manually in toolbar ``604Spirit/MapEditor/Window/Map Creator Initialization.``
+#. First time initialization window will appear automatically or you can open it manually in toolbar ``604Spirit/MapEditor/Window/Map Creator Initialization.``
 
 	.. image:: images/gettingstarted/InitilizationWindow.png
 
@@ -35,14 +35,14 @@ Installation
 	
 	|
 	
-#. Click `Load Packages` to start downloading required packages for this tool.
+#. Click `Load Packages` to start download packages required for this tool.
 
 	.. image:: images/gettingstarted/PackageSetupWindow.png
 
 	.. note::
 		**Required packages:**
 		
-		* **Editor coroutines** (`com.unity.editorcoroutines`) - unity package allows developers to start constructs similar to Unity’s monobehaviour based coroutines within the editor using arbitrary objects.
+		* **Editor coroutines** (`com.unity.editorcoroutines`) - unity package which allows developers to run constructs similar to Unity’s monobehaviour based coroutines within the editor using arbitrary objects.
 		
 		* **Naughty Atrributes** (`com.dbrizov.naughtyattributes`) - made by Denis Rizov extension for unity inspector, also you can manually download it from unity asset store `Naughty Attributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`_
 
