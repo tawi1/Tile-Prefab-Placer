@@ -44,11 +44,11 @@ Installation
 		
 		* **Editor coroutines** (`com.unity.editorcoroutines`) - unity package which allows developers to run constructs similar to Unity’s monobehaviour based coroutines within the editor using arbitrary objects.
 		
-		* **Naughty Atrributes** (`com.dbrizov.naughtyattributes`) - made by Denis Rizov extension for unity inspector, also you can manually download it from unity asset store `Naughty Attributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`_
+		* **Naughty Attributes** (`com.dbrizov.naughtyattributes`) - extension for unity inspector made by Denis Rizov, also you can manually download it from unity asset store `Naughty Attributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`_
 
 
 	.. note::
-		**Required project script defines:**
+		**Script define symbols required for the project:**
 			* **MAP_EDITOR**
 	
 #. Set the tile path in the `MapCreator`'s cached settings tab where the prefab categories are stored.
