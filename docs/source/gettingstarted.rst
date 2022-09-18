@@ -51,7 +51,7 @@ Installation
 		**Script define symbols required for the project:**
 			* **MAP_EDITOR**
 	
-#. Set the tile path in the `MapCreator`'s cached settings tab where the prefab categories are stored.
+#. Set the tile path in the `MapCreator`'s cached tab where the prefab categories are stored.
 
 	.. image:: images/gettingstarted/CachedValuesTabPrefabPath.png
 
@@ -71,12 +71,12 @@ Prefabs
 
 	.. image:: images/gettingstarted/AddCategory1.png
 
-* Click `+` button to start adding category.
+* Click ``+`` button to start adding category.
 * Enter category name.
-* Click `add` button.
+* Click ``add`` button.
 
 	.. note::
-		To delete a category, select category and click the `-` button.
+		To delete a category, select category and click the ``-`` button.
 
 **How to add prefabs**
 -----------------------
@@ -89,7 +89,7 @@ Prefabs
 		.. image:: images/gettingstarted/AddingPrefabs2.png
 
 	.. note::
-		`MapTile` component is used for the calculation of intersections on the grid, so if you don't need it you can use default game objects.
+		`MapTile` component is used in order to determine intersections on the grid, so if you don't need it you can use default game objects.
 
 
 .. _category:
@@ -105,8 +105,8 @@ Category
 	* **MapTilePrefab** : reference to the `MapTile` prefab.
 	* **TileSize** : object size in grid cells (you can set the size manually if the prefab is without a `MapTile` component).
 * **MapTile category parent type:** 
-	* **Local map path** : object is created relative to the path of the `MapCreator` layer.
-	* **Scene path** : object is created relative to the path of the scene root.
+	* **Local map path** : object is created regarding to the path of the `MapCreator` layer.
+	* **Scene path** : object is created regarding to the path of the scene root.
 * **Scene path** : object creation path.
 
 
@@ -148,7 +148,7 @@ Here are references to the maps and the name of the layers.
 	
 * Common Settings
 	* **Tile Size** : default tile size of `MapCreator`.
-	* **World Tile Relative Offset** : world offset relative to the floored cell position.
+	* **World Tile Relative Offset** : world offset regarding to the floored cell position.
 	
 * Tool Settings
 	* **Show Scene Tool Panel** : displays `M` UI button on the scene view.

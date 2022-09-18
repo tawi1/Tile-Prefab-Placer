@@ -9,7 +9,7 @@ MapTile component overview
 MapTile component settings
 ------------
 
-``Map tile component is used for the calculation of intersections on the grid, but if you don't need it, you can use default game objects without `MapTile` component.``
+``Map tile component is used in order to determine intersections on the grid, but if you don't need it, you can use default game objects without `MapTile` component.``
 
 	.. image:: images/maptile/MapTile.png
 	

@@ -85,7 +85,7 @@ Snap settings
 		
 		* **Snap layer mask** : layer that the object is automatically attached.
 		* **Custom floor offset** : additional offset to the surface.
-		* **Add pivot offset** : adds a pivot offset of the object relative to the surface.
+		* **Add pivot offset** : adds a pivot offset of the object regarding to the surface.
 		
 		.. image:: images/tabs/SnapTab/SnapTab5.png		
 		Some tile objects may have a pivot in the center of the object.
@@ -152,7 +152,7 @@ Merge
 		* **Target object prefab root** : the created object is created by a child to the prefab root.		
 		* **Target object parent of hit** : the created object is created by a child to the attached object.
 		* **Custom parent**	: user selected custom parent.
-		* **Relative prefab root path** : the created object is created by a child to the prefab root relative prefab root path.
+		* **Relative prefab root path** : the created object is created by a child to the prefab root regarding to prefab root path.
 	* **Delete components** : delete all unity-components of the object.
 			* Delete only map tile 
 				or only MapTile component.

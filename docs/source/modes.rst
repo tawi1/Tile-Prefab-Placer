@@ -282,7 +282,7 @@ Line mode
 				* **Additive euler rotation** : additional rotation for each object.
 				* **Flexible spacing** : position of objects on the curve depending on their size.
 				* **Spacing length** : user spacing.
-				* **Clamp tangents** : tangents move together relative to the central node.
+				* **Clamp tangents** : tangents move together regarding to the central node.
 			* **Custom**
 				* **Auto snap:**
 					* **Attach to mesh** : should the object be attached to the mesh.
