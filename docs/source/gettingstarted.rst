@@ -138,7 +138,7 @@ Configs
 
 	.. image:: images/gettingstarted/MapHolderTab.png
 	
-Here are references to the maps and the name of the layers.
+Here are references to the maps and the names of the layers.
 
 
 **Map Preference Config**
@@ -151,7 +151,7 @@ Here are references to the maps and the name of the layers.
 	* **World Tile Relative Offset** : world offset regarding to the floored cell position.
 	
 * Tool Settings
-	* **Show Scene Tool Panel** : displays `M` UI button on the scene view.
+	* **Show Scene Tool Panel** : displays ``M`` (select `MapCreator`) UI button on the scene view.
 	* **Tool Bar Max Count** : the number of category buttons in one row of the toolbar.
 	* **Tile Button Size** : the size of the prefab button in the `MapCreator` prefab scroll view.
 	* **Has Remove Buttons** : enable buttons to remove prefabs from categories in `MapCreator` prefab scroll view.
