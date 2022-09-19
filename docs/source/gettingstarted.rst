@@ -128,12 +128,12 @@ Configs
 * **Map Config** : `MapCreator` config scriptable object.
 * **Hotkey Config** : :ref:`hotkey config<Common hotkey config>` scriptable object.
 * **Map Creator Tab View** : internal map creator tabs view.
-* **Map Data Holder** : :ref:`map layer data<Map Holder Settings>`.
+* **Map Data Holder** : :ref:`map layer data<Map Data Holder Settings>`.
 
 
 .. _mapHolder:
 
-**Map Holder Settings**
+**Map Data Holder Settings**
 -----------------------
 
 	.. image:: images/gettingstarted/MapHolderTab.png
