@@ -148,7 +148,7 @@ Here are references to the maps and the names of the layers.
 	
 * Common Settings
 	* **Tile Size** : default tile size of `MapCreator`.
-	* **World Tile Relative Offset** : world offset regarding to the floored cell position.
+	* **World Tile Relative Offset** : world offset regarding to the floor of the cell position.
 	
 * Tool Settings
 	* **Show Scene Tool Panel** : displays ``M`` (select `MapCreator`) UI button on the scene view.
