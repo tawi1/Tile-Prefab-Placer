@@ -183,7 +183,7 @@ You can enable it for `MapTile` layer 1-9 (for overlay layer objects and default
 .. image:: images/tabs/OverlayTab/OverlayTab3.png
 
 **Movement type:**
-	* **Free moving** :	object attached to cursor.	
+	* **Free movement** :	object attached to cursor.	
 	* **Default cell** : object snapping to default cell size.
 	* **Custom cell** : object snapping to custom cell size.
 	
