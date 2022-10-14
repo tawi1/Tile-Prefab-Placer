@@ -258,7 +258,7 @@ Line mode
 		|
 		
 		.. note::
-			`Snap same floor` feature for auto-snap available.
+			`Snap same floor` feature for auto-snap available (`Snap Settings` tab).
 		
 		.. image:: images/modes/LineMode/LineModeTab5.png
 		* **Curved** : place objects along a curved line.	
@@ -360,10 +360,9 @@ Area mode
 			* **Mesh bounds** : Y axis size mesh renderer floor offset.			
 			* **Collider bounds** : Y axis size collider floor offset.				
 		* **Floor offset** : additional floor offset.
-	* **Floating grid** : the center of the grid will be at the cursor (works only with `Free moving` movement type).
 
 	.. note::
-		`Snap same floor` feature for auto-snap available.
+		`Snap same floor` feature for auto-snap available (`Snap Settings` tab).
 
 Destroy mode
 ------------
