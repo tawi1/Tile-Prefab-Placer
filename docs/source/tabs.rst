@@ -204,19 +204,19 @@ You can enable it for `MapTile` layer 1-9 (for overlay layer objects and default
 	
 	* **Floating grid** : customizable floating local grid for objects.
 	
-.. image:: images/tabs/OverlayTab/OverlayTabFloatingGrid.png
+		.. image:: images/tabs/OverlayTab/OverlayTabFloatingGrid.png
 	
-	* **Floating grid type:**
-		* **Custom position** : the grid is positioned at a user-defined position.
-			* **Grid size** : custom grid size.
-		* **Flexible** : the size of the grid is customizable by the user on scene.
-			* **Lock center** : the center of the grid is fixed.			 
-		* **Follow cursor** : the center of the grid will be at the cursor.
-	* **Custom cell size** : cell size of the custom floating grid.
-	* **Snap grid** : snap the grid position.
-		* **Snap grid value** : the value of snapping.
-		* **Custom grid center offset** :
-	* **Grid view position** : offset regarding to the snapping cell.
+		* **Floating grid type:**
+			* **Custom position** : the grid is positioned at a user-defined position.
+				* **Grid size** : custom grid size.
+			* **Flexible** : the size of the grid is customizable by the user on scene.
+				* **Lock center** : the center of the grid is fixed.			 
+			* **Follow cursor** : the center of the grid will be at the cursor.
+		* **Custom cell size** : cell size of the custom floating grid.
+		* **Snap grid** : snap the grid position.
+			* **Snap grid value** : the value of snapping.
+			* **Custom grid center offset** :
+		* **Grid view position** : offset regarding to the snapping cell.
 	
 	|
 	
