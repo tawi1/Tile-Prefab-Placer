@@ -179,6 +179,8 @@ Overlay Mapping
  
 ``Overlay mapping is used for objects that do not need to calculate intersections with other objects on the grid, or to set a custom grid or disable snapping to the grid.``
  
+`Overlay objects` - are game objects that have a :ref:`MapTile <maptile>` component and an :ref:`overlay layer <maptileLayer>`, or default `GameObjects <https://docs.unity3d.com/ScriptReference/GameObject.html>`_ (without :ref:`MapTile <maptile>` component).
+ 
 .. image:: images/tabs/OverlayTab/OverlayTab1.png
 
 You can enable it for `MapTile` :ref:`layers 1-9 <maptileLayer>` (enabled by default for overlay layer objects and default gameobjects (without :ref:`MapTile <maptile>` component)).
