@@ -45,6 +45,8 @@ MapTile component settings
 	.. note::
 		Cell ignoring can be useful for non-square or square tiles with gaps.
 			
+.. _maptileLayer:
+
 MapTile layer
 ------------
 

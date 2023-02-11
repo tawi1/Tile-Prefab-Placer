@@ -87,7 +87,7 @@ Prefabs
 		.. image:: images/gettingstarted/AddingPrefabs2.png
 
 	.. note::
-		`MapTile` component is used in order to calculate intersections of objects on the grid without colliders, so if you don't need it, you can use default game objects.
+		:ref:`MapTile <maptile>` component is used in order to calculate intersections of objects on the grid without colliders, so if you don't need it, you can use default game objects.
 
 
 .. _category:
@@ -119,13 +119,13 @@ Configs
 	.. image:: images/gettingstarted/CachedValuesTab.png
 
 * **Root** : root for `MapCreator`'s stuff.
-* **Default Game Objects Root** : root for created default game objects (without `MapTile` component).
+* **Default Game Objects Root** : root for created default game objects (without :ref:`MapTile <maptile>` component).
 * **Tile Path** : the path in the project where the categories are located.
 * **Tileset Path** : the path in the project where the tilesets are located.
 * **Map Preference Config** : :ref:`Map Preference Config` scriptable object.
 * **Map Config** : `MapCreator` config scriptable object.
 * **Hotkey Config** : :ref:`hotkey config <Common hotkey config>` scriptable object.
-* **Map Creator Tab View** : internal map creator tabs view.
+* **Map Creator Tab View** : internal `MapCreator's` tabs view.
 * **Map Data Holder** : :ref:`map layer data <Map Data Holder Settings>`.
 
 

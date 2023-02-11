@@ -28,83 +28,91 @@ Random TRS
 ``Random TRS tab is used for randomization position, rotation or scale of the object.``
 
 
-**Main randomize tab displays which random is enabled**
+**Main randomize tab shows which random is enabled**
 
 .. image:: images/tabs/RandomTab/RandomTab1.png
 
-* Choose which angle and axis of rotation to randomize.
+* Select which angle and axis of rotation to randomize.
 	.. image:: images/tabs/RandomTab/RandomTab2.png
 	
-* Enter randomize local position relative spawn position.
+* Enter randomize local position relative to spawn position.
 	.. image:: images/tabs/RandomTab/RandomTab3.png
 
 * Enter value and axis of scale to randomize.
 	.. image:: images/tabs/RandomTab/RandomTab4.png
 
-Override settings
+Override Settings
 =================
 
-``In the override settings tab you can override parent object, MapTile layer for non-overlay objects, and override unity layer.``
+``In the override settings tab you can override parent object, :ref:`MapTile <maptile>` layer for non-overlay objects, and override unity layer.``
 
 	.. image:: images/tabs/OverrideTab/OverrideTab1.png
 
 	* **Override object parent** : a custom parent for the override.
-	* **Override MapTile layer** : a custom `MapTile` layer for `MapTile` objects.
-	* **Override Unity layer** : a custom Unity layer for the objects (Default, TransparentFX, Ignore Raycast, Water, UI, etc...).
+	* **Override MapTile layer** : a custom :ref:`MapTile layer <maptileLayer>` for the :ref:`MapTile <maptile>` objects.
+	* **Override Unity layer** : a custom `Unity layer <https://docs.unity3d.com/Manual/Layers.html>`_ for the objects (Default, TransparentFX, Ignore Raycast, Water, UI, etc...).
 
 	.. image:: images/tabs/OverrideTab/OverrideTab2.png
 
 	.. note::
-		For overlay `MapTile` objects or default game objects (without `MapTile` component) you can't override `MapTile` layer.
+		For overlay :ref:`MapTile <maptile>` objects or default game objects (without :ref:`MapTile <maptile>` component) you can't override :ref:`MapTile layer <maptileLayer>`.
 
-Snap settings
+Snap Settings
 =============
 
 ``In snap settings you can adjust the Y-axis object snap settings.``
 
 .. image:: images/tabs/SnapTab/SnapTab1.png
 
-**Object snap type:**
-	* **Auto snap** : objects are automatically attached to the surface depending on the parameters.
+Object Snap Type
+-------------------	
 
-		.. image:: images/tabs/SnapTab/SnapTab2.png
-
-		* **Attach to mesh** : the object is attached to the mesh, instead of the collider.
-		* **Attach same floor** : to auto-snap objects on the same height use the attach same floor.
-			
-			.. image:: images/tabs/SnapTab/SnapTab3.png		
-				:width: 49 %			
-			
-			.. image:: images/tabs/SnapTab/SnapTab4.png
-				:width: 49 %				
-			`Attach same floor example.`
-					
-		.. note::
-			Only works for area and line modes.
-
-		
-		* **Snap layer mask** : layer that the object is automatically attached.
-		* **Custom floor offset** : additional offset to the surface.
-		* **Add pivot offset** : adds a pivot offset of the object regarding to the surface.
-		
-		.. image:: images/tabs/SnapTab/SnapTab5.png		
-		Some tile objects may have a pivot in the center of the object.
+Auto Snap
+~~~~~~~~~~~~
 	
-		|	
-		.. image:: images/tabs/SnapTab/SnapTab6.png		
-		To fix this, turn on add pivot offset
+Objects are automatically attached to the surface depending on the parameters.
 
-	* **Custom** : customization value of the position on the Y axis.
+.. image:: images/tabs/SnapTab/SnapTab2.png
 
-		.. image:: images/tabs/SnapTab/SnapTab7.png
+| **Attach to mesh** : the object is attached to the mesh, instead of the collider.
+| **Attach same floor** : to auto-snap objects on the same height use the attach same floor.
+	
+	.. image:: images/tabs/SnapTab/SnapTab3.png		
+		:width: 49 %			
+	
+	.. image:: images/tabs/SnapTab/SnapTab4.png
+		:width: 49 %				
+	`Attach same floor example.`
+			
+.. note::
+	Only works for area and line modes.
 
-		* **Fixed zero position** : object is always positioned at Y zero position.
-		* **Prefab position** : object Y position is taken from the prefab position.
-		* **Custom position** : set desired Y position of the object.
-		
-		|
-		.. image:: images/tabs/SnapTab/SnapTab8.png
-		`Custom local offset (0, 4, 0) example.`
+| **Snap layer mask** : layer that the object is automatically attached.
+| **Custom floor offset** : additional offset to the surface.
+| **Add pivot offset** : adds a pivot offset of the object regarding to the surface.
+
+.. image:: images/tabs/SnapTab/SnapTab5.png		
+Some tile objects may have a pivot in the center of the object.
+
+|	
+.. image:: images/tabs/SnapTab/SnapTab6.png		
+To fix this, turn on add pivot offset
+
+Custom
+~~~~~~~~~~~~
+
+Customization value of the position on the Y axis.
+
+	.. image:: images/tabs/SnapTab/SnapTab7.png
+
+| **Fixed zero position** : object is always positioned at Y zero position.
+| **Prefab position** : object Y position is taken from the prefab position.
+| **Custom position** : set desired Y position of the object.
+
+|
+
+	.. image:: images/tabs/SnapTab/SnapTab8.png
+	`Custom local offset (0, 4, 0) example.`
 
 Replace
 =======
@@ -148,16 +156,17 @@ Merge
 		
 	.. image:: images/tabs/MergeTab/MergeTab3.png
 	
-	* **Merge parent type:**
-		* **Target object prefab root** : the created object is created by a child to the prefab root.		
-		* **Target object parent of hit** : the created object is created by a child to the attached object.
-		* **Custom parent**	: user selected custom parent.
-		* **Relative prefab root path** : the created object is created by a child to the prefab root regarding to prefab root path.
-	* **Delete components** : delete all unity-components of the object.
-			* Delete only map tile 
-				or only MapTile component.
+**Merge parent type:**
+	* **Target object prefab root** : the created object is created by a child to the prefab root.		
+	* **Target object parent of hit** : the created object is created by a child to the attached object.
+	* **Custom parent**	: user selected custom parent.
+	* **Relative prefab root path** : the created object is created by a child to the prefab root regarding to prefab root path.
+		
+**Delete components** : delete all unity-components of the object.
+	* Delete only map tile 
+		or only MapTile component.
 			
-	* **Delete colliders** : delete colliders of created object.
+| **Delete colliders** : delete colliders of created object.
 	
 	.. image:: images/tabs/MergeTab/MergeTab4.png
 	For example, use the brush to attach the object to desired object.
@@ -166,7 +175,7 @@ Merge
 	.. image:: images/tabs/MergeTab/MergeTab5.png
 	And create it
 
-Overlay mapping
+Overlay Mapping
 ===============
  
 ``Overlay mapping is used for objects that do not need to calculate intersections with other objects on the grid, also used to set a custom grid or disable snapping to the grid.``
@@ -182,63 +191,79 @@ You can enable it for `MapTile` layer 1-9 (for overlay layer objects and default
 
 .. image:: images/tabs/OverlayTab/OverlayTab3.png
 
-**Movement type:**
-	* **Free movement** :	object attached to cursor.	
-	* **Default cell** : object snapping to default cell size.
-	* **Custom cell** : object snapping to custom cell size.
+Movement Type
+-------------------	
+
+Free movement
+~~~~~~~~~~~~
+
+Object attached to cursor.	
+
+Default cell
+~~~~~~~~~~~~
+
+Object snapping to default cell size
+
+Custom cell
+~~~~~~~~~~~~
+
+Object snapping to custom cell size
+
+	.. image:: images/tabs/OverlayTab/OverlayTab4.png
+	`Custom cell snapping example (custom cell size is equal 4).` 
+
+Snap edge
+~~~~~~~~~~~~
+
+Object snapping to edges of default cell
+
+	.. image:: images/tabs/OverlayTab/OverlayTab5.png		
+	`Snap edge example 1.` 
 	
-		.. image:: images/tabs/OverlayTab/OverlayTab4.png
-		`Custom cell snapping example (custom cell size is equal 4.)` 
-	|
+	.. image:: images/tabs/OverlayTab/OverlayTab6.png
+	`Snap edge example 2.` 
+
+Floating grid
+~~~~~~~~~~~~
+
+	.. image:: images/tabs/OverlayTab/OverlayTabFloatingGrid.png
 	
-	* **Snap edge** : object snapping to edges of default cell.
+**Floating grid type:**
+	* **Custom position** : the grid is positioned at a user-defined position.
+		* **Grid size** : custom grid size.
+	* **Flexible** : the size of the grid is customizable by the user on scene.
+		* **Lock center** : the center of the grid is fixed.			 
+	* **Follow cursor** : the center of the grid will be at the cursor.
 	
-	|
+| **Custom cell size** : cell size of the custom floating grid.
+
+**Snap grid** : snap the grid position.
+	* **Snap grid value** : the value of snapping.
+	* **Custom grid center offset** :
 	
-		.. image:: images/tabs/OverlayTab/OverlayTab5.png		
-		`Snap edge example 1.` 
-		
-		.. image:: images/tabs/OverlayTab/OverlayTab6.png
-		`Snap edge example 2.` 
-	|
-	
-	* **Floating grid** : customizable floating local grid for objects.
-	
-		.. image:: images/tabs/OverlayTab/OverlayTabFloatingGrid.png
-	
-		* **Floating grid type:**
-			* **Custom position** : the grid is positioned at a user-defined position.
-				* **Grid size** : custom grid size.
-			* **Flexible** : the size of the grid is customizable by the user on scene.
-				* **Lock center** : the center of the grid is fixed.			 
-			* **Follow cursor** : the center of the grid will be at the cursor.
-		* **Custom cell size** : cell size of the custom floating grid.
-		* **Snap grid** : snap the grid position.
-			* **Snap grid value** : the value of snapping.
-			* **Custom grid center offset** :
-		* **Grid view position** : offset regarding to the snapping cell.
-	
-	|
+| **Grid view position** : offset regarding to the snapping cell.
+
 	
 	.. image:: images/tabs/OverlayTab/OverlayTab7.png
 	
-**Obstacle check type:**
-	* **Distance** : object intersections are checked by distance (works only for `MapTile` overlay grid objects).
-	
-		|
-		
-		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample2.png
-		`Obstacle distance check example.` 
-		
-		|
-		
-	* **Raycast** : object intersections are checked by raycasts (works only for any gameobject with colliders).
-	
-		|
-		
-		.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
-		`Obstacle raycast check example.` 
+Obstacle Check Type
+-------------------	
 
+Distance
+~~~~~~~~~~~~
+
+Object intersections are checked by distance (works only for `MapTile` overlay grid objects).
+
+	.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample2.png
+	`Obstacle distance check example.` 
+	
+Raycast
+~~~~~~~~~~~~
+
+Object intersections are checked by raycasts (works only for any gameobject with colliders).
+
+	.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
+	`Obstacle raycast check example.` 
 
 Randomizer
 ==========
