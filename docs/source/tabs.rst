@@ -84,19 +84,20 @@ Objects are automatically attached to the surface depending on the parameters.
 		:width: 49 %				
 	`Attach same floor example.`
 			
-.. note::
-	Only works for area and line modes.
+	.. note::
+		Only works for :ref:`area <areaMode>` and :ref:`line <lineMode>` modes.
 
 | **Snap layer mask** : layer that the object is automatically attached.
 | **Custom floor offset** : additional offset to the surface.
 | **Add pivot offset** : adds a pivot offset of the object regarding to the surface.
 
-.. image:: images/tabs/SnapTab/SnapTab5.png		
-Some tile objects may have a pivot in the center of the object.
+	.. image:: images/tabs/SnapTab/SnapTab5.png		
+	Some tile objects may have a pivot in the center of the object.
 
 |	
-.. image:: images/tabs/SnapTab/SnapTab6.png		
-To fix this, turn on add pivot offset
+
+	.. image:: images/tabs/SnapTab/SnapTab6.png		
+	To fix this, turn on add pivot offset
 
 Custom
 ~~~~~~~~~~~~
@@ -108,8 +109,6 @@ Customization value of the position on the Y axis.
 | **Fixed zero position** : object is always positioned at Y zero position.
 | **Prefab position** : object Y position is taken from the prefab position.
 | **Custom position** : set desired Y position of the object.
-
-|
 
 	.. image:: images/tabs/SnapTab/SnapTab8.png
 	`Custom local offset (0, 4, 0) example.`
@@ -173,7 +172,7 @@ Merge
 
 	|
 	.. image:: images/tabs/MergeTab/MergeTab5.png
-	And create it
+	And create it (by default, by pressing :ref:`E <hotKeys>` key).
 
 Overlay Mapping
 ===============
@@ -187,12 +186,13 @@ You can enable it for `MapTile` layer 1-9 (for overlay layer objects and default
 .. image:: images/tabs/OverlayTab/OverlayTab2.png
 
 	.. note::
-		For overlay `MapTile` objects and `non-MapTile` object overlay mapping enabled by default.
+		For overlay :ref:`MapTile <maptile>` objects and `non-MapTile` object overlay mapping enabled by default.
 
-.. image:: images/tabs/OverlayTab/OverlayTab3.png
 
 Movement Type
 -------------------	
+
+	.. image:: images/tabs/OverlayTab/OverlayTab3.png
 
 Free movement
 ~~~~~~~~~~~~
@@ -244,10 +244,10 @@ Floating grid
 | **Grid view position** : offset regarding to the snapping cell.
 
 	
-	.. image:: images/tabs/OverlayTab/OverlayTab7.png
-	
 Obstacle Check Type
 -------------------	
+
+	.. image:: images/tabs/OverlayTab/OverlayTab7.png
 
 Distance
 ~~~~~~~~~~~~

@@ -190,10 +190,12 @@ Here are references to the maps and the names of the layers.
 * **Show Map Tile Selected Info Tab** : show `MapTile selected info` tab.
 * **Show Add New Prefab Tab** : show drag'n'drop prefab box in the `MapCreator` inspector.
 
+.. _hotKeys:
+
 Hotkeys
 =======
 
-**Common hotkey config**
+Common hotkey config
 ------------------------
 
 	.. image:: images/gettingstarted/HotKeyConfig.png
@@ -212,7 +214,7 @@ Hotkeys
 * **Select template mode button** : select :ref:`template <templateMode>` mode hotkey.
 * **Scroll wheel button** : additional action in the `edit mode` using the mouse wheel and the selected key.
 
-**Custom hotkey settings**
+Custom hotkey settings
 --------------------------
 
 	* **Single mode:**
