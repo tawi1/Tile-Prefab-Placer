@@ -21,21 +21,21 @@ Installation
 
 #. Set the root path of the tool, it is automatically detected (or manually press the `Detect Root` button if you changed the root of the tool prefab path).
 
-#. Click the `Create & init MapCreator` button (if you want to change the tool prefab root path you will need to do 2 previous steps again). 
+#. Click the `Create & init MapCreator` button (if you want to change the tool prefab root path, you will need to repeat the previous 2 steps). 
 
-#. Select tile 1x1 size to customize tile size of the tool.
+#. Select tile 1x1 size to adjust the tile size of the tool.
 
 		.. image:: images/gettingstarted/TileInitilization.png
 		
 	|
-	* Move the 1x1 size of the tile into the field & press `show info` button.
+	* Drag the 1x1 size of the tile into the field & press `Show info` button.
 		.. image:: images/gettingstarted/TileInitilization2.png
 
 	* Press `Set exist config` to assign the tile size to the tool.
 	
 	|
 	
-#. Click `Load Packages` to start download packages required for this tool.
+#. Click `Load Packages` to start downloading the packages required for this tool.
 
 	.. image:: images/gettingstarted/PackageSetupWindow.png
 
@@ -55,9 +55,7 @@ Installation
 
 	.. image:: images/gettingstarted/CachedValuesTabPrefabPath.png
 
-
-.. _prefabs:Ctrl & scroll wheel button
-
+.. _prefabs:
 
 Prefabs
 =======
@@ -89,7 +87,7 @@ Prefabs
 		.. image:: images/gettingstarted/AddingPrefabs2.png
 
 	.. note::
-		`MapTile` component is used in order to determine intersections on the grid, so if you don't need it you can use default game objects.
+		`MapTile` component is used in order to calculate intersections of objects on the grid without colliders, so if you don't need it, you can use default game objects.
 
 
 .. _category:
@@ -102,8 +100,8 @@ Category
 * **Title** : name of category.
 * **Prefab data:**
 	* **Prefab** : reference to the prefab gameobject.
-	* **MapTilePrefab** : reference to the `MapTile` prefab.
-	* **TileSize** : object size in grid cells (you can set the size manually if the prefab is without a `MapTile` component).
+	* **MapTilePrefab** : reference to the :ref:`MapTile <maptile>` prefab.
+	* **TileSize** : object size in grid cells (you can set the size manually if the prefab doesn't have a :ref:`MapTile <maptile>` component).
 * **MapTile category parent type:** 
 	* **Local map path** : object is created regarding to the path of the `MapCreator` layer.
 	* **Scene path** : object is created regarding to the path of the scene root.
@@ -126,9 +124,9 @@ Configs
 * **Tileset Path** : the path in the project where the tilesets are located.
 * **Map Preference Config** : :ref:`Map Preference Config` scriptable object.
 * **Map Config** : `MapCreator` config scriptable object.
-* **Hotkey Config** : :ref:`hotkey config<Common hotkey config>` scriptable object.
+* **Hotkey Config** : :ref:`hotkey config <Common hotkey config>` scriptable object.
 * **Map Creator Tab View** : internal map creator tabs view.
-* **Map Data Holder** : :ref:`map layer data<Map Data Holder Settings>`.
+* **Map Data Holder** : :ref:`map layer data <Map Data Holder Settings>`.
 
 
 .. _mapHolder:
@@ -153,24 +151,24 @@ Here are references to the maps and the names of the layers.
 * Tool Settings
 	* **Show Scene Tool Panel** : displays ``M`` (select `MapCreator`) UI button on the scene view.
 	* **Tool Bar Max Count** : the number of category buttons in one row of the toolbar.
-	* **Tile Button Size** : the size of the prefab button in the `MapCreator` prefab scroll view.
-	* **Has Remove Buttons** : enable buttons to remove prefabs from categories in `MapCreator` prefab scroll view.
+	* **Tile Button Size** : the size of the prefab button in `MapCreator's` prefab scroll view.
+	* **Has Remove Buttons** : enable buttons to remove prefabs from categories in `MapCreator's` prefab scroll view.
 	* **Remove Button Size** : size of remove button.
 	* **Buttons Row Count** : the number of prefab buttons in the scroll view in one row.
 	* **Prefab Scroll View Height** : height of scroll view of `MapCreator`.
 	
 * Temp Mesh Settings
-	* **Default Draw Mesh Type** : object view type for temp meshes.
-		* **Draw Mesh** : display the temp mesh object at the end of a render pipeline cycle.
-		* **Draw Mesh Now** : the display of the temp mesh object at the moment.
-	* **Apply Allow Color To Objects** : enable custom allow color for the objects that can be placed.
-	* **Allow Mesh Grid Color** : color of mesh grid when object can be placed.
-	* **Allow Object Color** : color for the object that can be placed.
-	* **Forbidden Mesh Grid Color** : color for the object that can't be placed.
-	* **Intersection Mesh Grid Color** : color for the object that intersected.
+	* **Default Draw Mesh Type** : object view type for temporary meshes.
+		* **Draw Mesh** : display the temporary mesh object at the end of a render pipeline cycle.
+		* **Draw Mesh Now** : the display of the temporary mesh object at the moment.
+	* **Apply Allow Color To Objects** : enable custom allow colour for the objects that can be placed.
+	* **Allow Mesh Grid Color** : colour of the mesh grid when the object can be placed.
+	* **Allow Object Color** : colour of the object that can be placed.
+	* **Forbidden Mesh Grid Color** : colour of the object that can't be placed.
+	* **Intersection Mesh Grid Color** : colour of the object that intersects another object.
 	
 * Temp Overlay Mesh Grid Settings
-	* **Mesh Surface Offset** : offset from the surface for the mesh grid.
+	* **Mesh Surface Offset** : offset from surface to mesh grid.
 
 **Common Settings**
 -------------------
@@ -179,18 +177,18 @@ Here are references to the maps and the names of the layers.
 
 * **Show Map Tile Bounds** : display the mesh grid of the object.
 * **Draw Grid** : display scene view grid.
-* **Always Visible Grid** : the grid will always be displayed regardless of the overlap with other objects.
-* **Grid Size** : size of scene view grid.
-* **Grid Color** : color of scene view grid.
-* **Async Creation** : async instantiation for the objects.
+* **Always Visible Grid** : the scene view grid is always displayed, regardless of the overlap with other objects.
+* **Grid Size** : size of the grid in the scene view.
+* **Grid Color** : colour of scene view grid.
+* **Async Creation** : async instantiation of the objects.
 	* **Create Objects Per Frame** : the number of instantiated objects per frame.
 * **Create Prefab Mode:**
 	* **Linked prefab** : created object will be linked with source prefab.
 	* **Prefab clone** : created object will be cloned from source prefab.
-* **Key Rotate Angle** : the angle of rotation of the object by button (by default `capslock` button).
-* **Show Edit Category Buttons** : show add/remove buttons for category in `MapCreator` inspector.
+* **Key Rotate Angle** : the angle of rotation of the object by pressing the key (by default `Capslock` key).
+* **Show Edit Category Buttons** : show add/remove buttons for category in the `MapCreator` inspector.
 * **Show Map Tile Selected Info Tab** : show `MapTile selected info` tab.
-* **Show Add New Prefab Tab** : show drag'n'drop prefab box in `MapCreator` inspector.
+* **Show Add New Prefab Tab** : show drag'n'drop prefab box in the `MapCreator` inspector.
 
 Hotkeys
 =======
@@ -201,18 +199,18 @@ Hotkeys
 	.. image:: images/gettingstarted/HotKeyConfig.png
 	
 * **Rotate button** : rotate button of the object.
-* **Switch sub prefab button** : rerandomize TRS (transform, rotation, scale) or selected objects (if randomize feature enabled and configured).
-* **Action button** : action of the `MapCreator` edit mode (for example object spawning).
-* **Unselect prefab button** : cancel action or unselect selected temp prefab.
-* **Select default edit mode button** : select default edit mode hotkey.
-* **Select brush mode button** : select brush mode hotkey.
-* **Select line mode button** : select line mode hotkey.
-* **Select area mode button** : select area mode hotkey.
-* **Select destroy mode button** : select destroy mode hotkey.
-* **Select tileset mode button** : select tileset mode hotkey.
-* **Select translate mode button** : select translate mode hotkey.
-* **Select template mode button** : select template mode hotkey.
-* **Scroll wheel button** : additional action with scroll wheel button in the edit modes.
+* **Switch sub prefab button** : re-randomize TRS (transform, rotation, scale) or selected objects (if randomize feature is enabled and configured).
+* **Action button** : action of the `MapCreator` `edit mode` (for example object spawning).
+* **Unselect prefab button** : cancel action or unselect selected temporary prefab.
+* **Select default edit mode button** : select :ref:`default <singleMode>` edit mode hotkey.
+* **Select brush mode button** : select :ref:`brush <brushMode>` mode hotkey.
+* **Select line mode button** : select :ref:`line <lineMode>` mode hotkey.
+* **Select area mode button** : select :ref:`area <areaMode>` mode hotkey.
+* **Select destroy mode button** : select :ref:`destroy <destroyMode>` mode hotkey.
+* **Select tileset mode button** : select :ref:`tileset <tilesetMode>` mode hotkey.
+* **Select translate mode button** : select :ref:`translate <translateMode>` mode hotkey.
+* **Select template mode button** : select :ref:`template <templateMode>` mode hotkey.
+* **Scroll wheel button** : additional action in the `edit mode` using the mouse wheel and the selected key.
 
 **Custom hotkey settings**
 --------------------------

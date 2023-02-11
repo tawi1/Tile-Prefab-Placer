@@ -14,6 +14,8 @@ Common info
 		
 		Each edit mode has its own features, which are detailed below.
 
+.. _singleMode:
+
 Single mode
 ------------
 
@@ -134,6 +136,8 @@ Single mode
 			* **Snap scale value** : value of scale snapping.
 			* **Scale step** : value of increasing scale by button.
 
+.. _brushMode:
+
 Brush mode
 ------------
 
@@ -195,6 +199,8 @@ Brush mode
 	
 	.. image:: images/modes/BrushMode/BrushExample3.png
 	`Brush example 3 (slope angle 30 degrees enabled).`
+
+.. _lineMode:
 
 Line mode
 ------------
@@ -328,6 +334,8 @@ Line mode
 		.. note::
 			For simple line segment can be added by `Ctrl` and `left-mouse click` hotkeys.
 		
+.. _areaMode:
+		
 Area mode
 ------------
 
@@ -363,6 +371,8 @@ Area mode
 
 	.. note::
 		`Snap same floor` feature for auto-snap available (`Snap Settings` tab).
+
+.. _destroyMode:
 
 Destroy mode
 ------------
@@ -463,6 +473,8 @@ Destroy mode
 			.. image:: images/modes/DestroyMode/DestroyModeTab9.png
 			`Screen selection remove example.`		
 
+.. _tilesetMode:
+
 Tileset mode
 ------------
 
@@ -507,6 +519,8 @@ Tileset mode
 			|
 			.. image:: images/modes/TilesetArea/CreateTilesetExample1.png
 			`Create tileset area example.`		
+	
+.. _translateMode:
 	
 Translate mode
 ------------
@@ -571,6 +585,8 @@ Translate mode
 	|
 	.. image:: images/modes/TranslateMode/TranslateModeExample2.png
 	`Translate mode example 2 (Red object is a source, blue object is the intersected object).`
+
+.. _templateMode:
 
 Create template mode
 ------------
