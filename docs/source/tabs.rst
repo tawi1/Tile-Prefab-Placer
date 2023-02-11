@@ -55,7 +55,7 @@ Override Settings
 	.. image:: images/tabs/OverrideTab/OverrideTab2.png
 
 	.. note::
-		For overlay :ref:`MapTile <maptile>` objects or default game objects (without :ref:`MapTile <maptile>` component) you can't override :ref:`MapTile layer <maptileLayer>`.
+		For :ref:`overlay <overlayTab> `MapTile` objects or default game objects (without :ref:`MapTile <maptile>` component) you can't override :ref:`MapTile layer <maptileLayer>`.
 
 Snap Settings
 =============
@@ -70,12 +70,12 @@ Object Snap Type
 Auto Snap
 ~~~~~~~~~~~~
 	
-Objects are automatically attached to the surface depending on the parameters.
+Objects are automatically attached to the surface, depending on the parameters.
 
 .. image:: images/tabs/SnapTab/SnapTab2.png
 
 | **Attach to mesh** : the object is attached to the mesh, instead of the collider.
-| **Attach same floor** : to auto-snap objects on the same height use the attach same floor.
+| **Attach same floor** : to auto-snap objects at the same height, use the `Attach same floor`.
 	
 	.. image:: images/tabs/SnapTab/SnapTab3.png		
 		:width: 49 %			
@@ -85,19 +85,17 @@ Objects are automatically attached to the surface depending on the parameters.
 	`Attach same floor example.`
 			
 	.. note::
-		Only works for :ref:`area <areaMode>` and :ref:`line <lineMode>` modes.
+		Only works for :ref:`Area <areaMode>` and :ref:`Line <lineMode>` modes.
 
-| **Snap layer mask** : layer that the object is automatically attached.
+| **Snap layer mask** : `unity layer <https://docs.unity3d.com/Manual/Layers.html>`_ that the object is automatically attached.
 | **Custom floor offset** : additional offset to the surface.
 | **Add pivot offset** : adds a pivot offset of the object regarding to the surface.
 
 	.. image:: images/tabs/SnapTab/SnapTab5.png		
-	Some tile objects may have a pivot in the center of the object.
-
-|	
+	Some tile objects may have a pivot point in the centre of the object.
 
 	.. image:: images/tabs/SnapTab/SnapTab6.png		
-	To fix this, turn on add pivot offset
+	To fix this, turn on `Add pivot offset`.
 
 Custom
 ~~~~~~~~~~~~
@@ -106,9 +104,9 @@ Customization value of the position on the Y axis.
 
 	.. image:: images/tabs/SnapTab/SnapTab7.png
 
-| **Fixed zero position** : object is always positioned at Y zero position.
-| **Prefab position** : object Y position is taken from the prefab position.
-| **Custom position** : set desired Y position of the object.
+| **Fixed zero position** : object is always positioned at the Y zero position.
+| **Prefab position** : Y position of the object is taken from the prefab position.
+| **Custom position** : user Y position of the object.
 
 	.. image:: images/tabs/SnapTab/SnapTab8.png
 	`Custom local offset (0, 4, 0) example.`
@@ -132,18 +130,18 @@ Enable replace to replace intersected objects.
 	
 		.. image:: images/tabs/ReplaceTab/ReplaceTab4.png
 	
-		* **Object layer** : replace objects only on the same object layer.
+		* **Object layer** : replace objects only on the same object :ref:`layer <maptileLayer>`.
 		
 		.. image:: images/tabs/ReplaceTab/ReplaceTab5.png
 		
 		* **Custom layers**
-			* **Replace map tile layer** : replace objects only on the selected layers.
+			* **Replace map tile layer** : replace objects only on the selected :ref:`layers <maptileLayer>`.
 			* **Include object layer**
 
 Merge
 =====
 
-``Merge is used to create object by a child to an existing one.``
+``Merge is used to create an object by adding a child to an existing one.``
 
 	.. image:: images/tabs/MergeTab/MergeTab1.png
 
@@ -156,10 +154,10 @@ Merge
 	.. image:: images/tabs/MergeTab/MergeTab3.png
 	
 **Merge parent type:**
-	* **Target object prefab root** : the created object is created by a child to the prefab root.		
-	* **Target object parent of hit** : the created object is created by a child to the attached object.
+	* **Target object prefab root** : the object created is a child of the prefab root.	
+	* **Target object parent of hit** : the created object is created by a child of the attached object.
 	* **Custom parent**	: user selected custom parent.
-	* **Relative prefab root path** : the created object is created by a child to the prefab root regarding to prefab root path.
+	* **Relative prefab root path** : the created object is created by a child of the prefab root regarding to prefab root path.
 		
 **Delete components** : delete all unity-components of the object.
 	* Delete only map tile 
@@ -168,20 +166,22 @@ Merge
 | **Delete colliders** : delete colliders of created object.
 	
 	.. image:: images/tabs/MergeTab/MergeTab4.png
-	For example, use the brush to attach the object to desired object.
+	For example, use the brush to attach the object to the desired object.
 
 	|
 	.. image:: images/tabs/MergeTab/MergeTab5.png
-	And create it (by default, by pressing :ref:`E <hotKeys>` key).
+	And create it (by default, by pressing :ref:`E key <hotKeys>`).
+
+.. _overlayTab:
 
 Overlay Mapping
 ===============
  
-``Overlay mapping is used for objects that do not need to calculate intersections with other objects on the grid, also used to set a custom grid or disable snapping to the grid.``
+``Overlay mapping is used for objects that do not need to calculate intersections with other objects on the grid, or to set a custom grid or disable snapping to the grid.``
  
 .. image:: images/tabs/OverlayTab/OverlayTab1.png
 
-You can enable it for `MapTile` layer 1-9 (for overlay layer objects and default gameobjects (without `MapTile` component) enabled by default).
+You can enable it for `MapTile` :ref:`layers 1-9 <maptileLayer>` (enabled by default for overlay layer objects and default gameobjects (without :ref:`MapTile <maptile>` component)).
 
 .. image:: images/tabs/OverlayTab/OverlayTab2.png
 
@@ -197,17 +197,17 @@ Movement Type
 Free movement
 ~~~~~~~~~~~~
 
-Object attached to cursor.	
+Object attached to the cursor.	
 
 Default cell
 ~~~~~~~~~~~~
 
-Object snapping to default cell size
+Object snapping to default cell size.
 
 Custom cell
 ~~~~~~~~~~~~
 
-Object snapping to custom cell size
+Object snapping to custom cell size.
 
 	.. image:: images/tabs/OverlayTab/OverlayTab4.png
 	`Custom cell snapping example (custom cell size is equal 4).` 
@@ -215,7 +215,7 @@ Object snapping to custom cell size
 Snap edge
 ~~~~~~~~~~~~
 
-Object snapping to edges of default cell
+Object snapping to edges of the default cell.
 
 	.. image:: images/tabs/OverlayTab/OverlayTab5.png		
 	`Snap edge example 1.` 
@@ -231,9 +231,9 @@ Floating grid
 **Floating grid type:**
 	* **Custom position** : the grid is positioned at a user-defined position.
 		* **Grid size** : custom grid size.
-	* **Flexible** : the size of the grid is customizable by the user on scene.
-		* **Lock center** : the center of the grid is fixed.			 
-	* **Follow cursor** : the center of the grid will be at the cursor.
+	* **Flexible** : the size of the grid can be adjusted by the user on scene.
+		* **Lock center** : the centre of the grid is fixed.			 
+	* **Follow cursor** : the center of the grid is at the cursor.
 	
 | **Custom cell size** : cell size of the custom floating grid.
 
@@ -252,7 +252,7 @@ Obstacle Check Type
 Distance
 ~~~~~~~~~~~~
 
-Object intersections are checked by distance (works only for `MapTile` overlay grid objects).
+Object intersections are checked by distance (only works for `MapTile` :ref:`overlay <overlayTab>` grid objects).
 
 	.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample2.png
 	`Obstacle distance check example.` 
@@ -268,16 +268,16 @@ Object intersections are checked by raycasts (works only for any gameobject with
 Randomizer
 ==========
 
-``Enable randomize objects to randomize every object creation.``
+``Enable randomize objects to randomize each object creation.``
 
 	.. image:: images/tabs/RandomizerTab/RandomizerTab1.png
 
-	* **Randomize any category object** : any object of selected category involved in randomization.
+	* **Randomize any category object** : any object of the selected category involved in the randomization.
 
 	.. image:: images/tabs/RandomizerTab/RandomizerTab2.png
 	
 	.. image:: images/tabs/RandomizerTab/RandomizerExample1.png
-	`Object randomization example (by default by pressing the space bar button).` 
+	`Object randomization example (by default, by pressing the space bar button).` 
 
 Or select custom objects to randomize.
 	
