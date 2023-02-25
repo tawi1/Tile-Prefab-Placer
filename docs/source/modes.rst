@@ -1,12 +1,12 @@
 .. _modes:
 
-Modes overview
+Modes Overview
 =====
 
 .. contents::
    :local:
 	
-Common info
+Common Info
 ------------
 
 	.. note::
@@ -16,7 +16,7 @@ Common info
 
 .. _singleMode:
 
-Single mode
+Single Mode
 ------------
 
 ``Single mode is used to position single objects.``
@@ -25,116 +25,155 @@ Single mode
 
 	.. image:: images/modes/SingleMode/SingleModeTab1.png
 	
-	**Object mode:**
-		* **Create new** : create a new object by using different tools.
-		* **Select** : select an existing object in the scene and modify it with various single edit tools described bellow.
-		
-	**Single edit mode:**
-		* **Simple** : spawn objects without any additional adjustments.
-		
-		* **Custom handles** : create object by modifying it with position, rotation, scale handles.
-		
-			.. image:: images/modes/SingleMode/SingleModeTab2.png
-				
-			* **Show rotation handle** : show rotation handle of target object.
-			* **Rotation handle type:**
-				* **Sphere** : edit object rotation with sphere handle.
-				* **Arc** : edit object rotation with arc handle.
-			* **Show movement handle** : show movement handle of target object.
-			* **Clamp cell movement** : clamp the object movement within grid cell.
+Object Mode
+~~~~~~~~~~~~
 
-		.. image:: images/modes/SingleMode/SelectEditExample.png
-		
-		|
-		
-		* **Cursor point rotation** : rotates the object in the direction of the cursor.
-		
-		.. image:: images/modes/SingleMode/CursorPointExample.png
-		
-		|
-		
-		* **Custom point rotation** : rotates the object in the direction of the target object.		
-		
-		.. image:: images/modes/SingleMode/SingleModeTab4.png
-		
-			* **Snap Y Axis** : snap target object to the Y axis.
-			* **Target point position** : position of target point.
-		
-		.. image:: images/modes/SingleMode/CustomPointRotationExample.png		
-		
-		.. note::
-			By default, you can change the scale of the object with the `left-ctrl` and the `mouse wheel` keys.
-		
-		|			
-		
-		* **Physics placing** : place objects using physics.
-		
-			.. image:: images/modes/SingleMode/SingleModeTab5.png
-		
-			* **Simulation settings:**
-				* **Auto stop simulation** : physics simulation will automatically stop after the objects are frozen in position.
-				* **Auto destroy falling object** :
-					* **Y destroy position** : position below which physical objects are automatically destroyed.
-				
-			* **Temp rigidbody settings:**
-				* **Mass** : mass of temp created physics object.
-				* **Drag** : drag value of temp created physics object.
-				* **Angular drag** : angular drag value of temp created physics object.
-				
-			* **Target point position** : position of target point.
-			
-			|
-			.. image:: images/modes/SingleMode/PhysicsPlacingExample.png
-			`Physics placing example.`	
-			
-			.. note::
-				Rigidbody and collider components will automatically be temporarily added if they are missing.
-		
-		
-	**Attach mode:**
-		* **Default** : default object placing.
-		* **Brush** : create an object on any collider surface or meshes another object.
-		
-		.. image:: images/modes/SingleMode/SingleModeTab6.png
-		
-		.. image:: images/modes/SingleMode/SingleModeTab6-1.png
-			:width: 500
+Create new 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-			* **Hit surface type:**
-				* **Mesh** : attach object to mesh.
-				* **Collider** : attach object to collider.
-			* **Attach layer** : layer of hit object.
-			* **Normal offset** : offset from normal hit.
-			* **Additive euler rotation** : additional rotation euler offset of the object.
-			* **Normal rotation:**
-				* **Disabled** : default object rotation.
-					* **Look normal** : look normal method for the attached object.
-					* **Revert normal rotation** : inverse normal direction of the surface hit.
-				* **Along normal** : along normal method for the attached object.
-					* **Along normal base** : normal base value (default Vector3(0,1,0)).	
-			* **Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
-				* **Add surface pivot offset** : 
+Create a new object by using different tools.
+	
+Select
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Select an existing object in the scene and modify it with various single edit tools described bellow.
+		
+Edit Mode
+~~~~~~~~~~~~
+	
+Simple
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Spawn objects without any additional adjustments.
+
+Custom handles
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+		
+Create object by modifying it with position, rotation, scale handles.
+		
+	.. image:: images/modes/SingleMode/SingleModeTab2.png
+	
+| **Show rotation handle** : show rotation handle of target object.
+
+**Rotation handle type:**
+	* **Sphere** : edit object rotation with sphere handle.
+	* **Arc** : edit object rotation with arc handle.
+	
+| **Show movement handle** : show movement handle of target object.
+| **Clamp cell movement** : clamp the object movement within grid cell.
+
+	.. image:: images/modes/SingleMode/SelectEditExample.png
+		
+Cursor point rotation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+		
+Rotates the object in the direction of the cursor.
+		
+	.. image:: images/modes/SingleMode/CursorPointExample.png
+		
+Custom point rotation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Rotates the object in the direction of the target object.		
+		
+	.. image:: images/modes/SingleMode/SingleModeTab4.png
+	
+		* **Snap Y Axis** : snap target object to the Y axis.
+		* **Target point position** : position of target point.
+	
+	.. image:: images/modes/SingleMode/CustomPointRotationExample.png		
+	
+	.. note::
+		By default, you can change the scale of the object with the `left-ctrl` and the `mouse wheel` keys.
+
+Physics Placing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+		
+Place objects using physics.
+		
+	.. image:: images/modes/SingleMode/SingleModeTab5.png
+	
+**Simulation settings:**
+	* **Auto stop simulation** : physics simulation will automatically stop after the objects are frozen in position.
+	* **Auto destroy falling object** :
+		* **Y destroy position** : position below which physical objects are automatically destroyed.
+	
+**Temp rigidbody settings:**
+	* **Mass** : mass of temp created physics object.
+	* **Drag** : drag value of temp created physics object.
+	* **Angular drag** : angular drag value of temp created physics object.
+	
+| **Target point position** : position of target point.
+
+	|
+	.. image:: images/modes/SingleMode/PhysicsPlacingExample.png
+	`Physics placing example.`	
+	
+	.. note::
+		Rigidbody and collider components will automatically be temporarily added if they are missing.
+		
+		
+Attach Mode
+~~~~~~~~~~~~
+
+Default
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+		
+Default object placing.
+
+Brush
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+Create an object on any collider surface or meshes another object.
+		
+	.. image:: images/modes/SingleMode/SingleModeTab6.png
+	
+	.. image:: images/modes/SingleMode/SingleModeTab6-1.png
+		:width: 500
+
+**Hit surface type:**
+	* **Mesh** : attach object to mesh.
+	* **Collider** : attach object to collider.
+	
+| **Attach layer** : layer of hit object.
+| **Normal offset** : offset from normal hit.
+| **Additive euler rotation** : additional rotation euler offset of the object.
+
+* **Normal rotation:**
+	* **Disabled** : default object rotation.
+		* **Look normal** : look normal method for the attached object.
+		* **Revert normal rotation** : inverse normal direction of the surface hit.
+	* **Along normal** : along normal method for the attached object.
+		* **Along normal base** : normal base value (default Vector3(0,1,0)).	
+		
+* **Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
+	* **Add surface pivot offset** : 
 			
-		|
-		.. image:: images/modes/SingleMode/SingleModeTab6-2.png
-		`Snap cube to cell example.`
+	|
+	.. image:: images/modes/SingleMode/SingleModeTab6-2.png
+	`Snap cube to cell example.`
 		
-		
+Common Settings
+~~~~~~~~~~~~
+
 	**Draw forward arrow** : show forward rotation of target object.
 	
 	**Show edit info** : show rotation and local of position of target object.
 	
-	**Snapping settings:**
+Snapping Settings
+~~~~~~~~~~~~
 	
-		.. image:: images/modes/SingleMode/SingleModeTab7.png
+	.. image:: images/modes/SingleMode/SingleModeTab7.png
 	
-		* **Enable rotation snapping:**
-			* **Snap angle value** : value of rotation snapping.					
-		* **Enable position snapping:**
-			* **Snap position value** : value of position snapping.
-		* **Enable scale snapping:**
-			* **Snap scale value** : value of scale snapping.
-			* **Scale step** : value of increasing scale by button.
+**Enable rotation snapping:**
+	* **Snap angle value** : value of rotation snapping.		
+	
+**Enable position snapping:**
+	* **Snap position value** : value of position snapping.
+	
+**Enable scale snapping:**
+	* **Snap scale value** : value of scale snapping.
+	* **Scale step** : value of increasing scale by button.
 
 .. _brushMode:
 
@@ -145,49 +184,57 @@ Brush mode
 
 `Brush mode tutorial <https://youtu.be/CrvR2lRYawo>`_
 
-	.. note::
-		**How to use:**
+How To Use
+~~~~~~~~~~~~
 							
-		Click `E` button to spawn objects under the brush.		
+* Click `E` button to spawn objects under the brush.		
 
+Attach Settings
+~~~~~~~~~~~~
 
 	.. image:: images/modes/BrushMode/BrushModeTab1.png
 
-	* **Attach settings:**
-		* **Attach mode:**
-			* **Default** : default object placing.
-			* **Brush** : create an object on any collider surface or meshes another object.
+**Attach mode:**
+	* **Default** : default object placing.
+	* **Brush** : create an object on any collider surface or meshes another object.
+
+**Hit surface type:**
+	* **Mesh** : attach object to mesh.
+	* **Collider** : attach object to collider.
+	
+| **Attach layer** : layer of hit object.
+| **Normal offset** : offset from normal hit.
+| **Additive euler rotation** : additional rotation euler offset of the object.
+
+**Normal rotation:**
+	* **Disabled** : default object rotation.
+	* **Look normal** : look normal method for the attached object.
+		* **Revert normal rotation** : inverse normal direction of the surface hit.
+	* **Along normal** : along normal method for the attached object.
+		* **Along normal base** : normal base value (default Vector3(0,1,0)).	
 		
-		* **Hit surface type:**
-			* **Mesh** : attach object to mesh.
-			* **Collider** : attach object to collider.
-		* **Attach layer** : layer of hit object.
-		* **Normal offset** : offset from normal hit.
-		* **Additive euler rotation** : additional rotation euler offset of the object.
-		* **Normal rotation:**
-			* **Disabled** : default object rotation.
-			* **Look normal** : look normal method for the attached object.
-				* **Revert normal rotation** : inverse normal direction of the surface hit.
-			* **Along normal** : along normal method for the attached object.
-				* **Along normal base** : normal base value (default Vector3(0,1,0)).	
-		* **Ignore previous created** : ignore previous created objects by brush.
-		* **Snap to cell** : snap tile to cell grid (available only for 1 object).
-		* **Has slope angle**
-			* **Slope angle value** : angle to the surface allowed to create objects.
+| **Ignore previous created** : ignore previous created objects by brush.
+| **Snap to cell** : snap tile to cell grid (available only for 1 object).
+* **Has slope angle**
+	* **Slope angle value** : angle to the surface allowed to create objects.
 			
 			
+Brush Settings
+~~~~~~~~~~~~
+
 	.. image:: images/modes/BrushMode/BrushModeTab2.png
 	
-	**Brush settings:**		
-		* **Brush radius** : radius of the brush.
-		* **Spacing length** : distance between the points that the objects are created.
-		* **Randomize object count** : random count value of objects of the brush.
-			* **Min object count** : minimum object count of random object creation.
-			* **Max object count** : maximum object count of random object creation.
-		* **Object count** : fixed count value of objects of the brush.
-		* **Rotation along brush** : rotation of each object is rotated along the line of brush creation.
-			* **Additional rotation along brush** : additional rotation offset for along line objects.
+| **Brush radius** : radius of the brush.
+| **Spacing length** : distance between the points that the objects are created.
 
+**Randomize object count** : random count value of objects of the brush.
+	* **Min object count** : minimum object count of random object creation.
+	* **Max object count** : maximum object count of random object creation.
+	
+| **Object count** : fixed count value of objects of the brush.
+
+**Rotation along brush** : rotation of each object is rotated along the line of brush creation.
+	* **Additional rotation along brush** : additional rotation offset for along line objects.
 
 	.. image:: images/modes/BrushMode/BrushExample1.png
 	`Brush example 1.`
@@ -202,137 +249,169 @@ Brush mode
 
 .. _lineMode:
 
-Line mode
+Line Mode
 ------------
 
 ``Line mode is designed for placing objects along a line.``
 
 `Line mode tutorial <https://youtu.be/BPoSkfNI7FY>`_
 
-	.. note::
-		**How to use:**
+How To Use
+~~~~~~~~~~~~
 							
-		Click `E` button to start the line, after the line is set, press the `E` button again to spawn line of the objects.
-		
-	* **Line type:**
-	
-		.. image:: images/modes/LineMode/LineModeTab1.png
-		* **Free** : places objects on a grid in the direction of the cursor.
+* Click `E` button to start the line, after the line is set, press the `E` button again to spawn line of the objects.
 
-		|
-		.. image:: images/modes/LineMode/LineModeTab2.png
-		`Free line example (endless line enabled).`
+Line Type
+~~~~~~~~~~~~
 		
+Free		
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+Places objects on a grid in the direction of the cursor.
+
+	.. image:: images/modes/LineMode/LineModeTab1.png
+
+	|
+	.. image:: images/modes/LineMode/LineModeTab2.png
+	`Free line example (endless line enabled).`
 		
-		.. image:: images/modes/LineMode/LineModeTab3.png
-		* **Fixed** : create straight lines on a grid.
+Fixed		
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
 		
-		* **Free/Fixed line settings:**
-			* **Show info** : show information about object count of the line.
-			* **Spacing cell** : spacing cell beetween objects.
-			* **Endless line** : the line automatically continues after the created previous one. 
-			* **Show snap neighbors**
-			* **Multifloor:** : enable multi floor feature
-				* **Auto reset floor** : auto reset floor count to 1 after unselect.
-				* **Floor count** : count of object floors.
-				* **Floor offset mode:**
-					* **Custom** : user floor offset.		
-					* **Mesh bounds** : Y axis size mesh renderer floor offset.			
-					* **Collider bounds** : Y axis size collider floor offset.				
-				* **Floor offset** : additional floor offset.
-			* **Rotation along line** : rotation of each object is rotated along the line.
+Create straight lines on a grid.
+
+	.. image:: images/modes/LineMode/LineModeTab3.png
+		
+Free/Fixed line settings
+""""""""""""""""""""""""""
+		
+| **Show info** : show information about object count of the line.
+| **Spacing cell** : spacing cell beetween objects.
+| **Endless line** : the line automatically continues after the created previous one. 
+| **Show snap neighbors**
+
+**Multifloor:** : enable multi floor feature
+	* **Auto reset floor** : auto reset floor count to 1 after unselect.
+	* **Floor count** : count of object floors.
+	* **Floor offset mode:**
+		* **Custom** : user floor offset.		
+		* **Mesh bounds** : Y axis size mesh renderer floor offset.			
+		* **Collider bounds** : Y axis size collider floor offset.				
+	* **Floor offset** : additional floor offset.
+	
+| **Rotation along line** : rotation of each object is rotated along the line.
 			
-		.. image:: images/modes/LineMode/LineModeTab4.png
-		`Fixed line example (randomizer enabled).`		
+	.. image:: images/modes/LineMode/LineModeTab4.png
+	`Fixed line example (randomizer enabled).`		
+	
+	|
 		
-		|
-		
+Free/Fixed edge settings
+""""""""""""""""""""""""""
+
+Movement type `snap edge` should be enabled in the `overlay mapping` tab.
+
 		.. image:: images/modes/LineMode/LineEdgeSettings.png
-		* **Free/Fixed edge settings (movement type `snap edge` should be enabled in the `overlay mapping` tab)** 
-			* **Snap every edge** : object will be placed on each cell edge on the line.
-			* **Add edge side offset** : adds an offset to the side of the line.
-				* **Edge relative point** : point relative to which the offset will be applied to the side.
-				* **Edge side offset** : offset value to the side.
+
+| **Snap every edge** : object will be placed on each cell edge on the line.
+
+**Add edge side offset** : adds an offset to the side of the line.
+	* **Edge relative point** : point relative to which the offset will be applied to the side.
+	* **Edge side offset** : offset value to the side.
 			
 		
-		.. image:: images/modes/LineMode/LineEdgeExample.png
-		`Fixed line example:`		
-			* Randomizer with pattern (01) enabled.	
-			* Snap edge enabled.
-			* Edge side offset (0.5).		
+	.. image:: images/modes/LineMode/LineEdgeExample.png
+	`Fixed line example:`		
+		* Randomizer with pattern (01) enabled.	
+		* Snap edge enabled.
+		* Edge side offset (0.5).		
+
+|
+
+	.. note::
+		`Snap same floor` feature for auto-snap available (`Snap Settings` tab).
 		
-		|
+Curved		
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+Place objects along a curved line.
+
+	.. image:: images/modes/LineMode/LineModeTab5.png
+
+Common settings
+""""""""""""""""""""""""""
+
+**Curve line type:**
+	* **Bezier**
+	* **Simple line**
+	* **Circle**
+	
+**Snap type:**
+	* **Disabled**
+	* **Lock Y** : Y position is fixed.
+	* **Auto Snap** : the object of the curve is automatically attached to the surface.
+	
+**Object normal type:**
+	* **Up**
+	* **Curve direction**
+	* **Surface normal**
+	* **Custom** : user normal.
+				
+Tabs
+""""""""""""""""""""""""""
+
+**Common**
+	* **Loop line** : should the line be looped.
+	* **Additive euler rotation** : additional rotation for each object.
+	* **Flexible spacing** : position of objects on the curve depending on their size.
+	* **Spacing length** : user spacing.
+	* **Clamp tangents** : tangents move together regarding to the central node.
+	
+**Custom**
+	* **Auto snap:**
+		* **Attach to mesh** : should the object be attached to the mesh.
+		* **Snap layer mask** : layer for attaching objects.
+		* **Raycast direction** : direction of the raycast.
+		* **Raycast distance** : raycast from offset point to raycast direction distance.
+		* **Offset raycast distance** : offset from zero Y surface.
 		
-		.. note::
-			`Snap same floor` feature for auto-snap available (`Snap Settings` tab).
-		
-		.. image:: images/modes/LineMode/LineModeTab5.png
-		* **Curved** : place objects along a curved line.	
-		* **Common settings:**
-			* **Curve line type:**
-				* **Bezier**
-				* **Simple line**
-				* **Circle**
-			* **Snap type:**
-				* **Disabled**
-				* **Lock Y** : Y position is fixed.
-				* **Auto Snap** : the object of the curve is automatically attached to the surface.
-			* **Object normal type:**
-				* **Up**
-				* **Curve direction**
-				* **Surface normal**
-				* **Custom** : user normal.
-		* **Tabs:**
-			* **Common**
-				* **Loop line** : should the line be looped.
-				* **Additive euler rotation** : additional rotation for each object.
-				* **Flexible spacing** : position of objects on the curve depending on their size.
-				* **Spacing length** : user spacing.
-				* **Clamp tangents** : tangents move together regarding to the central node.
-			* **Custom**
-				* **Auto snap:**
-					* **Attach to mesh** : should the object be attached to the mesh.
-					* **Snap layer mask** : layer for attaching objects.
-					* **Raycast direction** : direction of the raycast.
-					* **Raycast distance** : raycast from offset point to raycast direction distance.
-					* **Offset raycast distance** : offset from zero Y surface.
-			* **Visual**
-				* **Curve color** : color of the curve.
-				* **Handles type** : handle type for tangents.
-					* **Sphere**
-					* **Position handle**
-				* **Draw nodes** : display handles of the nodes.
-				* **Draw buttons** : display add/remove buttons of the curve segments.
-				* **Draw tangents** : display tangents of the nodes.
-				* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
+**Visual**
+	* **Curve color** : color of the curve.
+	* **Handles type** : handle type for tangents.
+		* **Sphere**
+		* **Position handle**
+	* **Draw nodes** : display handles of the nodes.
+	* **Draw buttons** : display add/remove buttons of the curve segments.
+	* **Draw tangents** : display tangents of the nodes.
+	* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
 					
 			|
 			
-		.. image:: images/modes/LineMode/AdditionalCurveSettings.png
-		* **Additional curve settings (randomizer window):**
-			* **Flexible spacing [enabled]:**
-				* **Ignore size** : object size in the line is ignored.
-					* **Edge** : object takes the rotation of the previous object, also the line is finished by this object.
-				
-		
-		|
-		.. image:: images/modes/LineMode/LineModeTab6.png
-		`Simple line example:`
-			* Random pattern enabled.		
-			* Flexible spacing enabled (additional `ignore size` & `edge` enabled at the pillar in the `randomizer` window).		
-		
-		|
-		.. image:: images/modes/LineMode/LineModeTab7.png
-		`Bezier line example:`
-			* Auto-snap enabled.	
-			* Random rotation enabled.	
-		
-		|
-		.. image:: images/modes/LineMode/LineModeTab8.png
-		`Circle line example (object random enabled).`
+	.. image:: images/modes/LineMode/AdditionalCurveSettings.png
+	* **Additional curve settings (randomizer window):**
+		* **Flexible spacing [enabled]:**
+			* **Ignore size** : object size in the line is ignored.
+				* **Edge** : object takes the rotation of the previous object, also the line is finished by this object.
+			
+	
+	|
+	.. image:: images/modes/LineMode/LineModeTab6.png
+	`Simple line example:`
+		* Random pattern enabled.		
+		* Flexible spacing enabled (additional `ignore size` & `edge` enabled at the pillar in the `randomizer` window).		
+	
+	|
+	.. image:: images/modes/LineMode/LineModeTab7.png
+	`Bezier line example:`
+		* Auto-snap enabled.	
+		* Random rotation enabled.	
+	
+	|
+	.. image:: images/modes/LineMode/LineModeTab8.png
+	`Circle line example (object random enabled).`
 
-		.. note::
-			For simple line segment can be added by `Ctrl` and `left-mouse click` hotkeys.
+	.. note::
+		For simple line segment can be added by `Ctrl` and `left-mouse click` hotkeys.
 		
 .. _areaMode:
 		

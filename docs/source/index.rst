@@ -8,13 +8,11 @@ You can buy it in unity asset store: `Tile Prefab Placer <https://assetstore.uni
 
 Check out the :doc:`gettingstarted` section for further information, including :ref:`installation` of the project.
 	
-Contents
---------
-
 .. toctree::
 	:maxdepth: 3
 	
 	gettingstarted
+	mapcreator
 	tabs
 	modes
 	maptile
