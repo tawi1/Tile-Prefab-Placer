@@ -16,5 +16,6 @@ Check out the :doc:`gettingstarted` section for further information, including :
 	tabs
 	modes
 	maptile
+	other
 
 

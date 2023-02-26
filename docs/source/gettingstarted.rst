@@ -1,10 +1,10 @@
 Getting Started
 ************
 
-.. _installation:
-
 .. contents::
    :local:
+   
+.. _installation:
 
 Installation
 ============
@@ -57,3 +57,4 @@ Installation
 
 #. Add your :ref:`prefabs <prefabs>`.
 #. Place the desired prefabs on the scene using various :ref:`modes <modes>`.
+#. When the scene is finished, if you have used a large number of :ref:`MapTiles <maptile>`, it may be useful to clean up the scene before building with :ref:`Map Utils <mapUtils>` tool.
