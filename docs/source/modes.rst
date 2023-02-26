@@ -10,7 +10,7 @@ Common Info
 ------------
 
 	.. note::
-		To start creating objects, select the object in the inspector, select the desired position to spawn and press the E button to create the object (you can change create hotkey to whatever you want).
+		To start creating objects, select the object in the inspector, select the desired position to spawn and press the `E` button to create the object (you can change create :ref:`hotkey <hotKeys>` to whatever you want).
 		
 		Each edit mode has its own features, which are detailed below.
 
