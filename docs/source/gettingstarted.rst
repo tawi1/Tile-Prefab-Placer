@@ -11,7 +11,7 @@ Installation
 
 `Getting started tutorial <https://youtu.be/Y_LklnjDQ2U>`_
 
-**Steps to use Tile Prefab Placer:**
+**Steps:**
 
 #. Download & import from unity asset store.
 
@@ -51,7 +51,11 @@ Installation
 		**Script define symbols required for the project:**
 			* **MAP_EDITOR**
 	
-#. Set the tile path in the `MapCreator`'s cached tab where the prefab categories are stored.
+#. Add a :ref:`MapCreator <mapCreatorHowToCreate>` to the scene.
+
+	.. image:: images/mapcreator/HowToCreate.png
+	
+#. Set the tile path in the `MapCreator`'s :ref:`cached tab <cachedValues>` where the prefab categories are stored.
 
 	.. image:: images/gettingstarted/CachedValuesTabPrefabPath.png
 

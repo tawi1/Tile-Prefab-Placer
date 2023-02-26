@@ -1,7 +1,7 @@
 .. _tabs:
 
 ********************
-Common tabs overview
+Tabs Overview
 ********************
 
 .. contents::

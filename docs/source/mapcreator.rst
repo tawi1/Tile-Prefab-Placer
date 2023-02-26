@@ -6,6 +6,8 @@ Map Creator
 .. contents::
    :local:
       
+.. _mapCreatorHowToCreate:
+	  
 How To Create
 =======
 

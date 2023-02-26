@@ -1,6 +1,6 @@
 .. _maptile:
 
-MapTile Component Overview
+MapTile Component
 =====
 
 .. contents::
