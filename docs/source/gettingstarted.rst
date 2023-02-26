@@ -1,4 +1,4 @@
-Getting started
+Getting Started
 ************
 
 .. _installation:
@@ -50,10 +50,6 @@ Installation
 	.. note::
 		**Script define symbols required for the project:**
 			* **MAP_EDITOR**
-	
-#. Add a :ref:`MapCreator <mapCreatorHowToCreate>` to the scene.
-
-	.. image:: images/mapcreator/HowToCreate.png
 	
 #. Set the tile path in the `MapCreator`'s :ref:`cached tab <cachedValues>` where the prefab categories are stored.
 

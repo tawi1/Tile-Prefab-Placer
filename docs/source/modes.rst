@@ -177,7 +177,7 @@ Snapping Settings
 
 .. _brushMode:
 
-Brush mode
+Brush Mode
 ------------
 
 ``Brush mode is used to position multiple objects on any surface.``
@@ -415,7 +415,7 @@ Tabs
 		
 .. _areaMode:
 		
-Area mode
+Area Mode
 ------------
 
 ``Area mode is designed for positioning objects by area.``
@@ -462,7 +462,7 @@ Settings
 
 .. _destroyMode:
 
-Destroy mode
+Destroy Mode
 ------------
 
 ``Destroy mode is designed for convenient destruction of objects in the scene.``
@@ -635,7 +635,7 @@ Settings
 	
 .. _translateMode:
 	
-Translate mode
+Translate Mode
 ------------
 
 ``Translate mode is designed to move the set of object.``

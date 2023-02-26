@@ -6,11 +6,20 @@ Map Creator
 .. contents::
    :local:
       
+Description
+=======
+
+Is a tool for placing tile objects on a grid, and can also be used to place default objects using a variety of :ref:`custom tools <modes>`.
+
 .. _mapCreatorHowToCreate:
 	  
 How To Create
 =======
 
+In the `Unity` toolbar, select:
+
+	`Spirit604/MapEditor/Create/Map Editor`
+	
 	.. image:: images/mapcreator/HowToCreate.png
 	
 Structure
@@ -34,7 +43,7 @@ Prefabs
 
 ``MapCreator's scroll view consists of prefab categories.``
 
-**Category** - it's a prefab set, create categories according to your needs.
+**Category** - it's a :ref:`prefab set <category>`, create categories according to your needs.
 
 How To Create Category
 -----------------------------

@@ -7,7 +7,7 @@ Tabs Overview
 .. contents::
    :local:
    
-EditMode settings
+Edit Mode Settings
 =================
    
 **There are the following modes:**
