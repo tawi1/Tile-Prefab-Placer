@@ -67,6 +67,8 @@ Snap Settings
 Object Snap Type
 -------------------	
 
+.. _autoSnap:
+
 Auto Snap
 ~~~~~~~~~~~~
 	

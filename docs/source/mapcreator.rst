@@ -20,7 +20,7 @@ Structure
 #. :ref:`Common settings. <commonSettings>`
 #. :ref:`Modes. <modes>`
 #. :ref:`Tabs. <tabs>`
-#. :ref:`Tabs. <mapCreatorLayer>`
+#. :ref:`Layer. <mapCreatorLayer>`
 #. :ref:`Selected info. <mapCreatorSelectedInfo>`
 #. :ref:`Categories. <category>`
 #. :ref:`Prefabs. <prefabs>`
@@ -41,7 +41,7 @@ How To Create Category
 
 * Click ``+`` button to start adding category.
 * Enter category name.
-* Click ``add`` button.
+* Click ``Add`` button.
 
 	.. note::
 		To delete a category, select category and click the ``-`` button.
@@ -243,6 +243,8 @@ Common Hotkey Config
 | **Select translate mode button** : select :ref:`translate <translateMode>` mode hotkey.
 | **Select template mode button** : select :ref:`template <templateMode>` mode hotkey.
 | **Scroll wheel button** : additional action in the `edit mode` using the mouse wheel and the selected key.
+
+.. _customHotKeys:
 
 Custom Hotkey Settings
 --------------------------

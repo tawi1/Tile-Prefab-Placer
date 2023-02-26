@@ -329,7 +329,7 @@ Movement type `snap edge` should be enabled in the `overlay mapping` tab.
 |
 
 	.. note::
-		`Snap same floor` feature for auto-snap available (`Snap Settings` tab).
+		`Snap same floor` feature for :ref:`auto-snap <autoSnap>` available (`Snap Settings` tab).
 		
 Curved		
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^		
@@ -411,7 +411,7 @@ Tabs
 	`Circle line example (object random enabled).`
 
 	.. note::
-		For simple line segment can be added by `Ctrl` and `left-mouse click` hotkeys.
+		For simple line segment can be added by `Ctrl` and `left-mouse click` :ref:`hotkeys <autoSnap>`.
 		
 .. _areaMode:
 		
@@ -422,34 +422,43 @@ Area mode
 
 `Area mode tutorial <https://youtu.be/QqRKa3xVoyI>`_
 
-	.. note::
-		**How to use:**
+
+How To Use
+~~~~~~~~~~~~
 							
-		* Click `E` button to start the area, 
-		.. image:: images/modes/AreaMode/AreaModeTab1.png
+* Click `E` button to start the area, 
+
+	.. image:: images/modes/AreaMode/AreaModeTab1.png
 		
-		* After the area is set, press the `E` button again to spawn area of the objects.
-		.. image:: images/modes/AreaMode/AreaModeTab2.png
+* After the area is set, press the `E` button again to spawn area of the objects.
+
+	.. image:: images/modes/AreaMode/AreaModeTab2.png
 		
+Settings
+~~~~~~~~~~~~
+
 	.. image:: images/modes/AreaMode/AreaModeTab3.png
 
-	* **Show info** : show information about object count of the area.
-	* **Area mode type:**
-		* **Default** : placing the object set on the area.
-		* **Scale**	: scaling a single object on an area.
-	* **Random spacing cell** : spacing cell beetween objects.
-	* **Spacing cell** : spacing cell beetween objects.
-	* **Multifloor:** : enable multi floor feature
-		* **Auto reset floor** : auto reset floor count to 1 after unselect.
-		* **Floor count** : count of object floors.
-		* **Floor offset mode:**
-			* **Custom** : user floor offset.		
-			* **Mesh bounds** : Y axis size mesh renderer floor offset.			
-			* **Collider bounds** : Y axis size collider floor offset.				
-		* **Floor offset** : additional floor offset.
+| **Show info** : show information about object count of the area.
+
+**Area mode type:**
+	* **Default** : placing the object set on the area.
+	* **Scale**	: scaling a single object on an area.
+	
+| **Random spacing cell** : spacing cell beetween objects.
+| **Spacing cell** : spacing cell beetween objects.
+
+**Multifloor** : enable multi floor feature
+	* **Auto reset floor** : auto reset floor count to 1 after unselect.
+	* **Floor count** : count of object floors.
+	* **Floor offset mode:**
+		* **Custom** : user floor offset.		
+		* **Mesh bounds** : Y axis size mesh renderer floor offset.			
+		* **Collider bounds** : Y axis size collider floor offset.			
+	* **Floor offset** : additional floor offset.
 
 	.. note::
-		`Snap same floor` feature for auto-snap available (`Snap Settings` tab).
+		`Snap same floor` feature for :ref:`auto-snap <autoSnap>` available (`Snap Settings` tab).
 
 .. _destroyMode:
 
@@ -460,144 +469,169 @@ Destroy mode
 
 `Destroy mode tutorial <https://youtu.be/aZUhq0YlEk8>`_
 
-	.. note::
-		**How to use:**
+How To Use
+~~~~~~~~~~~~
 								
-		Click `E` button to start the destroy area, after the area is set, press the `E` button again to destroy the selected area.
+* Click `E` button to start the destroy area, after the area is set, press the `E` button again to destroy the selected area.
 			
 	.. image:: images/modes/DestroyMode/DestroyModeTab1.png
 	
-* **Delete mode:**
-	* **MapTile grid delete**	
-		* **Delete floor method:**
-			* **Disabled**
-				
-			.. image:: images/modes/DestroyMode/DestroyModeTab2.png
-			* **Selected** : selected floors are deleted.
-				* **Floor height** : floor height in unity units.
-				* **Floor precision** : offset on the edges between floors.
-				* **Min floor number** : min floor number for delete. 
-				* **Max floor number** : max floor number for delete. 
-				
-			|
-			.. image:: images/modes/DestroyMode/DestroyModeTab3.png
-			* **Cell last amount** : selected top floors are deleted.
-				* **Floor amount** : number of floors to remove.
-					
-			|
-			.. image:: images/modes/DestroyMode/DestroyModeTab4.png
-			* **Area max amount** : maximal level floors are deleted.
-				* **Floor amount** : number of floors to remove.	
-					
-			|
-			.. image:: images/modes/DestroyMode/DestroyModeTab5.png
-			`Cell last amount remove example.`			
+Delete Mode
+~~~~~~~~~~~~
+
+MapTile grid delete		
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+* **Delete floor method:**
+	* **Disabled**
+		
+	.. image:: images/modes/DestroyMode/DestroyModeTab2.png
+	* **Selected** : selected floors are deleted.
+		* **Floor height** : floor height in unity units.
+		* **Floor precision** : offset on the edges between floors.
+		* **Min floor number** : min floor number for delete. 
+		* **Max floor number** : max floor number for delete. 
+		
+	|
+	.. image:: images/modes/DestroyMode/DestroyModeTab3.png
+	* **Cell last amount** : selected top floors are deleted.
+		* **Floor amount** : number of floors to remove.
 			
-			|
-			.. image:: images/modes/DestroyMode/DestroyModeTab6.png
-			`Selected 0 - 2 floors to remove example.`
+	|
+	.. image:: images/modes/DestroyMode/DestroyModeTab4.png
+	* **Area max amount** : maximal level floors are deleted.
+		* **Floor amount** : number of floors to remove.	
+			
+	|
+	.. image:: images/modes/DestroyMode/DestroyModeTab5.png
+	`Cell last amount remove example.`			
+	
+	|
+	.. image:: images/modes/DestroyMode/DestroyModeTab6.png
+	`Selected 0 - 2 floors to remove example.`
 					
 					
 	.. note::
-		* The floor delete method only works on GameObjects with `MapTile` component.
+		* The floor delete method only works on GameObjects with :ref:`MapTile <maptile>` component.
 		* Enable auto-snap to attach cursor for any surface.
 			
-	* **Raycast deletion:**	
-		* **Common delete settings:**
-			* **Allow delete not prefab** : gameobjects (not prefabs) can be deleted.
-			* **Object type:**
-				* **Any** : any object can be deleted.
-				* **MapTile** : only `MapTile` objects can be deleted.
-				* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be deleted.
-			* **Target layer** : layers that will be deleted.
-			* **Draw debug** : show bounds of deletion.
-				* **Debug color** : color of debug.
-		* **Unique delete settings:**
-			* **Box raycast**			
-				* **Y box offset** : offset from surface.
-				* **Max box raycast distance** : raycast distance from offset point.
-			* **Brush raycast**
-				* **Brush radius** : radius of the delete brush.
-				* **Attach to surface:**
-					* **Attach layer** : layer to which the brush is attached.
-				* **Y brush raycast normal offset** : offset from brush hit surface.
-				* **Max brush raycast distance** : raycast distance from offset point.
-					
-			.. note::
-				**How to use:**
-					
-				Click `E` button to destroy objects under the brush.
-					
-		.. image:: images/modes/DestroyMode/DestroyModeTab7.png
-		`Box raycast remove example.`		
-			
-		.. image:: images/modes/DestroyMode/DestroyModeTab8.png
-		`Brush raycast remove example.`		
-					
+Raycast deletion		
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+Common settings
+""""""""""""""""""""""""""
+
+| **Allow delete not prefab** : gameobjects (not prefabs) can be deleted.
+
+**Object type:**
+	* **Any** : any object can be deleted.
+	* **MapTile** : only `MapTile` objects can be deleted.
+	* **Default gameobject** : only default gameobject (without :ref:`MapTile <maptile>` component) objects can be deleted.
+	
+| **Target layer** : layers that will be deleted.
+**Draw debug** : show bounds of deletion.
+	* **Debug color** : color of debug.
+	
+Unique settings
+""""""""""""""""""""""""""	
+
+* **Box raycast**			
+	* **Y box offset** : offset from surface.
+	* **Max box raycast distance** : raycast distance from offset point.
+* **Brush raycast**
+	* **Brush radius** : radius of the delete brush.
+	* **Attach to surface:**
+		* **Attach layer** : layer to which the brush is attached.
+	* **Y brush raycast normal offset** : offset from brush hit surface.
+	* **Max brush raycast distance** : raycast distance from offset point.
+				
 		.. note::
-			The raycast method only works on any GameObject with collider.
+			**How to use:**
+				
+			Click `E` button to destroy objects under the brush.
+				
+	.. image:: images/modes/DestroyMode/DestroyModeTab7.png
+	`Box raycast remove example.`		
+		
+	.. image:: images/modes/DestroyMode/DestroyModeTab8.png
+	`Brush raycast remove example.`		
+				
+	.. note::
+		The raycast method only works on any GameObject with collider.
 			
-	* **Screen selection**
-		* **Selection object method:**
-				* **Multiple** : all objects under selection box will be selected.
-				* **Single** : only 1 object under the cursor will be selected.
-			* **Auto destroy on select** : object will automatically be deleted after selection.
-			* **Selection color** : color of the selection box.
+Screen selection	
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+How To Use
+""""""""""""""""""""""""""
+
+* Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
 					
-			.. note::
-				**How to use:**
-							
-				Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
-					
-			.. image:: images/modes/DestroyMode/DestroyModeTab9.png
-			`Screen selection remove example.`		
+	.. image:: images/modes/DestroyMode/DestroyModeTab9.png
+	`Screen selection remove example.`	
+
+Settings
+""""""""""""""""""""""""""
+
+* **Selection object method:**
+		* **Multiple** : all objects under selection box will be selected.
+		* **Single** : only 1 object under the cursor will be selected.
+	* **Auto destroy on select** : object will automatically be deleted after selection.
+	* **Selection color** : color of the selection box.
 
 .. _tilesetMode:
 
-Tileset mode
+Tileset Mode
 ------------
 
 ``Tileset area is created to create areas of linked tiles.``
 
 `Tileset area mode tutorial <https://youtu.be/LaKgNFQdPNI>`_
 
-	.. note::
-		**How to use:**
-							
-		Click `E` button to start the tileset area, after the area is set, press the `E` button again to spawn tileset area.
+How To Use
+~~~~~~~~~~~~
 
-	* **Selected MapTile prefab** : what `MapTile` prefab is selected.
-	* **Selected tileset** : what tileset prefab is selected.
-	
-	**How to create tileset:**	
-		* Toggle `create new tileset settings`.
-		* Enter tileset name.
-		* Press create button.
-		.. image:: images/modes/TilesetArea/TilesetAreaTab1.png
+* Click `E` button to start the tileset area, after the area is set, press the `E` button again to spawn tileset area.
+
+
+How To Create Tileset
+~~~~~~~~~~~~
+
+* Toggle `Create new tileset settings`.
+* Enter tileset name.
+* Press `Create` button.
+
+	.. image:: images/modes/TilesetArea/TilesetAreaTab1.png
+
+|
+* Drag and drop the desired prefabs into the box (the default prefab should drop first).
+
+	.. image:: images/modes/TilesetArea/TileSetAreaExample1.png
+	.. image:: images/modes/TilesetArea/TileSetAreaExample2.png
+
+|
+* Press open tile edit mode prefab to configure the tile set.
+* Select the cells where the connection of the tiles will be.
+
+	.. image:: images/modes/TilesetArea/TilesetConnectionExample1.png
+	|
+	.. image:: images/modes/TilesetArea/TilesetConnectionExample2.png
+	|
+	.. image:: images/modes/TilesetArea/TilesetConnectionExample3.png
+	|
+	.. image:: images/modes/TilesetArea/TilesetConnectionExample4.png
 		
-		|
-		* Drag and drop the desired prefabs into the box (the default prefab should drop first).
+	`Tile connection setup example examples.`						
 		
-		.. image:: images/modes/TilesetArea/TileSetAreaExample1.png
-		.. image:: images/modes/TilesetArea/TileSetAreaExample2.png
-		
-		|
-		* Press open tile edit mode prefab to configure the tile set.
-		* Select the cells where the connection of the tiles will be.
-		
-			.. image:: images/modes/TilesetArea/TilesetConnectionExample1.png
-			|
-			.. image:: images/modes/TilesetArea/TilesetConnectionExample2.png
-			|
-			.. image:: images/modes/TilesetArea/TilesetConnectionExample3.png
-			|
-			.. image:: images/modes/TilesetArea/TilesetConnectionExample4.png
-				
-			`Tile connection setup example examples.`						
-				
-			|
-			.. image:: images/modes/TilesetArea/CreateTilesetExample1.png
-			`Create tileset area example.`		
+	|
+	.. image:: images/modes/TilesetArea/CreateTilesetExample1.png
+	`Create tileset area example.`		
+
+Settings
+~~~~~~~~~~~~
+
+| **Selected MapTile prefab** : what `MapTile` prefab is selected.
+| **Selected tileset** : what tileset prefab is selected.
 	
 .. _translateMode:
 	
@@ -608,50 +642,66 @@ Translate mode
 
 `Translate mode tutorial <https://youtu.be/mlIa1BwmDiE>`_
 
-	.. note::
-		**How to use:**							
-			* Click `E` button to start the selection area.
-			* Move the scene handle to the desired position.
-			* Press the `E` button again to translate selected objects.
+How To Use
+~~~~~~~~~~~~
+
+* Click `E` button to start the selection area.
+* Move the scene handle to the desired position.
+* Press the `E` button again to translate selected objects.
+
+Settings
+~~~~~~~~~~~~
 
 	.. image:: images/modes/TranslateMode/TranslateModeTab1.png
 	
-* **Scene settings:**
-	* **Movement type:**
-		* **World cursor** : objects move along the world cursor.
-		* **Scene handle** : objects move along the scene handle.
-	* **Translate mode:**
-		* **Full translate** : objects can be moved only if all selected objects can be moved.
-		* **Partial translate** : will be translated those objects that do not intersect other objects.
-		* **Can replace** : intersected objects can be replaced when the selected objects are translated.
-	* **Selection method:**
-		* **Map** : selecting objects on the grid.
-		* **Screen selection** : selecting objects under the selection box.
+Scene settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+	
+**Movement type:**
+	* **World cursor** : objects move along the world cursor.
+	* **Scene handle** : objects move along the scene handle.
+**Translate mode:**
+	* **Full translate** : objects can be moved only if all selected objects can be moved.
+	* **Partial translate** : will be translated those objects that do not intersect other objects.
+	* **Can replace** : intersected objects can be replaced when the selected objects are translated.
+**Selection method:**
+	* **Map** : selecting objects on the grid.
+	* **Screen selection** : selecting objects under the selection box.
 		
-* **Translate settings:**
-	* **Show intersected objects** : intersected objects will be highlighted.
-		* **Intersected objects color** : the color of the intersected objects highlighting.
-	* **Check intesection for Overlay** : intersections for overlay objects will be detected by the raycast.
+Translate settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+* **Show intersected objects** : intersected objects will be highlighted.
+	* **Intersected objects color** : the color of the intersected objects highlighting.
+	
+| **Check intesection for Overlay** : intersections for overlay objects will be detected by the raycast.
 		
-* **Other settings:**
-	* **Report translate result** : on/off translate result report in the console.
-	* **Hide source selected objects** : source objects will be hidden for the time of the translating.
-	* **Move intersected to source position** : objects will be moved to the initial position if they have an intersection.
-	* **Delayed heavy calculation** : calculation of intersections will be delayed with a huge amount of objects.
+Other settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+| **Report translate result** : on/off translate result report in the console.
+| **Hide source selected objects** : source objects will be hidden for the time of the translating.
+| **Move intersected to source position** : objects will be moved to the initial position if they have an intersection.
+
+* **Delayed heavy calculation** : calculation of intersections will be delayed with a huge amount of objects.
 		* **Heavy calculation object amount** : amount of objects to start a delay.
 		* **Calculation delay duration** : duration of the delay after a position change.
 		
-* **Snap settings:**
-	* **Snap to grid**	
-		* **Snap grid enabled** : snapping on the grid.
-			* **Cell offset** : value of offset in grid cells.
-			* **Custom Y Snap** : custom snapping value for Y axis.
-		* **Snap grid disabled:**	
-			* **Translate snap type** : custom snapping.
-				* **Snap translate** : offset of translation will be snapped.
-				* **Snap position** : position of translated objects will be snapped.
-			* **Snap value**
-	* **Lock Y Axis** : when moving objects, the Y axis will be locked.
+Snap settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^		
+
+* **Snap to grid**	
+	* **Snap grid enabled** : snapping on the grid.
+		* **Cell offset** : value of offset in grid cells.
+		* **Custom Y Snap** : custom snapping value for Y axis.
+		
+	* **Snap grid disabled:**	
+		* **Translate snap type** : custom snapping.
+			* **Snap translate** : offset of translation will be snapped.
+			* **Snap position** : position of translated objects will be snapped.
+		* **Snap value**
+		
+| **Lock Y Axis** : when moving objects, the Y axis will be locked.
 	
 	.. note::
 		Moving a huge amount of objects can take a very long time.		
@@ -667,23 +717,29 @@ Translate mode
 
 .. _templateMode:
 
-Create template mode
+Create Template Mode
 ------------
 
 ``Template mode is designed to create template prefabs from existing prefabs.``
 
 `Template mode tutorial <https://youtu.be/c67ExYwabG0>`_
 
-	.. note::
-		**How to use:**
-			* Click `E` button to start the selection area, after the desired objects are selected, configure the template parameters and click the `create` button.
-			.. image:: images/modes/TemplateMode/TemplateMode1.png
-			* After the desired objects are selected, configure the template parameters.
-			* Click the `create` button.
+How To Use
+~~~~~~~~~~~~
+
+* Click `E` button to start the selection area, after the desired objects are selected, configure the template parameters and click the `Create` button.
+
+	.. image:: images/modes/TemplateMode/TemplateMode1.png
+
+* After the desired objects are selected, configure the template parameters.
+* Click the `Create` button.
+
+Settings
+~~~~~~~~~~~~
 
 	.. image:: images/modes/TemplateMode/TemplateMode2.png
 	
-* **Selection method:**
+**Selection method:**
 	* **Map:** selecting objects on the grid.
 	* **Screen selection:** selecting objects under the selection box.
 		* **Object type:**
@@ -695,25 +751,32 @@ Create template mode
 			* **Multiple** : all objects under selection box will be selected.
 			* **Single** : only 1 object under the cursor will be selected.
 		* **Selection color** : color of the selection box.
-* **Template prefab name** : template name.
-* **Template create path** : template creation path.
-* **Template object type:**
+		
+| **Template prefab name** : template name.
+| **Template create path** : template creation path.
+
+**Template object type:**
 	* **MapTile** : template will be created with the `MapTile` component.
 	* **Default gameobject** : template will be created without the `MapTile` component.
-* **Child prefab type:**
+	
+**Child prefab type:**
 	* **Linked prefab** : child objects of the template are linked prefabs.
 	* **Prefab clone**: child objects of the template are prefab clones.
-* **Category type:**
+	
+**Category type:**
 	* **Template**: template prefab is added to the template category.
 	* **Custom**: template prefab is added to the custom category.
 		* **Category**: name of the custom category.
-* **Delete child components**: delete all unity-components of the object.
+		
+**Delete child components**: delete all unity-components of the object.
 	* **Delete only MapTile**: or only `MapTile` component
-* **Delete child colliders**: delete colliders of created object
-* **Selected object count**: the number of selected objects for the template.
-* **Template pivot**: local pivot position of the template.
-* **Current template tile size**: the current grid size of the template.
-* **Draw bounds**: draw bounds of the template.
+	
+| **Delete child colliders**: delete colliders of created object
+| **Selected object count**: the number of selected objects for the template.
+| **Template pivot**: local pivot position of the template.
+| **Current template tile size**: the current grid size of the template.
+
+**Draw bounds**: draw bounds of the template.
 	* **Y bounds size**: y bounds size of the template.
 	* **Bounds color**: color of the bounds.
 		
