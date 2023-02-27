@@ -11,16 +11,16 @@ Common Info
 ------------
 
 	.. note::
-		To start creating objects, select the object in the inspector, select the desired position to spawn and press the `E` button to create the object (you can change create :ref:`hotkey <hotKeys>` to whatever you want).
+		To start creating objects, select the object in the inspector, select the desired spawn position, and press the `E` key to create the object (you can change the create :ref:`hotkey <hotKeys>` to whatever you want).
 		
-		Each edit mode has its own features, which are detailed below.
+		Each edit mode has its own special features, which are described below.
 
 .. _singleMode:
 
 Single Mode
 ------------
 
-``Single mode is used to position single objects.``
+``The single mode is used for the positioning of single objects.``
 
 `Single mode tutorial <https://youtu.be/wHtF12qiRgI>`_
 
@@ -37,7 +37,7 @@ Create a new object by using different tools.
 Select
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Select an existing object in the scene and modify it with various single edit tools described bellow.
+Select an existing object in the scene and modify it using the various single edit tools described below.
 		
 Edit Mode
 ~~~~~~~~~~~~
@@ -50,7 +50,7 @@ Spawn objects without any additional adjustments.
 Custom handles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 		
-Create object by modifying it with position, rotation, scale handles.
+Create an object by modifying it with position, rotation and scale handles.
 		
 	.. image:: images/modes/SingleMode/SingleModeTab2.png
 	
@@ -61,7 +61,7 @@ Create object by modifying it with position, rotation, scale handles.
 	* **Arc** : edit object rotation with arc handle.
 	
 | **Show movement handle** : show movement handle of target object.
-| **Clamp cell movement** : clamp the object movement within grid cell.
+| **Clamp cell movement** : object movement constraint within the grid cell.
 
 	.. image:: images/modes/SingleMode/SelectEditExample.png
 		
@@ -75,7 +75,7 @@ Rotates the object in the direction of the cursor.
 Custom point rotation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Rotates the object in the direction of the target object.		
+Rotates the object towards the target object.		
 		
 	.. image:: images/modes/SingleMode/SingleModeTab4.png
 	
@@ -85,7 +85,7 @@ Rotates the object in the direction of the target object.
 	.. image:: images/modes/SingleMode/CustomPointRotationExample.png		
 	
 	.. note::
-		By default, you can change the scale of the object with the `left-ctrl` and the `mouse wheel` keys.
+		By default, you can change the scale of the object using the `left-ctrl` key and the `mouse wheel` keys.
 
 Physics Placing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^		
@@ -100,18 +100,18 @@ Place objects using physics.
 		* **Y destroy position** : position below which physical objects are automatically destroyed.
 	
 **Temp rigidbody settings:**
-	* **Mass** : mass of temp created physics object.
-	* **Drag** : drag value of temp created physics object.
-	* **Angular drag** : angular drag value of temp created physics object.
+	* **Mass** : mass of temporarily created physical object.
+	* **Drag** : drag value of temporarily created physical object.
+	* **Angular drag** : angular drag value of temporarily created physical object.
 	
-| **Target point position** : position of target point.
+| **Target point position** : position of the target point.
 
 	|
 	.. image:: images/modes/SingleMode/PhysicsPlacingExample.png
 	`Physics placing example.`	
 	
 	.. note::
-		Rigidbody and collider components will automatically be temporarily added if they are missing.
+		Rigidbody and collider components are automatically added temporarily if missing.
 		
 		
 Attach Mode
@@ -125,7 +125,7 @@ Default object placing.
 Brush
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^		
 
-Create an object on any collider surface or meshes another object.
+Create an object on any collider or mesh surface of another object.
 		
 	.. image:: images/modes/SingleMode/SingleModeTab6.png
 	
@@ -136,15 +136,15 @@ Create an object on any collider surface or meshes another object.
 	* **Mesh** : attach object to mesh.
 	* **Collider** : attach object to collider.
 	
-| **Attach layer** : layer of hit object.
+| **Attach layer** : layer of the hit object.
 | **Normal offset** : offset from normal hit.
-| **Additive euler rotation** : additional rotation euler offset of the object.
+| **Additive euler rotation** : additional rotation Euler offset of the object.
 
 * **Normal rotation:**
 	* **Disabled** : default object rotation.
 		* **Look normal** : look normal method for the attached object.
 		* **Revert normal rotation** : inverse normal direction of the surface hit.
-	* **Along normal** : along normal method for the attached object.
+	* **Along normal** : along the normal method for the attached object.
 		* **Along normal base** : normal base value (default Vector3(0,1,0)).	
 		
 * **Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
@@ -174,7 +174,7 @@ Snapping Settings
 	
 **Enable scale snapping:**
 	* **Snap scale value** : value of scale snapping.
-	* **Scale step** : value of increasing scale by button.
+	* **Scale step** : value of the incrementing scale by key.
 
 .. _brushMode:
 
@@ -188,7 +188,7 @@ Brush Mode
 How To Use
 ~~~~~~~~~~~~
 							
-* Click `E` button to spawn objects under the brush.		
+* Press `E` key to spawn objects under the brush.		
 
 Attach Settings
 ~~~~~~~~~~~~
@@ -196,14 +196,14 @@ Attach Settings
 	.. image:: images/modes/BrushMode/BrushModeTab1.png
 
 **Attach mode:**
-	* **Default** : default object placing.
+	* **Default** : default object placement.
 	* **Brush** : create an object on any collider surface or meshes another object.
 
 **Hit surface type:**
 	* **Mesh** : attach object to mesh.
 	* **Collider** : attach object to collider.
 	
-| **Attach layer** : layer of hit object.
+| **Attach layer** : `layer <https://docs.unity3d.com/Manual/Layers.html>`_ of hit object.
 | **Normal offset** : offset from normal hit.
 | **Additive euler rotation** : additional rotation euler offset of the object.
 
@@ -229,13 +229,13 @@ Brush Settings
 | **Spacing length** : distance between the points that the objects are created.
 
 **Randomize object count** : random count value of objects of the brush.
-	* **Min object count** : minimum object count of random object creation.
-	* **Max object count** : maximum object count of random object creation.
+	* **Min object count** : minimum number of objects created at a time.
+	* **Max object count** : maximum number of objects created at a time.
 	
-| **Object count** : fixed count value of objects of the brush.
+| **Object count** : fixed number of brush objects.
 
-**Rotation along brush** : rotation of each object is rotated along the line of brush creation.
-	* **Additional rotation along brush** : additional rotation offset for along line objects.
+**Rotation along brush** : each object is rotated along the brush creation line..
+	* **Additional rotation along brush** : additional rotation offset for objects along line.
 
 	.. image:: images/modes/BrushMode/BrushExample1.png
 	`Brush example 1.`
@@ -260,7 +260,7 @@ Line Mode
 How To Use
 ~~~~~~~~~~~~
 							
-* Click `E` button to start the line, after the line is set, press the `E` button again to spawn line of the objects.
+* Press the `E` key to start the line, when the line is set, press the `E` key again to spawn a line of the objects.
 
 Line Type
 ~~~~~~~~~~~~
@@ -286,21 +286,21 @@ Create straight lines on a grid.
 Free/Fixed line settings
 """"""""""""""""""""""""""
 		
-| **Show info** : show information about object count of the line.
-| **Spacing cell** : spacing cell beetween objects.
+| **Show info** : information about the number of objects on the line.
+| **Spacing cell** : spacing cell between objects.
 | **Endless line** : the line automatically continues after the created previous one. 
 | **Show snap neighbors**
 
-**Multifloor:** : enable multi floor feature
-	* **Auto reset floor** : auto reset floor count to 1 after unselect.
-	* **Floor count** : count of object floors.
+**Multifloor:** : enable multi-floor feature
+	* **Auto reset floor** : auto reset of floor count to 1 after deselecting.
+	* **Floor count** : number of object floors.
 	* **Floor offset mode:**
 		* **Custom** : user floor offset.		
-		* **Mesh bounds** : Y axis size mesh renderer floor offset.			
-		* **Collider bounds** : Y axis size collider floor offset.				
+		* **Mesh bounds** : Y-axis size of mesh renderer floor offset.			
+		* **Collider bounds** : Y-axis size of collider floor offset.				
 	* **Floor offset** : additional floor offset.
 	
-| **Rotation along line** : rotation of each object is rotated along the line.
+| **Rotation along line** : each object is rotated along the line..
 			
 	.. image:: images/modes/LineMode/LineModeTab4.png
 	`Fixed line example (randomizer enabled).`		
@@ -310,11 +310,11 @@ Free/Fixed line settings
 Free/Fixed edge settings
 """"""""""""""""""""""""""
 
-Movement type `snap edge` should be enabled in the `overlay mapping` tab.
+`Snap edge` movement type should be enabled in the `Overlay mapping` tab.
 
 		.. image:: images/modes/LineMode/LineEdgeSettings.png
 
-| **Snap every edge** : object will be placed on each cell edge on the line.
+| **Snap every edge** : object is placed on each cell edge on the line.
 
 **Add edge side offset** : adds an offset to the side of the line.
 	* **Edge relative point** : point relative to which the offset will be applied to the side.
@@ -364,9 +364,9 @@ Tabs
 **Common**
 	* **Loop line** : should the line be looped.
 	* **Additive euler rotation** : additional rotation for each object.
-	* **Flexible spacing** : position of objects on the curve depending on their size.
+	* **Flexible spacing** : position of objects on the curve according to their size.
 	* **Spacing length** : user spacing.
-	* **Clamp tangents** : tangents move together regarding to the central node.
+	* **Clamp tangents** : tangents move together relative to the central node.
 	
 **Custom**
 	* **Auto snap:**
@@ -384,12 +384,12 @@ Tabs
 	* **Draw nodes** : display handles of the nodes.
 	* **Draw buttons** : display add/remove buttons of the curve segments.
 	* **Draw tangents** : display tangents of the nodes.
-	* **Bezier segment line count** : count of bezier segments between nodes (the more segments the more accurate the curve).
+	* **Bezier segment line count** : number of Bezier segments between nodes (the more segments, the more accurate the curve).
 					
 			|
 			
 	.. image:: images/modes/LineMode/AdditionalCurveSettings.png
-	* **Additional curve settings (randomizer window):**
+	* **Additional curve settings (:ref:`randomizer <randomizer>` window):**
 		* **Flexible spacing [enabled]:**
 			* **Ignore size** : object size in the line is ignored.
 				* **Edge** : object takes the rotation of the previous object, also the line is finished by this object.
@@ -399,7 +399,7 @@ Tabs
 	.. image:: images/modes/LineMode/LineModeTab6.png
 	`Simple line example:`
 		* Random pattern enabled.		
-		* Flexible spacing enabled (additional `ignore size` & `edge` enabled at the pillar in the `randomizer` window).		
+		* Flexible spacing enabled (additional `ignore size` & `edge` enabled at the pillar in the :ref:`randomizer <randomizer>` window).		
 	
 	|
 	.. image:: images/modes/LineMode/LineModeTab7.png
@@ -427,11 +427,11 @@ Area Mode
 How To Use
 ~~~~~~~~~~~~
 							
-* Click `E` button to start the area, 
+* Press `E` key to start the area, 
 
 	.. image:: images/modes/AreaMode/AreaModeTab1.png
 		
-* After the area is set, press the `E` button again to spawn area of the objects.
+* Once the area is set, press `E` key again to spawn the objects.
 
 	.. image:: images/modes/AreaMode/AreaModeTab2.png
 		
@@ -444,10 +444,10 @@ Settings
 
 **Area mode type:**
 	* **Default** : placing the object set on the area.
-	* **Scale**	: scaling a single object on an area.
+	* **Scale**	: scaling of a single object on an area.
 	
-| **Random spacing cell** : spacing cell beetween objects.
-| **Spacing cell** : spacing cell beetween objects.
+| **Random spacing cell** : spacing cell between objects.
+| **Spacing cell** : spacing cell between objects.
 
 **Multifloor** : enable multi floor feature
 	* **Auto reset floor** : auto reset floor count to 1 after unselect.
@@ -466,14 +466,14 @@ Settings
 Destroy Mode
 ------------
 
-``Destroy mode is designed for convenient destruction of objects in the scene.``
+``Destroy mode is designed for conveniently destroying objects in the scene.``
 
 `Destroy mode tutorial <https://youtu.be/aZUhq0YlEk8>`_
 
 How To Use
 ~~~~~~~~~~~~
 								
-* Click `E` button to start the destroy area, after the area is set, press the `E` button again to destroy the selected area.
+* Press `E` key to start the destroy area, after the area is set, press the `E` key again to destroy the selected area.
 			
 	.. image:: images/modes/DestroyMode/DestroyModeTab1.png
 	
@@ -495,26 +495,26 @@ MapTile grid delete
 		
 	|
 	.. image:: images/modes/DestroyMode/DestroyModeTab3.png
-	* **Cell last amount** : selected top floors are deleted.
-		* **Floor amount** : number of floors to remove.
+	* **Last count** : selected top floors are deleted.
+		* **Floor count** : number of floors to remove.
 			
 	|
 	.. image:: images/modes/DestroyMode/DestroyModeTab4.png
-	* **Area max amount** : maximal level floors are deleted.
-		* **Floor amount** : number of floors to remove.	
+	* **Max index count** : only floors with a maximum index will be deleted.
+		* **Floor count** : number of floors to remove.	
 			
 	|
 	.. image:: images/modes/DestroyMode/DestroyModeTab5.png
-	`Cell last amount remove example.`			
+	`Last count remove example.`			
 	
 	|
 	.. image:: images/modes/DestroyMode/DestroyModeTab6.png
-	`Selected 0 - 2 floors to remove example.`
+	`Selected 0 - 2 floors remove example.`
 					
 					
 	.. note::
 		* The floor delete method only works on GameObjects with :ref:`MapTile <maptile>` component.
-		* Enable auto-snap to attach cursor for any surface.
+		* Enable auto-snap to snap the cursor to any surface.
 			
 Raycast deletion		
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^		
@@ -526,12 +526,12 @@ Common settings
 
 **Object type:**
 	* **Any** : any object can be deleted.
-	* **MapTile** : only `MapTile` objects can be deleted.
+	* **MapTile** : only :ref:`MapTile <maptile>` objects can be deleted.
 	* **Default gameobject** : only default gameobject (without :ref:`MapTile <maptile>` component) objects can be deleted.
 	
-| **Target layer** : layers that will be deleted.
-**Draw debug** : show bounds of deletion.
-	* **Debug color** : color of debug.
+| **Target layer** : `layers <https://docs.unity3d.com/Manual/Layers.html>`_ that will be deleted.
+**Draw debug** : show the bounds of the deletion process.
+	* **Debug color** : debug colour.
 	
 Unique settings
 """"""""""""""""""""""""""	
@@ -542,14 +542,14 @@ Unique settings
 * **Brush raycast**
 	* **Brush radius** : radius of the delete brush.
 	* **Attach to surface:**
-		* **Attach layer** : layer to which the brush is attached.
+		* **Attach layer** : `layer <https://docs.unity3d.com/Manual/Layers.html>`_  to which the brush is attached.
 	* **Y brush raycast normal offset** : offset from brush hit surface.
 	* **Max brush raycast distance** : raycast distance from offset point.
 				
 		.. note::
 			**How to use:**
 				
-			Click `E` button to destroy objects under the brush.
+			Press `E` key to destroy objects under the brush.
 				
 	.. image:: images/modes/DestroyMode/DestroyModeTab7.png
 	`Box raycast remove example.`		
@@ -566,7 +566,7 @@ Screen selection
 How To Use
 """"""""""""""""""""""""""
 
-* Click `E` button to start the selection box, after the objects are selected, press the `space` button to destroy them.
+* Press the `E` key to start the selection box, after selecting the objects, press the `Spacebar` key to destroy them.
 					
 	.. image:: images/modes/DestroyMode/DestroyModeTab9.png
 	`Screen selection remove example.`	
@@ -575,31 +575,31 @@ Settings
 """"""""""""""""""""""""""
 
 * **Selection object method:**
-		* **Multiple** : all objects under selection box will be selected.
-		* **Single** : only 1 object under the cursor will be selected.
-	* **Auto destroy on select** : object will automatically be deleted after selection.
-	* **Selection color** : color of the selection box.
+		* **Multiple** : all objects under the selection box are selected.
+		* **Single** : only 1 object under the cursor is selected.
+	* **Auto destroy on select** : object is automatically be deleted after selection.
+	* **Selection color** : colour of the selection box.
 
 .. _tilesetMode:
 
 Tileset Mode
 ------------
 
-``Tileset area is created to create areas of linked tiles.``
+``Tileset area is used to create areas of linked tiles.``
 
 `Tileset area mode tutorial <https://youtu.be/LaKgNFQdPNI>`_
 
 How To Use
 ~~~~~~~~~~~~
 
-* Click `E` button to start the tileset area, after the area is set, press the `E` button again to spawn tileset area.
+* Press `E` key to start the tileset area, after the area is set, press the `E` key again to spawn tileset area.
 
 
 How To Create Tileset
 ~~~~~~~~~~~~
 
 * Toggle `Create new tileset settings`.
-* Enter tileset name.
+* Enter `Tileset name`.
 * Press `Create` button.
 
 	.. image:: images/modes/TilesetArea/TilesetAreaTab1.png
@@ -611,7 +611,7 @@ How To Create Tileset
 	.. image:: images/modes/TilesetArea/TileSetAreaExample2.png
 
 |
-* Press open tile edit mode prefab to configure the tile set.
+* Press `Open tile edit mode prefab` to configure the tile set.
 * Select the cells where the connection of the tiles will be.
 
 	.. image:: images/modes/TilesetArea/TilesetConnectionExample1.png
@@ -631,7 +631,7 @@ How To Create Tileset
 Settings
 ~~~~~~~~~~~~
 
-| **Selected MapTile prefab** : what `MapTile` prefab is selected.
+| **Selected MapTile prefab** : what :ref:`MapTile <maptile>` prefab is selected.
 | **Selected tileset** : what tileset prefab is selected.
 	
 .. _translateMode:
@@ -639,16 +639,16 @@ Settings
 Translate Mode
 ------------
 
-``Translate mode is designed to move the set of object.``
+``Translate mode is used to move the set of objects.``
 
 `Translate mode tutorial <https://youtu.be/mlIa1BwmDiE>`_
 
 How To Use
 ~~~~~~~~~~~~
 
-* Click `E` button to start the selection area.
+* Press `E` key to start the selection area.
 * Move the scene handle to the desired position.
-* Press the `E` button again to translate selected objects.
+* Press the `E` key again to translate selected objects.
 
 Settings
 ~~~~~~~~~~~~
@@ -662,9 +662,9 @@ Scene settings
 	* **World cursor** : objects move along the world cursor.
 	* **Scene handle** : objects move along the scene handle.
 **Translate mode:**
-	* **Full translate** : objects can be moved only if all selected objects can be moved.
-	* **Partial translate** : will be translated those objects that do not intersect other objects.
-	* **Can replace** : intersected objects can be replaced when the selected objects are translated.
+	* **Full translate** : objects can only be moved only if all selected objects can be moved.
+	* **Partial translate** : will be moved those objects that do not intersect other objects.
+	* **Can replace** : intersected objects can be replaced when the selected objects are moved.
 **Selection method:**
 	* **Map** : selecting objects on the grid.
 	* **Screen selection** : selecting objects under the selection box.
@@ -673,41 +673,41 @@ Translate settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^		
 
 * **Show intersected objects** : intersected objects will be highlighted.
-	* **Intersected objects color** : the color of the intersected objects highlighting.
+	* **Intersected objects color** : the colour of the intersected objects highlighting.
 	
-| **Check intesection for Overlay** : intersections for overlay objects will be detected by the raycast.
+| **Check intesection for Overlay** : intersections for overlay objects are detected by the raycast.
 		
 Other settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^		
 
-| **Report translate result** : on/off translate result report in the console.
-| **Hide source selected objects** : source objects will be hidden for the time of the translating.
-| **Move intersected to source position** : objects will be moved to the initial position if they have an intersection.
+| **Report translate result** : on/off moving result report in the console.
+| **Hide source selected objects** : source objects will be hidden for the duration of the moving process.
+| **Move intersected to source position** : objects will be moved to the start position if they have an intersection.
 
-* **Delayed heavy calculation** : calculation of intersections will be delayed with a huge amount of objects.
-		* **Heavy calculation object amount** : amount of objects to start a delay.
+* **Delayed heavy calculation** : calculation of intersections will be delayed with a large number of objects.
+		* **Heavy calculation object count** : count of objects to start a delay.
 		* **Calculation delay duration** : duration of the delay after a position change.
 		
 Snap settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^		
 
 * **Snap to grid**	
-	* **Snap grid enabled** : snapping on the grid.
+	* **Snap grid enabled** : snap to the grid.
 		* **Cell offset** : value of offset in grid cells.
 		* **Custom Y Snap** : custom snapping value for Y axis.
 		
 	* **Snap grid disabled:**	
 		* **Translate snap type** : custom snapping.
-			* **Snap translate** : offset of translation will be snapped.
+			* **Snap translate** : translation offset will be snapped.
 			* **Snap position** : position of translated objects will be snapped.
 		* **Snap value**
 		
-| **Lock Y Axis** : when moving objects, the Y axis will be locked.
+| **Lock Y Axis** : when moving objects, the Y axis is locked.
 	
 	.. note::
-		Moving a huge amount of objects can take a very long time.		
+		Moving a large number of objects can take a very long time.		
 		
-		To quickly move a huge amount of objects, turn on `Can replace` mode and turn off `Show intersected objects`.
+		To quickly move a large number of objects, turn on `Can replace` mode and turn off `Show intersected objects`.
 	|
 	.. image:: images/modes/TranslateMode/TranslateModeExample1.png
 	`Translate mode example 1.`	
@@ -728,7 +728,7 @@ Create Template Mode
 How To Use
 ~~~~~~~~~~~~
 
-* Click `E` button to start the selection area, after the desired objects are selected, configure the template parameters and click the `Create` button.
+* Press `E` key to start the selection area, after the desired objects are selected, configure the template parameters and click the `Create` button.
 
 	.. image:: images/modes/TemplateMode/TemplateMode1.png
 
@@ -745,9 +745,9 @@ Settings
 	* **Screen selection:** selecting objects under the selection box.
 		* **Object type:**
 			* **Any** : any object can be selected.
-			* **MapTile** : only `MapTile` objects can be selected.
-			* **Default gameobject** : only default gameobject (without `MapTile` component) objects can be selected.
-		* **Target layer** : layer of objects to be selected.
+			* **MapTile** : only :ref:`MapTile <maptile>` objects can be selected.
+			* **Default gameobject** : only default gameobject (without :ref:`MapTile <maptile>` component) objects can be selected.
+		* **Target layer** : `layer <https://docs.unity3d.com/Manual/Layers.html>`_ of objects to be selected.
 		* **Selection object method:**
 			* **Multiple** : all objects under selection box will be selected.
 			* **Single** : only 1 object under the cursor will be selected.
@@ -757,8 +757,8 @@ Settings
 | **Template create path** : template creation path.
 
 **Template object type:**
-	* **MapTile** : template will be created with the `MapTile` component.
-	* **Default gameobject** : template will be created without the `MapTile` component.
+	* **MapTile** : template will be created with the :ref:`MapTile <maptile>` component.
+	* **Default gameobject** : template will be created without the :ref:`MapTile <maptile>` component.
 	
 **Child prefab type:**
 	* **Linked prefab** : child objects of the template are linked prefabs.
@@ -770,7 +770,7 @@ Settings
 		* **Category**: name of the custom category.
 		
 **Delete child components**: delete all unity-components of the object.
-	* **Delete only MapTile**: or only `MapTile` component
+	* **Delete only MapTile**: or only :ref:`MapTile <maptile>` component
 	
 | **Delete child colliders**: delete colliders of created object
 | **Selected object count**: the number of selected objects for the template.
@@ -778,8 +778,8 @@ Settings
 | **Current template tile size**: the current grid size of the template.
 
 **Draw bounds**: draw bounds of the template.
-	* **Y bounds size**: y bounds size of the template.
-	* **Bounds color**: color of the bounds.
+	* **Y bounds size**: Y bounds size of the template.
+	* **Bounds color**: colour of the bounds.
 		
 	|
 	.. image:: images/modes/TemplateMode/TemplateMode3.png

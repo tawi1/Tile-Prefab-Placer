@@ -91,7 +91,7 @@ Objects are automatically attached to the surface, depending on the parameters.
 
 | **Snap layer mask** : `unity layer <https://docs.unity3d.com/Manual/Layers.html>`_ that the object is automatically attached.
 | **Custom floor offset** : additional offset to the surface.
-| **Add pivot offset** : adds a pivot offset of the object regarding to the surface.
+| **Add pivot offset** : adds a pivot offset of the object relative to the surface.
 
 	.. image:: images/tabs/SnapTab/SnapTab5.png		
 	Some tile objects may have a pivot point in the centre of the object.
@@ -159,7 +159,7 @@ Merge
 	* **Target object prefab root** : the object created is a child of the prefab root.	
 	* **Target object parent of hit** : the created object is created by a child of the attached object.
 	* **Custom parent**	: user selected custom parent.
-	* **Relative prefab root path** : the created object is created by a child of the prefab root regarding to prefab root path.
+	* **Relative prefab root path** : the created object is created by a child of the prefab root relative to prefab root path.
 		
 **Delete components** : delete all unity-components of the object.
 	* Delete only map tile 
@@ -230,6 +230,10 @@ Object snapping to edges of the default cell.
 Floating grid
 ~~~~~~~~~~~~
 
+Custom grid layout.
+
+`Tutorial <https://youtu.be/kFbb0vyVKNE>`_
+
 	.. image:: images/tabs/OverlayTab/OverlayTabFloatingGrid.png
 	
 **Floating grid type:**
@@ -245,7 +249,7 @@ Floating grid
 	* **Snap grid value** : the value of snapping.
 	* **Custom grid center offset** :
 	
-| **Grid view position** : offset regarding to the snapping cell.
+| **Grid view position** : offset relative to the snapping cell.
 
 	
 Obstacle Check Type
@@ -268,6 +272,8 @@ Object intersections are checked by raycasts (works only for any gameobject with
 
 	.. image:: images/tabs/OverlayTab/OverlayTabObstacleExample1.png
 	`Obstacle raycast check example.` 
+
+.. _randomizer:
 
 Randomizer
 ==========

@@ -86,8 +86,8 @@ Category
 	* **TileSize** : object size in grid cells (you can set the size manually if the prefab doesn't have a :ref:`MapTile <maptile>` component).
 	
 **MapTile category parent type:** 
-	* **Local map path** : object is created regarding to the path of the `MapCreator` layer.
-	* **Scene path** : object is created regarding to the path of the scene root.
+	* **Local map path** : object is created relative to the path of the `MapCreator` layer.
+	* **Scene path** : object is created relative to the path of the scene root.
 	
 | **Scene path** : object creation path.
 
@@ -177,7 +177,7 @@ Common Settings
 ~~~~~~~~~~~~
 
 | **Tile Size** : default tile size of `MapCreator`.
-| **World Tile Relative Offset** : world offset regarding to the floor of the cell position.
+| **World Tile Relative Offset** : world offset relative to the floor of the cell position.
 	
 Tool Settings
 ~~~~~~~~~~~~

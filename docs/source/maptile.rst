@@ -9,7 +9,7 @@ MapTile Component
 Component Settings
 ------------
 
-``MapTile component is used in order to determine intersections on the grid, but if you don't need it, you can use default game objects without `MapTile` component.``
+`MapTile` component is used in order to determine intersections on the grid and in the :ref:`Tileset mode <tilesetMode>`, but if you don't need it, you can use default game objects without the `MapTile` component.
 
 	.. image:: images/maptile/MapTile.png
 	
@@ -19,22 +19,22 @@ Component Settings
 * **Movement type:**
 	* **Cell** : moving an object on a grid.
 		* **Auto snap position** : enable grid snapping for the object.
-			* **Allow y axis movement** : can the object move along the Y-axis.
-			* **Auto apply old local offset** : the object in the new cell will be set with the old local offset.
+			* **Allow Y axis movement** : can the object move along the Y-axis.
+			* **Auto apply old local offset** : the object in the new cell will be set to the old local offset.
 			
-	* **Local offset** : moving within a grid cell.
-		* **Clamp local offset** : fixing the object only inside the current object cell.
+	* **Local offset** : movement within a grid cell.
+		* **Clamp local offset** : fixing the object only within the current object cell.
 		
 	* **Default** : default moving.
 	
 * **Auto make changes map** : any change of the object's position changes the map grid.
-* **Allow replace intersted tiles** : if objects in the current layer intersect (except Overlay layer), they will be deleted.
+* **Allow replace intersted tiles** : if objects in the current layer intersect (except the `Overlay` layer), they will be deleted.
 
 * **Size:**
 	* **Width** : X tile size of the object.
 	* **Height** : Y tile size of the object.
 	
-* **Cell local offset** : the current local offset relative to the center of the current object cell.
+* **Cell local offset** : the current local offset relative to the centre of the current object cell.
 * **Tiles** : coordinates of the grid on which the objects are located.
 * **Draw bounds:**
 	* **Draw current bounds** : displays the bounds of the current object.
@@ -57,7 +57,7 @@ Component Settings
 MapTile Layer
 ------------
 
-``Each `MapTile` object has its own layer, (Layer 1, Layer2, ..., Layer9) are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.``
+Each `MapTile` object has its own layer, (Layer 1, Layer2, ..., Layer9) are default layers that are used to calculate the grid, and the overlay layer is used for objects that do not need a grid.
 
 	.. note::
 		You can change the name of the layer here :ref:`mapHolder`.	
