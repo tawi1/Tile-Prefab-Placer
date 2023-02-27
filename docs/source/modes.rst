@@ -5,7 +5,7 @@ Modes Overview
 
 .. contents::
    :local:
-   :maxdepth: 2
+   :depth: 2
 	
 Common Info
 ------------
