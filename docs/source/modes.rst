@@ -627,6 +627,9 @@ How To Create Tileset
 	|
 	.. image:: images/modes/TilesetArea/CreateTilesetExample1.png
 	`Create tileset area example.`		
+	
+	.. note::
+		At the moment, the tilesets only work for flat tiles.
 
 Settings
 ~~~~~~~~~~~~
