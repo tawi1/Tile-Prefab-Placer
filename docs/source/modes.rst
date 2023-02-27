@@ -148,7 +148,7 @@ Create an object on any collider or mesh surface of another object.
 		* **Along normal base** : normal base value (default Vector3(0,1,0)).	
 		
 * **Snap to cell** : snap tile to cell grid (useful for attaching cube tiles).
-	* **Add surface pivot offset** : 
+	* **Add surface pivot offset** : adds a pivot offset of the object relative to the surface.
 			
 	|
 	.. image:: images/modes/SingleMode/SingleModeTab6-2.png

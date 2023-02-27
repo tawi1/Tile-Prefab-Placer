@@ -6,7 +6,7 @@ MapTile Component
 .. contents::
    :local:
    
-Component Settings
+Settings
 ------------
 
 `MapTile` component is used in order to determine intersections on the grid and in the :ref:`Tileset mode <tilesetMode>`, but if you don't need it, you can use default game objects without the `MapTile` component.

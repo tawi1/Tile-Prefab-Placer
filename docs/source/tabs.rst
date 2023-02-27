@@ -55,7 +55,7 @@ Override Settings
 	.. image:: images/tabs/OverrideTab/OverrideTab2.png
 
 	.. note::
-		For :ref:`overlay <overlayTab> `MapTile` objects or default game objects (without :ref:`MapTile <maptile>` component) you can't override :ref:`MapTile layer <maptileLayer>`.
+		For :ref:`overlay <overlayTab>` `MapTile` objects or default game objects (without :ref:`MapTile <maptile>` component) you can't override :ref:`MapTile layer <maptileLayer>`.
 
 Snap Settings
 =============
@@ -232,7 +232,7 @@ Floating grid
 
 Custom grid layout.
 
-`Tutorial <https://youtu.be/kFbb0vyVKNE>`_
+`Youtube tutorial <https://youtu.be/kFbb0vyVKNE>`_
 
 	.. image:: images/tabs/OverlayTab/OverlayTabFloatingGrid.png
 	
@@ -241,7 +241,7 @@ Custom grid layout.
 		* **Grid size** : custom grid size.
 	* **Flexible** : the size of the grid can be adjusted by the user on scene.
 		* **Lock center** : the centre of the grid is fixed.			 
-	* **Follow cursor** : the center of the grid is at the cursor.
+	* **Follow cursor** : the centre of the grid is at the cursor.
 	
 | **Custom cell size** : cell size of the custom floating grid.
 
