@@ -116,6 +116,8 @@ Customization value of the position on the Y axis.
 Custom Floor
 ~~~~~~~~~~~~
 
+Placement of the object on the selected floor.
+
 	.. image:: images/tabs/SnapTab/SnapTab9.png
 	
 | **Custom floor index** : index of the floor on which the object is to be located.
