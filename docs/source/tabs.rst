@@ -112,6 +112,14 @@ Customization value of the position on the Y axis.
 
 	.. image:: images/tabs/SnapTab/SnapTab8.png
 	`Custom local offset (0, 4, 0) example.`
+	
+Custom Floor
+~~~~~~~~~~~~
+
+	.. image:: images/tabs/SnapTab/SnapTab9.png
+	
+| **Custom floor index** : index of the floor on which the object is to be located.
+| **Custom local offset** : custom local offset.
 
 Replace
 =======
