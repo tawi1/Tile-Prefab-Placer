@@ -9,7 +9,7 @@ Getting Started
 Installation
 ============
 
-`Getting started tutorial <https://youtu.be/Y_LklnjDQ2U>`_
+`Getting started tutorial <https://www.youtube.com/watch?v=Y_LklnjDQ2U&list=PLk8IsonsJZciSHP89Ob4RriKPpcFFT9oV>`_
 
 **Steps:**
 
