@@ -289,7 +289,7 @@ Free/Fixed line settings
 | **Show info** : information about the number of objects on the line.
 | **Spacing cell** : spacing cell between objects.
 | **Endless line** : the line automatically continues after the created previous one. 
-| **Show snap neighbors**
+| **Show snap neighbors** : moves the line to the edge of the selected neighbouring object.
 
 **Multifloor:** : enable multi-floor feature
 	* **Auto reset floor** : auto reset of floor count to 1 after deselecting.
