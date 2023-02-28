@@ -217,7 +217,7 @@ Attach Settings
 | **Ignore previous created** : ignore previous created objects by brush.
 | **Snap to cell** : snap tile to cell grid (available only for 1 object).
 * **Has slope angle**
-	* **Slope angle value** : angle to the surface allowed to create objects.
+	* **Slope angle value** : angle to the surface at which objects can be created.
 			
 			
 Brush Settings

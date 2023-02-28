@@ -177,7 +177,7 @@ Common Settings
 ~~~~~~~~~~~~
 
 | **Tile Size** : default tile size of `MapCreator`.
-| **World Tile Relative Offset** : world offset relative to the floor of the cell position.
+| **World Tile Relative Offset** : world offset relative to the rounded cell position.
 	
 Tool Settings
 ~~~~~~~~~~~~
