@@ -204,7 +204,7 @@ Temp Mesh Settings
 | **Intersection Mesh Grid Color** : colour of the object that intersects another object.
 	
 * Temp Overlay Mesh Grid Settings
-	* **Mesh Surface Offset** : offset from surface to mesh grid.
+	* **Mesh Surface Offset** : offset from surface to mesh grid (object visual bounds).
 
 .. _commonSettings:
 
@@ -213,7 +213,7 @@ Common Settings
 
 	.. image:: images/gettingstarted/CommonSettingsTab.png
 
-| **Show Map Tile Bounds** : display the mesh grid of the object.
+| **Show Map Tile Bounds** : display the mesh grid of the object (object visual bounds).
 | **Draw Grid** : display scene view grid.
 | **Always Visible Grid** : the scene view grid is always displayed, regardless of the overlap with other objects.
 | **Grid Size** : size of the grid in the scene view.
