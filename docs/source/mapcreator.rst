@@ -9,7 +9,7 @@ Map Creator
 Description
 =======
 
-Is a tool for placing tile objects on a grid, and can also be used to place default objects using a variety of :ref:`custom tools <modes>`.
+Is a tool for placing tile objects on a grid, and can also be used to place default objects using a variety of custom :ref:`settings <tabs>` and :ref:`tools <modes>`.
 
 .. _mapCreatorHowToCreate:
 	  
