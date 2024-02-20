@@ -43,9 +43,6 @@ Installation
 		**Required packages:**
 		
 		* **Editor coroutines** (`com.unity.editorcoroutines`) - unity package which allows developers to run constructs similar to Unity’s monobehaviour based coroutines within the editor using arbitrary objects.
-		
-		* **Naughty Attributes** (`com.dbrizov.naughtyattributes`) - extension for unity inspector made by Denis Rizov, also you can manually download it from unity asset store `Naughty Attributes <https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996>`_
-
 
 	.. note::
 		**Script define symbols required for the project:**

@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'Tile Prefab Placer'
-copyright = '2022, 604Spirit'
+copyright = '2024, 604Spirit'
 author = '604Spirit'
 
-release = '1.0.0'
-version = '1.0.0'
+release = '1.1.0'
+version = '1.1.0'
 
 # -- General configuration
 
